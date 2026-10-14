@@ -1,0 +1,330 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>¿Hay manifa hoy en Madrid?</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: one narrow column like a transit notice board — the answer plaque first, then counters, upcoming, pattern, history. */
+:root{
+  --bg:#EEF1F6; --surface:#FFFFFF; --ink:#13203A; --muted:#5B6782; --line:#D5DBE6;
+  --plaque:#1D4C9E; --plaque-ink:#FFFFFF; --signal:#D9900B; --signal-soft:#FBEFD6;
+  --ok:#2F7D55; --ok-soft:#E1F1E8; --warn-soft:#F4E9D2; --probable:#7A5BA8; --probable-soft:#ECE6F5;
+  --f-display:"Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0D1320; --surface:#161F31; --ink:#E5EBF5; --muted:#98A4BD; --line:#26324A;
+  --plaque:#2B5CB8; --plaque-ink:#FFFFFF; --signal:#F2B33D; --signal-soft:#3A2E14;
+  --ok:#6CC495; --ok-soft:#173326; --warn-soft:#352B17; --probable:#B79BE3; --probable-soft:#2A2340;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D1320; --surface:#161F31; --ink:#E5EBF5; --muted:#98A4BD; --line:#26324A;
+  --plaque:#2B5CB8; --plaque-ink:#FFFFFF; --signal:#F2B33D; --signal-soft:#3A2E14;
+  --ok:#6CC495; --ok-soft:#173326; --warn-soft:#352B17; --probable:#B79BE3; --probable-soft:#2A2340;
+  color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font:400 15px/1.5 var(--f-body);
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:20px 40px}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+h2{font-size:1.25rem;font-weight:800;letter-spacing:-.01em}
+.eyebrow{font:600 .72rem/1 var(--f-body);text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+a{color:var(--plaque)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) a{color:#9DBBF2}}
+:root[data-theme="dark"] a{color:#9DBBF2}
+a:focus-visible,button:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:4px}
+
+/* Answer plaque */
+.plaque{background:var(--plaque);color:var(--plaque-ink);border-radius:14px;padding:6px}
+.plaque-in{border:2px solid rgba(255,255,255,.85);border-radius:10px;padding:18px 18px 20px;display:flex;flex-direction:column;gap:6px}
+.plaque .q{font:600 .95rem/1.3 var(--f-body);opacity:.9}
+.plaque .answer{font:800 clamp(3.4rem,16vw,5.2rem)/.95 var(--f-display);letter-spacing:-.03em}
+.plaque .sub{font-size:.95rem;opacity:.92}
+.plaque .date{font:500 .8rem/1 var(--f-mono);opacity:.8;text-transform:capitalize}
+
+/* Event rows */
+.list{display:flex;flex-direction:column;gap:10px}
+.ev{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:start}
+.ev.today{border-color:var(--signal);box-shadow:inset 4px 0 0 var(--signal)}
+.time{display:flex;flex-direction:column;gap:2px}
+.time .h{font:700 1.15rem/1.1 var(--f-mono);font-variant-numeric:tabular-nums}
+.time .h.none{font-size:.8rem;color:var(--muted);font-weight:500}
+.time .end{font:500 .72rem/1 var(--f-mono);color:var(--muted)}
+.body{min-width:0;display:flex;flex-direction:column;gap:4px}
+.body h3{font-size:1.02rem;font-weight:600;line-height:1.25}
+.route{font-size:.88rem;color:var(--ink)}
+.route b{font-weight:600}
+.meta{font-size:.8rem;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:5px;font:600 .7rem/1 var(--f-body);text-transform:uppercase;letter-spacing:.06em;padding:4px 7px;border-radius:999px;background:var(--line);color:var(--ink)}
+.chip.live{background:var(--signal);color:#1B1300}
+.chip.soon{background:var(--signal-soft);color:var(--ink)}
+.chip.done{background:var(--line);color:var(--muted)}
+.chip.conf{background:var(--ok-soft);color:var(--ok)}
+.chip.pend{background:var(--warn-soft);color:var(--ink)}
+.chip.prob{background:var(--probable-soft);color:var(--probable)}
+.chip .dot{width:6px;height:6px;border-radius:50%;background:currentColor}
+.chip.live .dot{animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){.chip.live .dot{animation:none}}
+.links{font-size:.8rem;display:flex;gap:12px;flex-wrap:wrap}
+
+/* Counters */
+.counters{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.counter{background:var(--surface);padding:12px 10px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.counter .n{font:700 1.7rem/1 var(--f-mono);font-variant-numeric:tabular-nums}
+.counter .l{font-size:.72rem;color:var(--muted);line-height:1.25}
+@media (max-width:420px){.counters{grid-template-columns:repeat(2,1fr)}}
+
+section{display:flex;flex-direction:column;gap:12px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.daylabel{font:600 .8rem/1 var(--f-body);color:var(--muted);text-transform:capitalize;margin-top:6px}
+.daylabel .rel{font-family:var(--f-mono);text-transform:none;color:var(--signal);margin-left:6px}
+
+/* Pattern */
+.pattern{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.pattern p{margin:0;font-size:.92rem}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.fact{display:flex;flex-direction:column;gap:3px;min-width:0}
+.fact .v{font:700 1rem/1.2 var(--f-display)}
+.fact .k{font-size:.72rem;color:var(--muted)}
+@media (max-width:420px){.facts{grid-template-columns:1fr 1fr}}
+
+/* Monthly bars */
+.bars{display:flex;align-items:flex-end;gap:8px;height:96px;padding-top:16px;overflow-x:auto}
+.bar{flex:1 0 34px;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end}
+.bar .col{width:100%;background:var(--plaque);border-radius:4px 4px 0 0;min-height:2px}
+.bar .c{font:700 .72rem/1 var(--f-mono)}
+.bar .m{font:500 .68rem/1 var(--f-mono);color:var(--muted);text-transform:capitalize}
+
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.filters button{font:600 .78rem/1 var(--f-body);padding:7px 11px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.num{font:500 .7rem/1 var(--f-mono);color:var(--muted)}
+
+.empty{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;color:var(--muted);font-size:.9rem}
+footer{font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+  <header class="plaque" aria-live="polite">
+    <div class="plaque-in">
+      <span class="date mono" id="todayDate">Madrid</span>
+      <span class="q">¿Hay manifestación hoy en Madrid?</span>
+      <span class="answer" id="answer">…</span>
+      <span class="sub" id="answerSub">Cargando las convocatorias registradas.</span>
+    </div>
+  </header>
+
+  <section id="todaySec" hidden>
+    <div class="sec-head"><h2>Hoy</h2><span class="eyebrow">Hora y lugar</span></div>
+    <div class="list" id="todayList"></div>
+  </section>
+
+  <div class="counters" id="counters" aria-label="Contador">
+    <div class="counter"><span class="n mono" id="cTotal">–</span><span class="l">registradas en total</span></div>
+    <div class="counter"><span class="n mono" id="cMonth">–</span><span class="l" id="cMonthL">este mes</span></div>
+    <div class="counter"><span class="n mono" id="cSince">–</span><span class="l">días desde la última</span></div>
+    <div class="counter"><span class="n mono" id="cNext">–</span><span class="l">días hasta la próxima</span></div>
+  </div>
+
+  <section>
+    <div class="sec-head"><h2>Próximas</h2><span class="eyebrow">Pronóstico</span></div>
+    <div class="list" id="upList"><div class="empty">Aquí aparecerán las convocatorias anunciadas para los próximos días, con su hora y su recorrido.</div></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Patrón habitual</h2><span class="eyebrow" id="patN">Estimación</span></div>
+    <div class="pattern" id="pattern"><p class="meta">Se calcula con el histórico en cuanto haya datos.</p></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Histórico</h2><span class="eyebrow" id="histCount">0 registradas</span></div>
+    <div class="bars" id="bars" aria-label="Manifestaciones por mes"></div>
+    <div class="filters" id="filters" role="group" aria-label="Filtrar por mes"></div>
+    <div class="list" id="histList"><div class="empty">Las manifestaciones pasadas se guardan aquí con su fecha, hora y lugar.</div></div>
+  </section>
+
+  <footer>
+    <span id="lastCheck">Última comprobación: –</span>
+    <span>Fuentes: avisos de desvíos de EMT (Consorcio de Transportes), Delegación del Gobierno y prensa. La hora es la del inicio anunciado; los cortes de tráfico suelen empezar antes.</span>
+  </footer>
+</div>
+
+<script>
+const TZ = 'Europe/Madrid';
+let EVENTS = [], META = null, FILTER = 'all';
+
+function madridNow(){
+  const f = new Intl.DateTimeFormat('en-CA',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
+  const p = Object.fromEntries(f.formatToParts(new Date()).map(x=>[x.type,x.value]));
+  return {date:`${p.year}-${p.month}-${p.day}`, mins:(+p.hour%24)*60 + +p.minute};
+}
+const toUTC = s => { const [y,m,d] = s.split('-').map(Number); return Date.UTC(y,m-1,d); };
+const dayDiff = (a,b) => Math.round((toUTC(b)-toUTC(a))/864e5);
+const fmtDay = (s,opts={weekday:'long',day:'numeric',month:'long'}) => new Date(toUTC(s)).toLocaleDateString('es-ES',{timeZone:'UTC',...opts});
+const hm = s => { if(!s) return null; const [h,m]=s.split(':').map(Number); return h*60+m; };
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $ = id => document.getElementById(id);
+
+function relDays(n){
+  if(n===0) return 'hoy'; if(n===1) return 'mañana'; if(n===-1) return 'ayer';
+  return n>0 ? `en ${n} días` : `hace ${-n} días`;
+}
+function fmtDur(m){ const h=Math.floor(m/60), r=m%60; return h ? `${h} h${r?` ${r} min`:''}` : `${r} min`; }
+
+function todayStatus(ev, now){
+  const s = hm(ev.hora);
+  if(s==null) return {cls:'pend', txt:'Hora sin publicar'};
+  const e = hm(ev.horaFin) ?? s+180;
+  if(now.mins < s) return {cls:'soon', txt:`Empieza en ${fmtDur(s-now.mins)}`};
+  if(now.mins <= e) return {cls:'live', txt:'En curso'};
+  return {cls:'done', txt:'Terminada'};
+}
+function estadoChip(ev){
+  if(ev.estado==='probable') return '<span class="chip prob">Probable</span>';
+  if(ev.estado==='por-confirmar' || !ev.hora) return '<span class="chip pend">Hora por confirmar</span>';
+  return '<span class="chip conf">Confirmada</span>';
+}
+function mapUrl(ev){ return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent((ev.mapa || ev.lugar) + ', Madrid'); }
+
+function card(ev, {mode, now, n}){
+  let chip = '';
+  if(mode==='today'){ const st = todayStatus(ev, now); chip = `<span class="chip ${st.cls}">${st.cls==='live'?'<span class="dot"></span>':''}${esc(st.txt)}</span>`; }
+  else if(mode==='up') chip = estadoChip(ev);
+  const hora = ev.hora ? `<span class="h">${esc(ev.hora)}</span>` : `<span class="h none">sin hora</span>`;
+  const fin = ev.horaFin ? `<span class="end">hasta ${esc(ev.horaFin)}</span>` : '';
+  const route = ev.recorrido ? `<div class="route"><b>${esc(ev.lugar)}</b> · ${esc(ev.recorrido)}</div>` : `<div class="route"><b>${esc(ev.lugar)}</b></div>`;
+  const metaBits = [ev.tipo, ev.convocantes, ev.asistentes].filter(Boolean).map(esc).join(' · ');
+  const fuente = ev.fuenteUrl ? `<a href="${esc(ev.fuenteUrl)}" target="_blank" rel="noopener">Fuente${ev.fuente?': '+esc(ev.fuente):''}</a>` : '';
+  return `<article class="ev${mode==='today'?' today':''}">
+    <div class="time">${hora}${fin}${n?`<span class="num">#${n}</span>`:''}</div>
+    <div class="body">
+      <div class="row">${chip}</div>
+      <h3>${esc(ev.titulo)}</h3>
+      ${route}
+      ${ev.motivo?`<div class="meta">${esc(ev.motivo)}</div>`:''}
+      ${metaBits?`<div class="meta">${metaBits}</div>`:''}
+      <div class="links"><a href="${mapUrl(ev)}" target="_blank" rel="noopener">Ver en el mapa</a>${fuente}</div>
+    </div></article>`;
+}
+const byTime = (a,b) => a.fecha.localeCompare(b.fecha) || (hm(a.hora)??9999)-(hm(b.hora)??9999);
+
+function render(){
+  const now = madridNow();
+  $('todayDate').textContent = fmtDay(now.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  const today = EVENTS.filter(e=>e.fecha===now.date && e.estado!=='probable').sort(byTime);
+  const past = EVENTS.filter(e=>e.fecha<now.date && e.estado!=='probable').sort(byTime);
+  const up = EVENTS.filter(e=>e.fecha>now.date).sort(byTime);
+  const happened = past.concat(today);
+
+  // Answer
+  if(!EVENTS.length){ $('answer').textContent='—'; }
+  else if(today.length){
+    $('answer').textContent='SÍ';
+    const next = today.find(e=>todayStatus(e,now).cls!=='done');
+    const live = today.find(e=>todayStatus(e,now).cls==='live');
+    $('answerSub').textContent = `${today.length} ${today.length===1?'convocatoria':'convocatorias'} hoy. ` +
+      (live ? `Ahora mismo: ${live.lugar}.` : next ? `La próxima a las ${next.hora||'hora sin publicar'} en ${next.lugar}.` : 'Las de hoy ya han terminado.');
+  } else {
+    $('answer').textContent='NO';
+    const n = up.find(e=>e.estado!=='probable');
+    $('answerSub').textContent = n ? `La próxima: ${fmtDay(n.fecha,{weekday:'long',day:'numeric'})}${n.hora?' a las '+n.hora:''} en ${n.lugar}.` : 'No hay convocatorias registradas para hoy.';
+  }
+  $('todaySec').hidden = !today.length;
+  $('todayList').innerHTML = today.map(e=>card(e,{mode:'today',now})).join('');
+
+  // Counters
+  const ym = now.date.slice(0,7);
+  $('cTotal').textContent = happened.length;
+  $('cMonth').textContent = happened.filter(e=>e.fecha.startsWith(ym)).length;
+  $('cMonthL').textContent = 'en ' + fmtDay(now.date,{month:'long'});
+  $('cSince').textContent = today.length ? '0' : past.length ? dayDiff(past[past.length-1].fecha, now.date) : '–';
+  const nextConf = up.find(e=>e.estado!=='probable');
+  $('cNext').textContent = nextConf ? dayDiff(now.date, nextConf.fecha) : '–';
+
+  // Upcoming grouped by day
+  if(up.length){
+    let html='', last='';
+    up.forEach(e=>{ if(e.fecha!==last){ last=e.fecha; html+=`<div class="daylabel">${esc(fmtDay(e.fecha))}<span class="rel">${relDays(dayDiff(now.date,e.fecha))}</span></div>`; } html+=card(e,{mode:'up',now}); });
+    $('upList').innerHTML = html;
+  } else if(EVENTS.length) $('upList').innerHTML = '<div class="empty">No hay convocatorias anunciadas para los próximos días.</div>';
+
+  renderPattern(happened);
+  renderHistory(happened);
+  if(META && META.ultimaComprobacion){
+    const d = new Date(META.ultimaComprobacion);
+    $('lastCheck').textContent = 'Última comprobación: ' + d.toLocaleString('es-ES',{timeZone:TZ,weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) + (META.nota?' · '+META.nota:'');
+  }
+}
+
+const PLACES = ['Cibeles','Puerta del Sol','Atocha','Alcalá','Paseo del Prado','Gran Vía','Plaza de España','Colón','Callao','Neptuno','Recoletos'];
+function topOf(map){ return Object.entries(map).sort((a,b)=>b[1]-a[1])[0]; }
+function renderPattern(list){
+  const withH = list.filter(e=>e.hora);
+  if(list.length<3){ return; }
+  const wd={}, fr={}, pl={};
+  list.forEach(e=>{ const w=fmtDay(e.fecha,{weekday:'long'}); wd[w]=(wd[w]||0)+1;
+    const txt=(e.lugar+' '+(e.recorrido||'')); PLACES.forEach(p=>{ if(txt.includes(p)) pl[p]=(pl[p]||0)+1; }); });
+  withH.forEach(e=>{ const m=hm(e.hora); const k = m<14*60?'mañana (antes de las 14:00)': m<20*60?'tarde (14:00–20:00)':'noche (desde las 20:00)'; fr[k]=(fr[k]||0)+1; });
+  const w=topOf(wd), f=topOf(fr), p=topOf(pl);
+  const avgH = withH.length ? Math.round(withH.reduce((s,e)=>s+hm(e.hora),0)/withH.length/30)*30 : null;
+  const hh = avgH!=null ? `${String(Math.floor(avgH/60)).padStart(2,'0')}:${String(avgH%60).padStart(2,'0')}` : '–';
+  $('patN').textContent = `Con ${list.length} registros`;
+  $('pattern').innerHTML = `<p>Si se anuncia una nueva convocatoria, lo más probable según el histórico es que sea por la <b>${esc(f?f[0].split(' (')[0]:'tarde')}</b>, hacia las <b class="mono">${hh}</b>, y que pase por <b>${esc(p?p[0]:'el centro')}</b>.</p>
+    <div class="facts">
+      <div class="fact"><span class="v" style="text-transform:capitalize">${esc(w?w[0]:'–')}</span><span class="k">día más repetido (${w?w[1]:0})</span></div>
+      <div class="fact"><span class="v">${esc(f?f[0].split(' (')[0]:'–')}</span><span class="k">franja más habitual (${f?f[1]:0})</span></div>
+      <div class="fact"><span class="v">${esc(p?p[0]:'–')}</span><span class="k">lugar más repetido (${p?p[1]:0})</span></div>
+    </div>
+    <p class="meta">Es una estimación por frecuencia, no un anuncio oficial.</p>`;
+}
+
+function renderHistory(list){
+  $('histCount').textContent = `${list.length} registradas`;
+  if(!list.length) return;
+  const months = {}; list.forEach(e=>{ const k=e.fecha.slice(0,7); months[k]=(months[k]||0)+1; });
+  const keys = Object.keys(months).sort(); const max = Math.max(...Object.values(months));
+  $('bars').innerHTML = keys.map(k=>`<div class="bar" title="${months[k]} en ${k}"><span class="c">${months[k]}</span><div class="col" style="height:${Math.round(months[k]/max*64)}px"></div><span class="m">${esc(fmtDay(k+'-01',{month:'short'}).replace('.',''))}</span></div>`).join('');
+  if(FILTER!=='all' && !months[FILTER]) FILTER='all';
+  $('filters').innerHTML = `<button type="button" id="f-all" data-k="all" aria-pressed="${FILTER==='all'}">Todas</button>` +
+    keys.slice().reverse().map(k=>`<button type="button" id="f-${k}" data-k="${k}" aria-pressed="${FILTER===k}" style="text-transform:capitalize">${esc(fmtDay(k+'-01',{month:'long',year:'numeric'}))}</button>`).join('');
+  const numbered = list.map((e,i)=>({e,n:i+1})).reverse();
+  const shown = numbered.filter(x=>FILTER==='all'||x.e.fecha.startsWith(FILTER));
+  let html='', last='';
+  shown.forEach(({e,n})=>{ if(e.fecha!==last){ last=e.fecha; html+=`<div class="daylabel">${esc(fmtDay(e.fecha,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</div>`; } html+=card(e,{mode:'hist',n}); });
+  $('histList').innerHTML = html;
+}
+$('filters').addEventListener('click', ev=>{ const b=ev.target.closest('button'); if(!b) return; FILTER=b.dataset.k; try{localStorage.setItem('filtroMes',FILTER)}catch(_){} render(); });
+try{ FILTER = localStorage.getItem('filtroMes') || 'all'; }catch(_){}
+
+$('todayDate').textContent = fmtDay(madridNow().date,{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+(async ()=>{
+  const db = window.claude ? await window.claude.use('db') : null;
+  if(!db){
+    // Fuera de Claude (p. ej. GitHub Pages): lee los datos exportados en data/.
+    try{
+      const [ev, st] = await Promise.all([
+        fetch('data/manifestaciones.json').then(r=>{ if(!r.ok) throw r.status; return r.json(); }),
+        fetch('data/estado.json').then(r=>r.ok ? r.json() : null).catch(()=>null)
+      ]);
+      EVENTS = ev.filter(e=>e.fecha && e.lugar); META = st;
+      if(!EVENTS.length){ $('answer').textContent='—'; $('answerSub').textContent='Todavía no hay convocatorias registradas.'; }
+      render();
+    }catch(_){ $('answerSub').textContent='No se han podido cargar las convocatorias. Recarga la página en un momento.'; $('answer').textContent='—'; }
+    return;
+  }
+  db.collection('manifestaciones').onSnapshot(snap=>{
+    EVENTS = snap.docs.map(d=>({id:d.id,...d.data()})).filter(e=>e.fecha && e.lugar);
+    if(!EVENTS.length){ $('answer').textContent='—'; $('answerSub').textContent='Todavía no hay convocatorias registradas.'; }
+    render();
+  }, err=>{ $('answerSub').textContent='No se han podido cargar las convocatorias. Recarga la página en un momento.'; });
+  db.doc('meta/estado').onSnapshot(s=>{ META = s.exists ? s.data() : null; render(); }, ()=>{});
+})();
+setInterval(()=>{ if(EVENTS.length) render(); }, 60000);
+</script>
+
+</body></html>
