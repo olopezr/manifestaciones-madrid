@@ -1,21 +1,34 @@
 {
-  "nota": "8 de 13 fuentes consultadas",
-  "ultimaComprobacion": "2026-10-15T05:23:09.514Z",
+  "nota": "10 de 14 fuentes consultadas",
+  "ultimaComprobacion": "2026-10-15T05:32:56.879Z",
   "fuentesConsultadas": [
     "Avisos EMT (CRTM)",
+    "Incidencias de tráfico (Informo)",
     "Google Noticias",
     "Bing Noticias",
     "eldiario.es Madrid",
     "El Mundo Madrid",
     "Infobae España",
     "UGT",
-    "FRAVM (asociaciones vecinales)"
+    "FRAVM (asociaciones vecinales)",
+    "Ayuntamiento de Madrid (en las últimas 24 h)"
   ],
   "fuentesSinAcceso": [
-    "Ayuntamiento de Madrid",
     "Europa Press Madrid",
     "El Diario de Madrid",
     "20minutos Madrid",
     "ABC Madrid"
-  ]
+  ],
+  "ultimoAccesoFuentes": {
+    "Ayuntamiento de Madrid": "2026-10-15T05:32:53.826Z",
+    "Avisos EMT (CRTM)": "2026-10-15T05:32:56.879Z",
+    "Google Noticias": "2026-10-15T05:32:56.879Z",
+    "Bing Noticias": "2026-10-15T05:32:56.879Z",
+    "eldiario.es Madrid": "2026-10-15T05:32:56.879Z",
+    "El Mundo Madrid": "2026-10-15T05:32:56.879Z",
+    "Infobae España": "2026-10-15T05:32:56.879Z",
+    "UGT": "2026-10-15T05:32:56.879Z",
+    "FRAVM (asociaciones vecinales)": "2026-10-15T05:32:56.879Z",
+    "Incidencias de tráfico (Informo)": "2026-10-15T05:32:56.879Z"
+  }
 }

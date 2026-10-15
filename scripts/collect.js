@@ -106,13 +106,79 @@ function horas(txt) {
   return { hora: null, horaFin: null };
 }
 
-// ---------- fuente 2: Ayuntamiento de Madrid (notas de prensa sobre afecciones al tráfico) ----------
-// madrid.es y diario.madrid.es filtran el tráfico automático desde algunos servidores: si
-// responden 403 la fuente se marca como no consultada, no se da por vacía.
+// ---------- fuente 2: Ayuntamiento de Madrid ----------
+// La página «Incidencias de tráfico debidas a manifestaciones» lista por día cada tramo afectado con su horario
+// («Jueves 15 de octubre de 2026 · De 11:15 a 13:40 horas aproximadamente: Paseo de Recoletos y Plaza de Colón»).
+// madrid.es bloquea (403) las peticiones desde muchos servidores; entonces la fuente queda como no consultada
+// y la cubre la tarea programada de Claude, que la lee con WebFetch.
+const URL_AYTO_MANIF = 'https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD';
+const MES_RE = '(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)';
+
+function parseAfeccionesAyto(html, hoy, url = URL_AYTO_MANIF) {
+  const lineas = decode(html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<(br|\/p|\/li|\/h\d|\/div|\/tr|\/strong)[^>]*>/gi, '\n').replace(/<[^>]+>/g, ' '))
+    .split('\n').map(l => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
+  const out = [];
+  let fecha = null;
+  for (const linea of lineas) {
+    const n = norm(linea);
+    const d = n.match(new RegExp(`(?:lunes|martes|miercoles|jueves|viernes|sabado|domingo),? (\\d{1,2}) de ${MES_RE}(?: de (\\d{4}))?`));
+    if (d) {
+      const y = d[3] ? +d[3] : +hoy.slice(0, 4);
+      fecha = `${y}-${String(MESES.indexOf(d[2]) + 1).padStart(2, '0')}-${d[1].padStart(2, '0')}`;
+      if (!d[3] && fecha < sumaDias(hoy, -60)) fecha = `${y + 1}${fecha.slice(4)}`;
+    }
+    if (!fecha) continue;
+    const t = n.match(/(\d{1,2})[:.](\d{2})\s*(?:h|horas)?\s*(?:a|y|-|–|hasta)\s*(?:las\s*)?(\d{1,2})[:.](\d{2})/)
+      || n.match(/(?:a partir de|desde) las (\d{1,2})[:.](\d{2})/);
+    if (!t) continue;
+    const hora = hh(t[1], t[2]), horaFin = t[3] ? hh(t[3], t[4]) : null;
+    // Lo que sigue al horario son los tramos afectados (en el texto original, con sus mayúsculas)
+    const tramo = linea.slice(Math.min(linea.length, t.index + t[0].length))
+      .replace(/^[\s:.,)-]*(horas?|h\.?)?\s*(aproximadamente)?[\s:.,-]*/i, '')
+      .replace(/^(se (producir[aá]n|contemplan) )?(incidencias|cortes)( y\/?o (cortes|incidencias))?( de tr[aá]fico)? (en|por) (los? |las? )?(siguientes )?(viales|calles)?:?\s*/i, '')
+      .replace(/[.;]\s*$/, '').trim();
+    if (!tramo) continue;
+    const zonas = zonasDe(tramo);
+    out.push({
+      fecha, hora, horaFin, lugar: zonas.length ? LUGARES[zonas[0]] : tramo.slice(0, 60),
+      // «Alcalá, entre Gran Vía y Sol» es un solo tramo; el resto de comas e «y» separan calles
+      recorrido: tramo.replace(/,?\s+entre\s+(.+?)\s+y\s+([^,]+)/gi, ' (entre $1 y $2)')
+        .split(/,\s*|\s+y\s+(?![^(]*\))/).map(s => s.trim()).filter(Boolean).join(' → '),
+      tipo: 'Manifestación', titulo: `Cortes por manifestación: ${tramo}`.slice(0, 140),
+      motivo: 'La fuente no indica el motivo', convocantes: null, estado: 'confirmada',
+      fuente: 'Ayuntamiento de Madrid', fuenteUrl: url,
+    });
+  }
+  return out.filter(e => e.fecha >= hoy && e.fecha <= sumaDias(hoy, DIAS_VISTA));
+}
+
 async function fuenteAyuntamiento(hoy) {
-  const xml = await get('https://diario.madrid.es/blog/notas-de-prensa/feed/');
-  return items(xml).filter(i => /afecciones? al tr[aá]fico|cortes? de tr[aá]fico|manifestaci|concentraci|marcha/i.test(i.titulo + ' ' + i.desc))
-    .flatMap(i => aEventos(i, hoy, { fuente: 'Ayuntamiento de Madrid', estado: 'confirmada', exigirPalabra: false }));
+  return parseAfeccionesAyto(await get(URL_AYTO_MANIF), hoy);
+}
+
+// Incidencias de tráfico en datos abiertos (informo.madrid.es). Casi siempre son obras, pero cuando el
+// Ayuntamiento carga un corte por manifestación aparece aquí con su descripción y horario.
+async function fuenteInformo(hoy) {
+  const xml = await get('https://informo.madrid.es/informo/tmadrid/incid_aytomadrid.xml');
+  const out = [];
+  for (const [, inc] of xml.matchAll(/<Incidencia>([\s\S]*?)<\/Incidencia>/g)) {
+    const g = t => plano((inc.match(new RegExp(`<${t}>([\\s\\S]*?)</${t}>`)) || [])[1] || '');
+    const desc = g('descripcion');
+    if (!PROTESTA.test(norm(desc + ' ' + g('nom_tipo_incidencia')))) continue;
+    const ini = new Date(g('fh_inicio') + (/[zZ+]/.test(g('fh_inicio')) ? '' : '+02:00'));
+    if (isNaN(ini)) continue;
+    const fecha = ymd(ini);
+    if (fecha < hoy || fecha > sumaDias(hoy, DIAS_VISTA)) continue;
+    const zonas = zonasDe(desc), h = horas(desc);
+    out.push({
+      fecha, hora: h.hora || ini.toLocaleTimeString('es-ES', { timeZone: TZ, hour: '2-digit', minute: '2-digit' }), horaFin: h.horaFin,
+      lugar: zonas.length ? LUGARES[zonas[0]] : desc.split(/[.,]/)[0].slice(0, 60), recorrido: null, tipo: 'Manifestación',
+      titulo: desc.slice(0, 140), motivo: null, convocantes: null, estado: 'confirmada',
+      fuente: 'Ayuntamiento de Madrid (Informo)', fuenteUrl: 'https://informo.madrid.es/',
+    });
+  }
+  return out;
 }
 
 // ---------- fuente 3: medios, sindicatos y asociaciones (RSS) ----------
@@ -207,8 +273,9 @@ const fuenteFeed = f => async hoy => items(await get(f.url))
   .map(e => ({ ...e, fuente: f.sindicato ? f.nombre : e.fuente }));
 
 const FUENTES = [
-  { nombre: 'Avisos EMT (CRTM)', run: fuenteCRTM },
-  { nombre: 'Ayuntamiento de Madrid', run: fuenteAyuntamiento },
+  { nombre: 'Avisos EMT (CRTM)', clave: /emt|crtm/, run: fuenteCRTM },
+  { nombre: 'Ayuntamiento de Madrid', clave: /ayuntamiento/, run: fuenteAyuntamiento },
+  { nombre: 'Incidencias de tráfico (Informo)', run: fuenteInformo },
   { nombre: 'Google Noticias', run: h => fuenteBuscador(h, gn, 'Google Noticias') },
   { nombre: 'Bing Noticias', run: h => fuenteBuscador(h, bing, 'Bing Noticias') },
   ...FEEDS.map(f => ({ nombre: f.nombre, run: fuenteFeed(f) })),
@@ -246,17 +313,34 @@ async function main() {
   // Si ninguna fuente respondió no se toca nada: mejor datos viejos y con aviso que un panel vacío.
   const consultadas = resultados.filter(r => r.ok).map(r => r.nombre);
   if (!consultadas.length) { console.error('Ninguna fuente respondió; se mantienen los datos actuales.'); process.exitCode = 1; return; }
+  // Último acceso correcto a cada fuente. Incluye lo que consultó la tarea programada de Claude (su estado llega
+  // en MANIFESTACIONES_DATA): si ella leyó el Ayuntamiento hace menos de un día, que aquí dé 403 no es un hueco.
   const previo = leer('estado.json') || {};
+  const ahora = new Date().toISOString();
+  const exitos = { ...(previo.ultimoAccesoFuentes || {}) };
+  const RECIENTE = ' (en las últimas 24 h)';
+  if (previo.ultimaComprobacion) (previo.fuentesConsultadas || [])
+    .filter(n => !n.endsWith(RECIENTE)) // si no, un acceso antiguo se renovaría solo en cada pasada
+    .forEach(n => { if (!(exitos[n] > previo.ultimaComprobacion)) exitos[n] = previo.ultimaComprobacion; });
+  consultadas.forEach(n => { exitos[n] = ahora; });
+  const haceUnDia = new Date(Date.now() - 24 * 3600e3).toISOString();
+  const cubierta = r => {
+    const clave = (FUENTES.find(f => f.nombre === r.nombre) || {}).clave;
+    return Object.entries(exitos).some(([n, t]) => t >= haceUnDia && (n === r.nombre || (clave && clave.test(norm(n)))));
+  };
+  const fallidas = resultados.filter(r => !r.ok);
+  const sinAcceso = fallidas.filter(r => !cubierta(r)).map(r => r.nombre);
   const estado = {
     ...previo,
-    ultimaComprobacion: new Date().toISOString(),
-    fuentesConsultadas: consultadas,
-    fuentesSinAcceso: resultados.filter(r => !r.ok).map(r => r.nombre),
-    nota: `${consultadas.length} de ${resultados.length} fuentes consultadas`,
+    ultimaComprobacion: ahora,
+    fuentesConsultadas: [...consultadas, ...fallidas.filter(cubierta).map(r => r.nombre + RECIENTE)],
+    fuentesSinAcceso: sinAcceso,
+    ultimoAccesoFuentes: Object.fromEntries(Object.entries(exitos).filter(([, t]) => t >= new Date(Date.now() - 7 * 864e5).toISOString())),
+    nota: `${consultadas.length + fallidas.length - sinAcceso.length} de ${resultados.length} fuentes consultadas`,
   };
   fs.writeFileSync(path.join(DIR, 'manifestaciones.json'), JSON.stringify(events, null, 2) + '\n');
   fs.writeFileSync(path.join(DIR, 'estado.json'), JSON.stringify(estado, null, 2) + '\n');
 }
 
 if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
-module.exports = { aEventos, fechaDe, horas, main };
+module.exports = { aEventos, fechaDe, horas, parseAfeccionesAyto, URL_AYTO_MANIF, main };

@@ -14,7 +14,11 @@ const ZONAS = {
   nuevosmin: /nuevos ministerios/, ferraz: /ferraz/, ocana: /ocana/, moncloa: /moncloa/, vallecas: /vallecas/,
   ruben: /ruben dario/, agricultura: /ministerio de agricultura|infanta isabel/,
 };
-const zonasDe = txt => { const t = norm(txt); return Object.keys(ZONAS).filter(k => ZONAS[k].test(t)); };
+// Zonas que aparecen en el texto, en el orden en que se citan
+const zonasDe = txt => {
+  const t = norm(txt);
+  return Object.keys(ZONAS).map(k => [k, t.search(ZONAS[k])]).filter(([, i]) => i >= 0).sort((a, b) => a[1] - b[1]).map(([k]) => k);
+};
 
 function mismaConvocatoria(a, b) {
   if (a.fecha !== b.fecha) return false;
@@ -43,6 +47,11 @@ function adjuntar(base, nuevo) {
   // Una fuente oficial confirma; una convocatoria de prensa por sí sola queda «por confirmar»
   if (base.estado !== 'confirmada' && (esOficial(nuevo) || base.estado === 'por-confirmar' && nuevo.estado === 'confirmada')) base.estado = 'confirmada';
   if ((!base.recorrido || base.recorrido.length < 4) && nuevo.recorrido) base.recorrido = nuevo.recorrido;
+  else if (/Ayuntamiento/.test(nuevo.fuente || '') && nuevo.recorrido && !(base.recorrido || '').includes(nuevo.recorrido)) {
+    // Los tramos cortados que publica el Ayuntamiento se muestran aunque ya hubiera recorrido de otra fuente
+    const yaCubiertas = zonasDe(base.lugar + ' ' + (base.recorrido || ''));
+    if (zonasDe(nuevo.recorrido).some(z => !yaCubiertas.includes(z))) base.recorrido = `${base.recorrido} · Cortes según el Ayuntamiento: ${nuevo.recorrido}`;
+  }
   if (!base.convocantes && nuevo.convocantes) base.convocantes = nuevo.convocantes;
   return base;
 }

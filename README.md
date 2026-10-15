@@ -30,6 +30,12 @@ cuáles respondieron (`fuentesConsultadas`) y cuáles no (`fuentesSinAcceso`, qu
 - **Por confirmar**: solo la cita la prensa, un sindicato o una asociación; la fecha y el lugar se deducen del titular.
 - Las noticias sin lugar reconocible aparecen como «Madrid (lugar por concretar)». Nunca se borra una convocatoria ya registrada.
 - Los horarios de los avisos EMT son los de los desvíos de bus, no necesariamente los de la protesta.
+- Ayuntamiento: se lee la página [Incidencias de tráfico debidas a manifestaciones](https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD)
+  (cada tramo con horario) y el XML de incidencias de [Informo](https://informo.madrid.es/). Si el Ayuntamiento confirma una
+  convocatoria ya registrada, sus tramos cortados se añaden al recorrido («Cortes según el Ayuntamiento: …»).
+  `madrid.es` devuelve 403 desde Render y otros servidores; la tarea programada de Claude sí la lee (con WebFetch) y su estado llega
+  en `MANIFESTACIONES_DATA`. Una fuente que falla aquí pero se consultó en las últimas 24 h (aquí o en esa tarea) no se marca como
+  «sin acceso»; el último acceso de cada fuente queda en `ultimoAccesoFuentes`.
 - `madrid.es` y varios medios bloquean peticiones automáticas según desde dónde se hagan. Si una fuente devuelve 403 queda
   en `fuentesSinAcceso` en lugar de darse por vacía. Para añadir una fuente, agrega una entrada a `FEEDS` (RSS) o una función en `FUENTES`.
 - `.github/workflows/actualizar-datos.yml` lo ejecuta cada 3 horas y commitea `data/` si hay novedades (Render redespliega con el push).

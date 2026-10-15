@@ -145,7 +145,7 @@
     "hora": "11:15",
     "horaFin": "13:40",
     "lugar": "Paseo del Prado",
-    "recorrido": "Paseo del Prado → Colón",
+    "recorrido": "Paseo del Prado → Colón · Cortes según el Ayuntamiento: Paseo de Recoletos → Plaza de Colón",
     "tipo": "Manifestación",
     "titulo": "Manifestación Paseo del Prado - Colón",
     "motivo": "Desvíos de EMT (11:15–13:40): líneas 5, 14, 27, 37, 45, 53, 150 y C03",
@@ -153,7 +153,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/15_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado-col%C3%B3n/?lang=es",
-    "id": "2026-10-15-paseo-del-prado"
+    "id": "2026-10-15-paseo-del-prado",
+    "otrasFuentes": [
+      {
+        "fuente": "Ayuntamiento de Madrid",
+        "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD"
+      }
+    ]
   },
   {
     "id": "2026-10-15-consejeria",
@@ -163,17 +169,21 @@
     "fuente": "Madrid Información",
     "fuenteUrl": "https://madridinformacion.com/huelga-educativa-madrid-cortes-trafico-autobuses-manifestaciones/",
     "hora": "12:00",
-    "horaFin": null,
+    "horaFin": "14:00",
     "lugar": "Calle Alcalá, 32",
     "mapa": "Calle de Alcalá 32",
     "motivo": "Huelga educativa",
-    "recorrido": "Alrededor de la Consejería de Educación",
+    "recorrido": "Alrededor de la Consejería de Educación · Cortes según el Ayuntamiento: calle Alcalá (entre Gran Vía y Puerta del Sol)",
     "tipo": "Concentración",
     "titulo": "Cadena humana ante la Consejería de Educación",
     "otrasFuentes": [
       {
         "fuente": "Aviso EMT (CRTM)",
         "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/15_10_2026-desvio-lineas-emt-concentracion-c-alcala-32/?lang=es"
+      },
+      {
+        "fuente": "Ayuntamiento de Madrid",
+        "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD"
       }
     ]
   },
@@ -234,13 +244,17 @@
     "lugar": "Atocha",
     "mapa": "Glorieta de Atocha",
     "motivo": "Huelga indefinida en la educación pública",
-    "recorrido": "Atocha → Paseo del Prado → Cibeles → Alcalá → Sol (cortes desde las 17:30)",
+    "recorrido": "Atocha → Paseo del Prado → Cibeles → Alcalá → Sol (cortes desde las 17:30) · Cortes según el Ayuntamiento: Glorieta del Emperador Carlos V → Atocha → Paseo del Prado → Plaza de Neptuno → Paseo de Recoletos → Plaza de Cibeles → Alcalá → Puerta del Sol",
     "tipo": "Manifestación",
     "titulo": "Manifestación por la huelga educativa",
     "otrasFuentes": [
       {
         "fuente": "Aviso EMT (CRTM)",
         "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/16_10_2026-desvio-lineas-emt-manifestacion-prado-alcala/?lang=es"
+      },
+      {
+        "fuente": "Ayuntamiento de Madrid",
+        "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD"
       }
     ]
   },
@@ -249,7 +263,7 @@
     "hora": "11:30",
     "horaFin": "15:30",
     "lugar": "Paseo del Prado",
-    "recorrido": null,
+    "recorrido": "Paseo del Prado → Glorieta del Emperador Carlos V",
     "tipo": "Manifestación",
     "titulo": "Manifestación Paseo del Prado",
     "motivo": "Desvíos de EMT (11:30–15:30): líneas 001, 6, 10, 14, 19, 26, 27, 32, 34, 37, 45, 59, 85, 86, 102, C03, C1, C2, E1 y EXPRES AEROPUERTO",
@@ -257,7 +271,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/17_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado/?lang=es",
-    "id": "2026-10-17-paseo-del-prado"
+    "id": "2026-10-17-paseo-del-prado",
+    "otrasFuentes": [
+      {
+        "fuente": "Ayuntamiento de Madrid",
+        "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD"
+      }
+    ]
   },
   {
     "id": "2026-10-28-tractorada",
