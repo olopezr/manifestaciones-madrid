@@ -43,6 +43,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--signal);outline-off
 .plaque .q{font:600 .95rem/1.3 var(--f-body);opacity:.9}
 .plaque .answer{font:800 clamp(3.4rem,16vw,5.2rem)/.95 var(--f-display);letter-spacing:-.03em}
 .plaque .sub{font-size:.95rem;opacity:.92}
+.plaque .warn{font-size:.82rem;background:rgba(0,0,0,.22);border-radius:6px;padding:6px 8px;margin-top:4px}
 .plaque .date{font:500 .8rem/1 var(--f-mono);opacity:.8;text-transform:capitalize}
 
 /* Event rows */
@@ -116,6 +117,7 @@ footer{font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;ga
       <span class="q">¿Hay manifestación hoy en Madrid?</span>
       <span class="answer" id="answer">…</span>
       <span class="sub" id="answerSub">Cargando las convocatorias registradas.</span>
+      <span class="warn" id="answerWarn" hidden></span>
     </div>
   </header>
 
@@ -150,7 +152,7 @@ footer{font-size:.78rem;color:var(--muted);display:flex;flex-direction:column;ga
 
   <footer>
     <span id="lastCheck">Última comprobación: –</span>
-    <span>Fuentes: avisos de desvíos de EMT (Consorcio de Transportes), Delegación del Gobierno y prensa. La hora es la del inicio anunciado; los cortes de tráfico suelen empezar antes.</span>
+    <span>Fuentes: avisos de desvíos de EMT (Consorcio de Transportes), incidencias de tráfico por manifestaciones del Ayuntamiento de Madrid, Delegación del Gobierno, organizaciones convocantes y medios locales. La hora es la del inicio anunciado; los cortes de tráfico suelen empezar antes.</span>
   </footer>
 </div>
 
@@ -200,6 +202,8 @@ function card(ev, {mode, now, n}){
   const route = ev.recorrido ? `<div class="route"><b>${esc(ev.lugar)}</b> · ${esc(ev.recorrido)}</div>` : `<div class="route"><b>${esc(ev.lugar)}</b></div>`;
   const metaBits = [ev.tipo, ev.convocantes, ev.asistentes].filter(Boolean).map(esc).join(' · ');
   const fuente = ev.fuenteUrl ? `<a href="${esc(ev.fuenteUrl)}" target="_blank" rel="noopener">Fuente${ev.fuente?': '+esc(ev.fuente):''}</a>` : '';
+  const otras = (Array.isArray(ev.otrasFuentes) ? ev.otrasFuentes : []).filter(f=>f && f.url)
+    .map(f=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.fuente || 'Otra fuente')}</a>`).join('');
   return `<article class="ev${mode==='today'?' today':''}">
     <div class="time">${hora}${fin}${n?`<span class="num">#${n}</span>`:''}</div>
     <div class="body">
@@ -208,7 +212,7 @@ function card(ev, {mode, now, n}){
       ${route}
       ${ev.motivo?`<div class="meta">${esc(ev.motivo)}</div>`:''}
       ${metaBits?`<div class="meta">${metaBits}</div>`:''}
-      <div class="links"><a href="${mapUrl(ev)}" target="_blank" rel="noopener">Ver en el mapa</a>${fuente}</div>
+      <div class="links"><a href="${mapUrl(ev)}" target="_blank" rel="noopener">Ver en el mapa</a>${fuente}${otras}</div>
     </div></article>`;
 }
 const byTime = (a,b) => a.fecha.localeCompare(b.fecha) || (hm(a.hora)??9999)-(hm(b.hora)??9999);
@@ -257,6 +261,9 @@ function render(){
   renderHistory(happened);
   if(META && META.ultimaComprobacion){
     const d = new Date(META.ultimaComprobacion);
+    const sinAcceso = Array.isArray(META.fuentesSinAcceso) ? META.fuentesSinAcceso.filter(Boolean) : [];
+    $('answerWarn').hidden = !sinAcceso.length;
+    $('answerWarn').textContent = sinAcceso.length ? `Puede faltar alguna convocatoria: en la última comprobación no se pudo consultar ${sinAcceso.join(', ')}.` : '';
     $('lastCheck').textContent = 'Última comprobación: ' + d.toLocaleString('es-ES',{timeZone:TZ,weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) + (META.nota?' · '+META.nota:'');
   }
 }
