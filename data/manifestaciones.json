@@ -292,7 +292,13 @@
     "estado": "por-confirmar",
     "fuente": "FRAVM (asociaciones vecinales)",
     "fuenteUrl": "https://fravm.org/comunicacion-cultura-y-ocio/cultura-y-ocio/ante-la-amenaza-de-desalojo-del-centro-social-seco-una-marcha-rosa-reclamara-su-permanencia-en-el-centro-cultural-las-californias/",
-    "id": "2026-10-18-madrid-lugar-por-concretar"
+    "id": "2026-10-18-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMkhZS0F6UWF2bXVELTEwSml3OWNYTzNXOEVUS2VaRm9icWpUV215c1pVVi1ZN3lEUXdTXzdvSDJTLXctRVhvOFRLTHlDTHlScmdSTEhXYjBXUmdYaVJ1RUUwcEdCSHVOdW55WlpDeDdYNi1YT1hoQkN5dVBseE1rb0s2RWlwZmdET2N0enV1NXRjZHhwbTdUTUUwRnVUajJIM2hwcXF6UXlBQXR1a3FFS1pQdm93VnhEV2p6Qk5IUnlpcndneElqSHZLa1MwTGEzUGptX0lwdk5zd085aVVmTGs4bzbSAeoBQVVfeXFMTmZvTllYOU81bW02WXpLeDQxeEtFaVgxYUxBeGtMN0Rxa1BLeE5ERlRIU0ZGRXBpdE9OV3BReFVvMVN6TWxhWmpuMTZRZnRPbXVWMk5aRlFTNlhhd3BlUDUxMnFUNkxUVldzYXZvVnlCNGRLa3JLUGRXZzJWOHQtT1Z6NUdQMHFwYmpoVHExV0JzcDkwSUd6TTdKckVSWjNONGhJTVl5NXpSWXl5eGRiZTNzdnpTWEwydi1fVTZhY3VNNHZFMlJ1dlZ1NERMVXJIRzdzNFVuRTVxcXd5bVJLZFdSV29zcHpTY3NB?oc=5"
+      }
+    ]
   },
   {
     "id": "2026-10-28-tractorada",
