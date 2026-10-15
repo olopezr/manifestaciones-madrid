@@ -8,7 +8,10 @@ Panel de una sola página que responde si hoy hay alguna manifestación en Madri
 - el patrón habitual (día, franja horaria y lugar más repetidos),
 - el histórico por meses, con filtro.
 
-Fuentes: avisos de desvíos de EMT (Consorcio de Transportes), Delegación del Gobierno y prensa.
+Fuentes (se consultan automáticamente, ver «Recolector»): avisos de desvíos de EMT (Consorcio de Transportes),
+notas del Ayuntamiento de Madrid, buscadores de noticias (Google y Bing), medios locales (eldiario.es, El Mundo, ABC,
+Europa Press, 20minutos, El Diario de Madrid, Infobae), sindicatos (UGT) y asociaciones (FRAVM). La Delegación del Gobierno
+no publica listado de convocatorias (solo un formulario de comunicación), así que se recoge a través de la prensa.
 
 ## Estructura
 
@@ -17,6 +20,20 @@ index.html                  la página (HTML, CSS y JS sin dependencias de build
 data/manifestaciones.json   convocatorias registradas
 data/estado.json            fecha de la última comprobación
 ```
+
+## Recolector
+
+`node scripts/collect.js` consulta las fuentes, las fusiona con `data/manifestaciones.json` y anota en `data/estado.json`
+cuáles respondieron (`fuentesConsultadas`) y cuáles no (`fuentesSinAcceso`, que la web muestra como aviso). `--dry-run` solo imprime lo que añadiría.
+
+- **Confirmada**: la publica una fuente oficial (aviso EMT/CRTM, Ayuntamiento).
+- **Por confirmar**: solo la cita la prensa, un sindicato o una asociación; la fecha y el lugar se deducen del titular.
+- Las noticias sin lugar reconocible aparecen como «Madrid (lugar por concretar)». Nunca se borra una convocatoria ya registrada.
+- Los horarios de los avisos EMT son los de los desvíos de bus, no necesariamente los de la protesta.
+- `madrid.es` y varios medios bloquean peticiones automáticas según desde dónde se hagan. Si una fuente devuelve 403 queda
+  en `fuentesSinAcceso` en lugar de darse por vacía. Para añadir una fuente, agrega una entrada a `FEEDS` (RSS) o una función en `FUENTES`.
+- `.github/workflows/actualizar-datos.yml` lo ejecuta cada 3 horas y commitea `data/` si hay novedades (Render redespliega con el push).
+  El build de Render también lo ejecuta, tras volcar `MANIFESTACIONES_DATA`, que ahora se fusiona con los datos del repo en vez de sustituirlos.
 
 ## Datos
 

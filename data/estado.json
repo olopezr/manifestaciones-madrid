@@ -1,4 +1,21 @@
 {
-  "nota": "carga inicial",
-  "ultimaComprobacion": "2026-10-14T17:39:00Z"
+  "nota": "8 de 13 fuentes consultadas",
+  "ultimaComprobacion": "2026-10-15T05:23:09.514Z",
+  "fuentesConsultadas": [
+    "Avisos EMT (CRTM)",
+    "Google Noticias",
+    "Bing Noticias",
+    "eldiario.es Madrid",
+    "El Mundo Madrid",
+    "Infobae España",
+    "UGT",
+    "FRAVM (asociaciones vecinales)"
+  ],
+  "fuentesSinAcceso": [
+    "Ayuntamiento de Madrid",
+    "Europa Press Madrid",
+    "El Diario de Madrid",
+    "20minutos Madrid",
+    "ABC Madrid"
+  ]
 }

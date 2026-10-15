@@ -1,0 +1,34 @@
+name: Actualizar convocatorias
+
+# Consulta las fuentes cada 3 horas y guarda las convocatorias nuevas en data/.
+# Así el histórico no depende de que EMT o la prensa mantengan publicado un aviso.
+# El commit en main hace que Render vuelva a desplegar la web.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/collect.js
+      - name: Guardar cambios
+        run: |
+          # Solo se commitea si cambian las convocatorias, no por la marca de hora de la comprobación
+          if git diff --quiet -- data/manifestaciones.json; then
+            echo "Sin convocatorias nuevas."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Actualizar convocatorias"
+          git push

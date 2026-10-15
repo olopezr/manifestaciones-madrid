@@ -94,6 +94,21 @@
     "titulo": "Manifestación Alcalá – Alcalde Sáinz de Baranda"
   },
   {
+    "id": "2026-10-14-sol-concentracion",
+    "convocantes": "CCOO, CGT, CNT, STEM, UGT y otras",
+    "estado": "confirmada",
+    "fecha": "2026-10-14",
+    "fuente": "El Diario de Madrid",
+    "fuenteUrl": "https://www.eldiariodemadrid.es/articulo/educacion/huelga-indefinida-profesores-madrid-14-octubre-2026-manifestaciones-servicios-minimos/20261014092042144084.html",
+    "hora": "12:00",
+    "horaFin": "13:00",
+    "lugar": "Puerta del Sol",
+    "motivo": "Arranque de la huelga indefinida en la educación pública",
+    "recorrido": "Puerta del Sol y calle Alcalá (cortes entre Sol y Gran Vía)",
+    "tipo": "Concentración",
+    "titulo": "Concentración por la huelga educativa"
+  },
+  {
     "id": "2026-10-14-atocha-sol",
     "convocantes": "CCOO, CGT, CNT, STEM, UGT y otras",
     "estado": "confirmada",
@@ -126,19 +141,19 @@
     "titulo": "Corte de la Castellana por la educación infantil"
   },
   {
-    "id": "2026-10-14-sol-concentracion",
-    "convocantes": "CCOO, CGT, CNT, STEM, UGT y otras",
+    "fecha": "2026-10-15",
+    "hora": "11:15",
+    "horaFin": "13:40",
+    "lugar": "Paseo del Prado",
+    "recorrido": "Paseo del Prado → Colón",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Paseo del Prado - Colón",
+    "motivo": "Desvíos de EMT (11:15–13:40): líneas 5, 14, 27, 37, 45, 53, 150 y C03",
+    "convocantes": null,
     "estado": "confirmada",
-    "fecha": "2026-10-14",
-    "fuente": "El Diario de Madrid",
-    "fuenteUrl": "https://www.eldiariodemadrid.es/articulo/educacion/huelga-indefinida-profesores-madrid-14-octubre-2026-manifestaciones-servicios-minimos/20261014092042144084.html",
-    "hora": "12:00",
-    "horaFin": "13:00",
-    "lugar": "Puerta del Sol",
-    "motivo": "Arranque de la huelga indefinida en la educación pública",
-    "recorrido": "Puerta del Sol y calle Alcalá (cortes entre Sol y Gran Vía)",
-    "tipo": "Concentración",
-    "titulo": "Concentración por la huelga educativa"
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/15_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado-col%C3%B3n/?lang=es",
+    "id": "2026-10-15-paseo-del-prado"
   },
   {
     "id": "2026-10-15-consejeria",
@@ -154,7 +169,58 @@
     "motivo": "Huelga educativa",
     "recorrido": "Alrededor de la Consejería de Educación",
     "tipo": "Concentración",
-    "titulo": "Cadena humana ante la Consejería de Educación"
+    "titulo": "Cadena humana ante la Consejería de Educación",
+    "otrasFuentes": [
+      {
+        "fuente": "Aviso EMT (CRTM)",
+        "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/15_10_2026-desvio-lineas-emt-concentracion-c-alcala-32/?lang=es"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-10-15",
+    "hora": "17:30",
+    "horaFin": "20:00",
+    "lugar": "Calle Ocaña",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Calle Ocaña",
+    "motivo": "Desvíos de EMT (17:30–20:00): líneas 17, 31, 121, 131, 138, 139, 155, H y SE2",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/15_10_2026-desvio-lineas-emt-concentracion-c-ocana/?lang=es",
+    "id": "2026-10-15-calle-ocana"
+  },
+  {
+    "fecha": "2026-10-15",
+    "hora": "19:00",
+    "horaFin": null,
+    "lugar": "Vallecas",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración ante el Centro de Salud Martínez de la Riva de Vallecas para denunciar la falta de médicos",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "FRAVM (asociaciones vecinales)",
+    "fuenteUrl": "https://fravm.org/noticias/concentracion-ante-el-centro-de-salud-martinez-de-la-riva-de-vallecas-para-denunciar-la-falta-de-medicos/",
+    "id": "2026-10-15-vallecas"
+  },
+  {
+    "fecha": "2026-10-15",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación este jueves por el boicot a la compañía israelí Batsheva en Teatros del Canal de Madrid",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Gacetín Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaDI1NU5ldGxfZ0pldHVmbTQ0U05uZ19vY0dBVVFOSzhBTHQ3emZ0NUprNnNibTBKZGViLTBKTnZfYzVMeGNQU2xKejZQU3l4d3loM21aX2x3ek5rdk1tY0RZcGNuTVJvRk9jSklReGlwTElyRlV3S1hjc2s4R3ZJQWNnblkxanpYMGkyemswWWtremJxcTFfZ0tfenc2NzVlWGZDMUlR?oc=5",
+    "id": "2026-10-15-madrid-lugar-por-concretar"
   },
   {
     "id": "2026-10-16-atocha-sol",
@@ -170,7 +236,28 @@
     "motivo": "Huelga indefinida en la educación pública",
     "recorrido": "Atocha → Paseo del Prado → Cibeles → Alcalá → Sol (cortes desde las 17:30)",
     "tipo": "Manifestación",
-    "titulo": "Manifestación por la huelga educativa"
+    "titulo": "Manifestación por la huelga educativa",
+    "otrasFuentes": [
+      {
+        "fuente": "Aviso EMT (CRTM)",
+        "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/16_10_2026-desvio-lineas-emt-manifestacion-prado-alcala/?lang=es"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-10-17",
+    "hora": "11:30",
+    "horaFin": "15:30",
+    "lugar": "Paseo del Prado",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Paseo del Prado",
+    "motivo": "Desvíos de EMT (11:30–15:30): líneas 001, 6, 10, 14, 19, 26, 27, 32, 34, 37, 45, 59, 85, 86, 102, C03, C1, C2, E1 y EXPRES AEROPUERTO",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/17_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado/?lang=es",
+    "id": "2026-10-17-paseo-del-prado"
   },
   {
     "id": "2026-10-28-tractorada",
@@ -186,7 +273,21 @@
     "motivo": "Costes de producción y precios agrarios",
     "recorrido": "Por el centro hasta el Paseo de la Infanta Isabel; salida y hora por anunciar",
     "tipo": "Tractorada",
-    "titulo": "Tractorada del campo"
+    "titulo": "Tractorada del campo",
+    "otrasFuentes": [
+      {
+        "fuente": "LA UNIO",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeEJZRTlROXJMTWRvRTdvdXE2bjhSMDFfaDkwTHB2ZmtJakxPbG11Um9rQVJULXBpaVptZ1NJR2NfWTNWcS1QMGFrdHhlNXplaDVNcUhFMG1PMWNxY1FWQ3I1WFBtQ1F6a0Y0OWJtT3ZMM2V6cFAzQlZmU08wZFFPQ0s1YXdHNnlkUWtrUEdJTmtiMDBmYkpuUDhoSUpDX1BpMURPNDFFUldGWTBhbmpFTg?oc=5"
+      },
+      {
+        "fuente": "Agroinformacion",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWmJ0UUdKRVg3RXZEclhydkxObnl4alJrSUh4Sk12V0c2RzI5TTM2ZC13Q2tuZ3RkZHVrV2tsa3padERnakZoVDRGNW9pbWcxS01aS1BFc3RQcWQ0ZW5QWDFUc0QxcHFyd0tRY0FoN0Y0bS1tVTRNbkUyTDB2MGllZ0RiNTg5bnE1Y3A1aVFvQklQeFhMblRKUTMzalZjVUx6U0pLYkhaV2daQUt5YUVtSThfZngxRkJKc3hNNklUNnVwNE9SMS1PTXpHQVVxallTYWkwbF9BTXpMZzBRaExIX0tB?oc=5"
+      },
+      {
+        "fuente": "Cadena SER",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNlNyRFRVaTRqb0FUQTdPOEx6Uk5iSzMwMmRscXlkZVdRbW9UTkdJNXZTdTdaTkFBM0NPRVUtVzVxVUh2Ny1KcjFqdGJEWWU1RWFRa0o4ZDNjQldjZ0EtZjhlYVV5WmFPTUgtYWgxa1UydndXOHRKLUVHRno2WXZTUnI5OUhQLWh0THJsdkQyTTB0VktsRGlUd2M0QTNrU0tYWmhCODkyRjZYWktBWk5sd3ZyVldVZDRlU3lndGhoQkJxSU52STZuYm95cE9EcmRJQlA0ZU95ZU1KQzhYZ1Mta28zeUtMLVFtMXFN0gH_AUFVX3lxTE1adzFBeU9BWGQzUjhrYUtxR3E4dGVCRHRfbkgycGJJR2J3ckpjcVlVSkJ3Zzc4TEw3eU5XdkZfcWtobWlSZlhPMW9sbXFHOG9YVWpUdmRyc3psNW9oQk5GQlJFS2RzSkVVLTVLWURMOUlHVEFPUkphaExxemstbFdPZHV4SGEwQjVEeW42VkZkSmczYjdSc1JJQWhRQ0RtaEJXRWtQT052bVFZREFJcXhsWWhfNVcwVFhIZDlNWG5ZLXRFVFptbjJKS0ZiTkZWTzQ5VFlia0hhZEY0N1huNEo2dklIbFVYMWgzWDZRYWRJaEdWZm1rWThrRldQMm9GYw?oc=5"
+      }
+    ]
   },
   {
     "id": "2026-11-04-huelga-universitaria",
@@ -203,5 +304,42 @@
     "recorrido": "Jornadas de huelga convocadas; sin lugar ni hora publicados en Madrid",
     "tipo": "Posible movilización",
     "titulo": "Huelga universitaria (4 y 5 de noviembre)"
+  },
+  {
+    "fecha": "2026-11-21",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "El Comité de Huelga médico convoca una manifestación en Madrid el 21 de noviembre para mantener activo el conflicto",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Infosalus",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdGE1eGc1Q0RNeTVzUGZpNk1lZ2RJNWJ1OTN3SUVrUElqUENjMC1sbXc5TUFzekVZY0lwQVdmd181N2RkeGM5WmQxX2Jnbmh2WGtON2pyQlhIRTJsTmtkREtsRWtIX0FCMTFEMURvZmlLd3VuZjQ5TWYtUVB1UGJZelFNYndDME03SEdYVy1ncksyTHRJOUJhdGxibm5MNEVZb1FVaFdxaFRuSWU2dXdOZFNnMDd3bFg0NXpFS2RhX2lUTTZIZmtRSDZZWHpwcjgxblQwajlzai1XeGZwQnpUcFl6aUthb3Zi?oc=5",
+    "id": "2026-11-21-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "OkDiario",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOS1DSUhzR0YyVTM4OFFyVXNDdTVyMHJzb0JSaHZlUVFMZDRsSWJCdU9HNVFSSXR0UTd6WmtuRGJ0UXJRMDVtbENEWDlaR3B3OGR3TnVSMS1LanE3RVJPU1k4TXpsb0VhSkROcTgtOENyRElocG01N0FMOUg3WEFQSElzT0dMeDdBR2ZCNXN2aVU1SVU1NFRGMG5tdnVpRWQ1Z3dXWEowN1VtYUZqU1YyRTBJSzFQMUttT2Nr0gHAAUFVX3lxTE5MdkVyVWRYWk1hMkxmdm04cnl0bzN5OUhvblkzNm5menhXUnJ3LXpFREd0RHgyYWlUZzZzdVVzVVh2Ukh1UEFiMjRqd2xXUlpWUURIQnJObkx6YXNzZUFPS1MwTnNtcmlnWDNVaXJha1FvdHJ0SFJNUGRUSTdTd1Z1cDdmRl9mNFVPcW1GcXlZTVJOemYyOGI4X19SYkh1dEdYMl9MenlpWnludGNaWG5hd2hVeGdXUVZnOE1iQzBfaA?oc=5"
+      },
+      {
+        "fuente": "La Razón",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWVpiZVAzc20yT21hUGdnWmxWeVBtSmsyY3J4NjN5Y29GYUtERnlDLTZRZndCWUpvNGk4V1NmUVNNMGhvTEI4anZlcVFfSy1QNzZmR1dmMHRXeUY3cTl2MTFXTUdKZzZGUTZZMXFzdGgwMnRVdk1hMlV6VDhUand2T1VBOGl0VjJKUm5UclI4a3pfZDBRdVA3bU4yUkJMYjhVeWRGXzE4R1BnbUc0UmtPcUZtcnVzR09ZdFVWRjhhM1RFWjUyWFJBRmUtYjE0UlhVcHJKRkZjQ0d5TnpYYmhPN1o2c9IB9wFBVV95cUxNMTExWS0wRmk0WVZxU0tXYjI0Q280N0ZjcGwzOXdsNzczcDNHNldsTUI1aVVWVHBHdUMyT003Z1NGT1ZTN1haUnU2YTlxbzJsdFFNWmF3OTlRSENsX2dEUVBmaElnTzFpV2tldnZrZHdWVXAwdno2X3k5bDRLTGZJS3hnelFoMkJRdnBWeXNRdWQteDJsT2dNVnNlNmY1cjNSOXQweloyYklTS2VsTnV0MDBra29tYmFGbDFSaFJsRTllTU9kSWI2VUJ3SXJHMjF2d2lLMkZjUF9tSWNSWmItUHd2b2swTWxpVFNOM0ZwZWQ0RDZSd0Qw?oc=5"
+      },
+      {
+        "fuente": "Deia",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVFsQ0tzdmRsLWpCTHlsU29wR29lZ2VNakp4Y09aaE5JWTBUUklucHZlMEJPeW9TeTJKNVJXbXhZS3d3ZTVBMnNwVU9uTGt0ZTVzdWRmck11TlZ0cGF6bWdaWHgwRXlDM04zQkxfTTdwYjdTb3hZM0QwY015eDRHVy1wVVppMjNBdEFneEk1RVNKNUdta3B6VWhhYzI1WUlKRVN0bHhReTFjeGVPcENV0gG0AUFVX3lxTFBsRUx4NWtwdE5STXNzWEhGMF9LX1BCOTF1cG5XbEl6QVNERjBFTUV0T2R5OWFvQzNQTjkzQWlnVW1meG0wYXAwOXh4RkJJVGRLWWNXYWkzTnFabHBqT1gybVFuLWZJUGRFUm9Gd0U4OWw5VHFjckJiRWtUMF9Id3picWQtVFA2ejVZMmhrXzA2cllsdVJINV9QZkhmd1ZSLWdZZ0thUU12MkxvUkNoemI2NjkzbA?oc=5"
+      },
+      {
+        "fuente": "ConSalud",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbE9LTk04czl4RWxKbUZ5YjdPZmxvSmpoSFlMUHcxcFU4ZHEyb253VEFMSXhKdEVXWWx2VGRIMklvSnA5Sm1mSUZKXzMtLVRwbGJLdDlfMk1pYk5xZFRTS3JIOExKc0xMcGE3dGhWYm5XMGlyeWM2eFBWbXRtLTdUSjRuV2tpTGpNVW9EeTlpcFplanhaX2ozUmdzY3gzc1g4bTZDaXIteDI5LWNmYUg1V1NSTm1GSWJqSEdma1JaRGFsZzVtWHR4MUVHTE9oZ0VkOUJEbWVBbVdCd2dLVnhSc1pEdTZWakRicnZhSEJ6SnUwdUlWd1hjWXlvWkJ5RzRQYmRTQ3BBaUdoZFg4?oc=5"
+      },
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcHFmdXh5eDcxNWFNSGpGX0tRRlltN0xvREFIZU1Ndi1CbXRZRGN3bGpTSmFqX3dveXc2dHVreEFJd0RYZ2tFOTFQS2ZoVWxuQmdoNnZzOXNUMVNDLWFIaHIybzZvMTVJMFB5NVNscmp5TFZaOEpDTTVjbkxybnNEZ2pWejhkeUs1bHVEZkZlbi1hUjRHU2s2WHk5T0JtTFJJRXdZbG5PVGotX3Z1cXVnUnI3cDZheEwySzZXQ29jUVdfQWU3VVo4REo2dTB1YldsRlZDT2pabjdKd0p5Zzk1YXExLUJnUdIB6wFBVV95cUxPRGRCc3RIeHY2UFhBb3FYMV9kNGNMNEdubG95WmVtQXEyX3JWSGYxT05SV1NVY2gzX1BrWnBySEtJWVllSGdoU1d1NnNobThEaXRzQVB1T0NaaGtwTDZ2SGVYUTkyb0pxd0FiMWhVNEt3MVJHZGNOVkhUSmlHUlBfeGF5bnRKZEtwQ2lBeFZRSmRGN05GY2pKbkhDVEZRakVaMTY0QTZzQVZkTHBBY0NER2pKRE95cE5wM29iQTVwZE5UM3ctd2FNcjBCWXVHUUpwcUdWdUw2WlBZWFVwOEd6YU11SU1qb3RKRXpB?oc=5"
+      }
+    ]
   }
 ]
