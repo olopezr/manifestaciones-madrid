@@ -39,7 +39,8 @@ function esOficial(ev) { return OFICIAL.test(ev.fuente || ''); }
 function adjuntar(base, nuevo) {
   if (nuevo.fuenteUrl && nuevo.fuenteUrl !== base.fuenteUrl) {
     const otras = Array.isArray(base.otrasFuentes) ? base.otrasFuentes : [];
-    if (!otras.some(f => f.url === nuevo.fuenteUrl)) otras.push({ fuente: nuevo.fuente, url: nuevo.fuenteUrl });
+    // Un enlace por medio: dos noticias del mismo periódico no aportan una fuente más
+    if (nuevo.fuente !== base.fuente && !otras.some(f => f.url === nuevo.fuenteUrl || f.fuente === nuevo.fuente)) otras.push({ fuente: nuevo.fuente, url: nuevo.fuenteUrl });
     base.otrasFuentes = otras;
   }
   if (!base.hora && nuevo.hora) { base.hora = nuevo.hora; if (nuevo.horaFin) base.horaFin = nuevo.horaFin; }

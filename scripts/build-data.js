@@ -35,6 +35,12 @@ let delRepo = [];
 try { delRepo = JSON.parse(fs.readFileSync(path.join(dir, 'manifestaciones.json'), 'utf8')); } catch (_) {}
 const todas = mergeEvents(delRepo.filter(e => e && e.fecha && e.lugar), events).events;
 fs.writeFileSync(path.join(dir, 'manifestaciones.json'), JSON.stringify(todas, null, 2));
-fs.writeFileSync(path.join(dir, 'estado.json'), JSON.stringify(payload.estado || null, null, 2));
+// El estado de la variable (lo que consultó la tarea programada) manda, pero se conservan los últimos accesos
+// a cada fuente registrados en el repo: si no, un acceso reciente al Ayuntamiento se perdería en cada deploy.
+let estadoRepo = {};
+try { estadoRepo = JSON.parse(fs.readFileSync(path.join(dir, 'estado.json'), 'utf8')) || {}; } catch (_) {}
+const accesos = { ...(estadoRepo.ultimoAccesoFuentes || {}) };
+for (const [n, t] of Object.entries((payload.estado || {}).ultimoAccesoFuentes || {})) if (!(accesos[n] > t)) accesos[n] = t;
+fs.writeFileSync(path.join(dir, 'estado.json'), JSON.stringify({ ...(payload.estado || {}), ultimoAccesoFuentes: accesos }, null, 2));
 console.log(`Volcadas ${events.length} convocatorias de la variable (${todas.length} en total; última comprobación: ${payload.estado && payload.estado.ultimaComprobacion}).`);
 recolectar();
