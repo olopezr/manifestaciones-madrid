@@ -280,6 +280,21 @@
     ]
   },
   {
+    "fecha": "2026-10-18",
+    "hora": "12:00",
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Ante la amenaza de desalojo del Centro Social Seco, una Marcha Rosa reclamará su permanencia en el Centro Cultural Las Californias",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "FRAVM (asociaciones vecinales)",
+    "fuenteUrl": "https://fravm.org/comunicacion-cultura-y-ocio/cultura-y-ocio/ante-la-amenaza-de-desalojo-del-centro-social-seco-una-marcha-rosa-reclamara-su-permanencia-en-el-centro-cultural-las-californias/",
+    "id": "2026-10-18-madrid-lugar-por-concretar"
+  },
+  {
     "id": "2026-10-28-tractorada",
     "convocantes": "Asaja, COAG y Unión de Uniones",
     "estado": "por-confirmar",
@@ -306,6 +321,10 @@
       {
         "fuente": "Cadena SER",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNlNyRFRVaTRqb0FUQTdPOEx6Uk5iSzMwMmRscXlkZVdRbW9UTkdJNXZTdTdaTkFBM0NPRVUtVzVxVUh2Ny1KcjFqdGJEWWU1RWFRa0o4ZDNjQldjZ0EtZjhlYVV5WmFPTUgtYWgxa1UydndXOHRKLUVHRno2WXZTUnI5OUhQLWh0THJsdkQyTTB0VktsRGlUd2M0QTNrU0tYWmhCODkyRjZYWktBWk5sd3ZyVldVZDRlU3lndGhoQkJxSU52STZuYm95cE9EcmRJQlA0ZU95ZU1KQzhYZ1Mta28zeUtMLVFtMXFN0gH_AUFVX3lxTE1adzFBeU9BWGQzUjhrYUtxR3E4dGVCRHRfbkgycGJJR2J3ckpjcVlVSkJ3Zzc4TEw3eU5XdkZfcWtobWlSZlhPMW9sbXFHOG9YVWpUdmRyc3psNW9oQk5GQlJFS2RzSkVVLTVLWURMOUlHVEFPUkphaExxemstbFdPZHV4SGEwQjVEeW42VkZkSmczYjdSc1JJQWhRQ0RtaEJXRWtQT052bVFZREFJcXhsWWhfNVcwVFhIZDlNWG5ZLXRFVFptbjJKS0ZiTkZWTzQ5VFlia0hhZEY0N1huNEo2dklIbFVYMWgzWDZRYWRJaEdWZm1rWThrRldQMm9GYw?oc=5"
+      },
+      {
+        "fuente": "Guía del Ocio",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRmJzNHBYVUhZWG1UNmJFd2NTSFJILWVhMmVSdXN2V3EtZTZ5Z0R5RGhjM29xRE9ISjk2bUtxZUtiaGMzNzFWLWtUM25POERCSlJfWTFkeWlUV21PMFl4ZnIyV0VmQmdXMDVzeV9XX05BbkVsWkRpNA?oc=5"
       }
     ]
   },
