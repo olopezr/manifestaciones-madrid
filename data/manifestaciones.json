@@ -255,6 +255,10 @@
       {
         "fuente": "Ayuntamiento de Madrid",
         "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Incidencias-de-trafico-debidas-a-manifestaciones/?vgnextfmt=default&vgnextoid=6f59adfed8678810VgnVCM1000001d4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD"
+      },
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPOF8wVmNGMUdVcDVVT3VIRkNaWmJmTV9JWWV2TGV4TXN0TFg2Sjd3MTdWcklLcXlEZkZIcnNYSzhwa04wSGVBenpWQnJsYmpJUXRUSTZRQkx0ZmNlWUF3MEk0Ylp1RHlwVWhvdjJIcEM1UHhHenc5Tjd6X1lMVFUzdmNUZFBuUmdBcFpMWDVzc0FIc1k1WGQxLXNMNWNhVi10WXB1TmVUYzkyTmgzeFBYdXF4Tm82d2I3eUoybjN1UTI2bF9teTUtUllEdjdxUExmU3dnM09hYXU4NTAxbUZkVHpiVDB6UzhUX3FfbVJOeFB1dHhJOGQzNE16UHNnalB3V2NhcWdYalFTUlnSAZACQVVfeXFMTnNEY3p5QXJxRy1ISUJvT0h4elFjeTdYZ0pWNHFMVDllR2ZaU1JLUkFvenVla0RoY2ZNS1dzbU0zc0RuOXl3QjR3TEQ4UklTUUJ4U2hUcElEX2pYbVZpalplZHVUMXROaTRQRWtsRURqcWhjcUlFTHhDTDA0Q1RZRHZjSHd5bXlEamN3M0pMLW5YVWZ5NXo4NHg0RFRtWXdnN0NGMWdqMVFnWXVFX2d2X1E5UDJfc2NBVFNDNmUzWmhaSUxKSWxQM3BXdFQ2TUhjZ0xJdkUxNnU1aVFTY21aX29FbmQ3QmdCS3RGeFBWd3BJdlh3SEY2eWwwODVONmpHRUoxRkVfUC1IQ08teWp1ZF8?oc=5"
       }
     ]
   },
@@ -349,6 +353,21 @@
     "recorrido": "Jornadas de huelga convocadas; sin lugar ni hora publicados en Madrid",
     "tipo": "Posible movilización",
     "titulo": "Huelga universitaria (4 y 5 de noviembre)"
+  },
+  {
+    "fecha": "2026-11-11",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Puerta del Sol",
+    "recorrido": "Puerta del Sol → Congreso",
+    "tipo": "Manifestación",
+    "titulo": "La protesta de Sol empieza a hablar de desacampada, pero no pone fecha aún a su salida",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/protesta-sol-empieza-hablar-desacampada-no-pone-fecha-salida_1_13587779.html",
+    "id": "2026-11-11-puerta-del-sol"
   },
   {
     "fecha": "2026-11-21",
