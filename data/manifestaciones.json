@@ -309,6 +309,21 @@
     ]
   },
   {
+    "fecha": "2026-10-22",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": "Atocha → Puerta del Sol",
+    "tipo": "Manifestación",
+    "titulo": "La tercera jornada de huelga mantiene la movilización de los profesores y prepara otra manifestación de Atocha a Sol",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20minutos Madrid",
+    "fuenteUrl": "https://www.20minutos.es/madrid/tercera-jornada-huelga-mantiene-movilizacion-los-profesores-prepara-segunda-manifestacion-entre-atocha-sol_7049645_0.html",
+    "id": "2026-10-22-atocha"
+  },
+  {
     "fecha": "2026-10-23",
     "hora": null,
     "horaFin": null,
@@ -422,6 +437,10 @@
       {
         "fuente": "El Diario de Madrid",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcHFmdXh5eDcxNWFNSGpGX0tRRlltN0xvREFIZU1Ndi1CbXRZRGN3bGpTSmFqX3dveXc2dHVreEFJd0RYZ2tFOTFQS2ZoVWxuQmdoNnZzOXNUMVNDLWFIaHIybzZvMTVJMFB5NVNscmp5TFZaOEpDTTVjbkxybnNEZ2pWejhkeUs1bHVEZkZlbi1hUjRHU2s2WHk5T0JtTFJJRXdZbG5PVGotX3Z1cXVnUnI3cDZheEwySzZXQ29jUVdfQWU3VVo4REo2dTB1YldsRlZDT2pabjdKd0p5Zzk1YXExLUJnUdIB6wFBVV95cUxPRGRCc3RIeHY2UFhBb3FYMV9kNGNMNEdubG95WmVtQXEyX3JWSGYxT05SV1NVY2gzX1BrWnBySEtJWVllSGdoU1d1NnNobThEaXRzQVB1T0NaaGtwTDZ2SGVYUTkyb0pxd0FiMWhVNEt3MVJHZGNOVkhUSmlHUlBfeGF5bnRKZEtwQ2lBeFZRSmRGN05GY2pKbkhDVEZRakVaMTY0QTZzQVZkTHBBY0NER2pKRE95cE5wM29iQTVwZE5UM3ctd2FNcjBCWXVHUUpwcUdWdUw2WlBZWFVwOEd6YU11SU1qb3RKRXpB?oc=5"
+      },
+      {
+        "fuente": "SIMPA",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSVd2OS1QRTd0QXFLTDZCcW16V0N0dF92VXZ1UWZJYTl6c1lUZXRWT3hoZUtfZTlkTE5uS0NKVXN0WXU2UlZHSEFuRml4bUlSYXlYSWVnT2pQQjFTVlpzOFc1TmlqNV91NDNJU1FReXZNQkkwM0psNzBqMWp1Qi1iX1pPRlYxWldENXdjT1hKMHJtX3hudUx2czJ3V1JPNGxuSmVNN290ek5GSndNZ3pHOWxzaTBRV3diT0xmREVhMHlVMk1jQlMybnVicG5qVFI0ckxtNFZKN21LNVhpU2E1dHNqbWlIN0luQVZR?oc=5"
       }
     ]
   }
