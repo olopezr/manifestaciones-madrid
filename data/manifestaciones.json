@@ -309,6 +309,21 @@
     ]
   },
   {
+    "fecha": "2026-10-23",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Huelga de profesores en Madrid del 19 al 23 de octubre: calendario de protestas y manifestación desde Atocha el jueves 22",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Diario de Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZmxaQ2ZqTk1odWQzbmI1MXpYUTRENkxsSzVtWUN0cTM3VHlFQWlHNjB4V2JFeW9LdVBZdFpnMUZJSnh3YzhpMDB6Z1NWRHJzeDJlNk9lakV3a00tYUtOc0pLZzdXb09VY2JKS0VQUWVBSTJPUmV3XzNEb1lST3ZFR1FOMEdHUEJQNkpKcmNUS1BmMFFyTDFLM1ZGZkdVWVRqNERtWWNEY0RjVmpUMDVTeEtyci02Wl9aRUw5VWN2ZFRvRTl5bzYxemJfOFY1dDVmNmJCRFVueEo3ZE1mNEtCanU3UE7SAeoBQVVfeXFMTXlhT0FpUlVySnAxamh3Qy01WnBjWmtPWDVrVnM3bEZFM3NTdkFQOV9qVzNGRkRYNmxoNldzeWdTUGJORXFMcjhpNm9zX1Q4VWFJZFhCOHpURVE1SU54clJ4THNfQXlzMGF5S1IwZzVGZWVhUGREM1BheGRnNk1KcV9lLXF0MVI5Wi1oa054dlhtVkxSSEhUZVM5eFEtVjVwdVNxU05leWZvZkVXUDdhR2tqeDZVWW9jdVBkRGw2cFdObk1MbmtPdjQ3RlduS3QtcjJUbUhIelFURVZfWXJ3b1pDbTJzOWhvcGZn?oc=5",
+    "id": "2026-10-23-atocha"
+  },
+  {
     "id": "2026-10-28-tractorada",
     "convocantes": "Asaja, COAG y Unión de Uniones",
     "estado": "por-confirmar",
