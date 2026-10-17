@@ -313,6 +313,10 @@
       {
         "fuente": "El Diario de Madrid",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMkhZS0F6UWF2bXVELTEwSml3OWNYTzNXOEVUS2VaRm9icWpUV215c1pVVi1ZN3lEUXdTXzdvSDJTLXctRVhvOFRLTHlDTHlScmdSTEhXYjBXUmdYaVJ1RUUwcEdCSHVOdW55WlpDeDdYNi1YT1hoQkN5dVBseE1rb0s2RWlwZmdET2N0enV1NXRjZHhwbTdUTUUwRnVUajJIM2hwcXF6UXlBQXR1a3FFS1pQdm93VnhEV2p6Qk5IUnlpcndneElqSHZLa1MwTGEzUGptX0lwdk5zd085aVVmTGs4bzbSAeoBQVVfeXFMTmZvTllYOU81bW02WXpLeDQxeEtFaVgxYUxBeGtMN0Rxa1BLeE5ERlRIU0ZGRXBpdE9OV3BReFVvMVN6TWxhWmpuMTZRZnRPbXVWMk5aRlFTNlhhd3BlUDUxMnFUNkxUVldzYXZvVnlCNGRLa3JLUGRXZzJWOHQtT1Z6NUdQMHFwYmpoVHExV0JzcDkwSUd6TTdKckVSWjNONGhJTVl5NXpSWXl5eGRiZTNzdnpTWEwydi1fVTZhY3VNNHZFMlJ1dlZ1NERMVXJIRzdzNFVuRTVxcXd5bVJLZFdSV29zcHpTY3NB?oc=5"
+      },
+      {
+        "fuente": "Gacetín Madrid",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeHJ4WDJsalV6WDRNXzk1Qi1Ob3NVS0JXQkk5dHQ5U0gxZEFPM2dwSWhuMmxxeTRoNDZTV05nWS1LWTl2Y3I1M1R4SUFNWVpPR01yOUYtU0NPR2N2MElkME9DZjBSbkdGa1ZxcGpQemFCa3k3QmxEcTNQNGhpS0FKd216SnJDYzNHYWtFLUpyZjlCeU5Va2R0cW1idHBDZk1t?oc=5"
       }
     ]
   },
@@ -398,7 +402,7 @@
   },
   {
     "fecha": "2026-11-11",
-    "hora": null,
+    "hora": "19:00",
     "horaFin": null,
     "lugar": "Puerta del Sol",
     "recorrido": "Puerta del Sol → Congreso",
@@ -409,7 +413,8 @@
     "estado": "por-confirmar",
     "fuente": "eldiario.es Madrid",
     "fuenteUrl": "https://www.eldiario.es/madrid/somos/protesta-sol-empieza-hablar-desacampada-no-pone-fecha-salida_1_13587779.html",
-    "id": "2026-11-11-puerta-del-sol"
+    "id": "2026-11-11-puerta-del-sol",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-11-21",
