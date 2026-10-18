@@ -321,6 +321,21 @@
     ]
   },
   {
+    "fecha": "2026-10-18",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Callao",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "PACMA convoca para hoy en Callao una concentración para incluir a los perros de caza en la Ley de Bienestar Animal",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Noroeste Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcXhoV3p4RkhHZXpYNmdVLVlaRjZjcWowUVRsd0VnaEhOYXdEcDZ5VXI0a3g2N2g3R2twbDFKUW1MY05kb3ItUHV2Y1YwZE9MOGNiS3oyU3NpRFI2UnNMQWZLMzRsaGNvU1kwTGJlNEhEaDg5eDFGZUItekVmNVlVYW5iTjVhR2h2X2RSd0RnZ0Z5VVFrb3NySDhMaVpmVzE4OW9WMFI0dF8tZWlhcW9WS2ZRQmN1NUYyV01RbWFibkpKakVOX004dGpSUV81c0Q4WmxEMl9BTjlhVUtLRDlNWm1rVnpuNEYzU2c?oc=5",
+    "id": "2026-10-18-callao"
+  },
+  {
     "fecha": "2026-10-22",
     "hora": null,
     "horaFin": null,
