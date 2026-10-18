@@ -336,6 +336,21 @@
     "id": "2026-10-18-callao"
   },
   {
+    "fecha": "2026-10-19",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Moncloa",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Huelga indefinida de educación en Madrid: la segunda semana arranca el lunes 19 de octubre",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "MONCLOA.COM",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObm9kX3UwODZ3bmFGWWVTSHNGUENZdnBYVzRqa0VST0dqaXFwNEt0ZjZtRjhPYmQwZXZCZ1V0NC1TeFlyV0Rmdl9yY3B4UVVCSmlPUjRoNmtuYzhsTXRWTG10QVBHblRudjV4ZEs5aTU5OU1tNHNtTTQxVDQ1ZTZFQkZnQ1kxcU9FTUE?oc=5",
+    "id": "2026-10-19-moncloa"
+  },
+  {
     "fecha": "2026-10-22",
     "hora": null,
     "horaFin": null,
@@ -364,6 +379,21 @@
     "fuente": "El Diario de Madrid",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZmxaQ2ZqTk1odWQzbmI1MXpYUTRENkxsSzVtWUN0cTM3VHlFQWlHNjB4V2JFeW9LdVBZdFpnMUZJSnh3YzhpMDB6Z1NWRHJzeDJlNk9lakV3a00tYUtOc0pLZzdXb09VY2JKS0VQUWVBSTJPUmV3XzNEb1lST3ZFR1FOMEdHUEJQNkpKcmNUS1BmMFFyTDFLM1ZGZkdVWVRqNERtWWNEY0RjVmpUMDVTeEtyci02Wl9aRUw5VWN2ZFRvRTl5bzYxemJfOFY1dDVmNmJCRFVueEo3ZE1mNEtCanU3UE7SAeoBQVVfeXFMTXlhT0FpUlVySnAxamh3Qy01WnBjWmtPWDVrVnM3bEZFM3NTdkFQOV9qVzNGRkRYNmxoNldzeWdTUGJORXFMcjhpNm9zX1Q4VWFJZFhCOHpURVE1SU54clJ4THNfQXlzMGF5S1IwZzVGZWVhUGREM1BheGRnNk1KcV9lLXF0MVI5Wi1oa054dlhtVkxSSEhUZVM5eFEtVjVwdVNxU05leWZvZkVXUDdhR2tqeDZVWW9jdVBkRGw2cFdObk1MbmtPdjQ3RlduS3QtcjJUbUhIelFURVZfWXJ3b1pDbTJzOWhvcGZn?oc=5",
     "id": "2026-10-23-atocha"
+  },
+  {
+    "fecha": "2026-10-24",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Cerca de 200 pensionistas vascos participarán en la manifestación del sábado en Madrid para exigir pensiones dignas",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Europa Press",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVUgtb2gwMzZ5cWpkMjZzbE1WTTkzb2VneXlxS1JBYlhVR1NnS0dmdGVXVXM3YUU0VVhvR1hUVEF5azRuR2Y5Qk93NXZhczZnRXIzeXpCWjVHMGRoUldxSFhHUHZMeUdtM3Zva3lwT3IyZGZrNHpJTkx0R2tBZW9jM3JMVkxReWdkZmFxdGlmX2VyQUtYaEo0cmJvQ3lWck5QdmRLQnBvRUpobWgwMFNUSVUzVkg2ODNxdEM0dk1RbDhYNU5wX3h2aTZ3dnozT2M4dm1ZMVdMUjdudTViYXJ2OWpQWlNFaUZYREcwZmx3?oc=5",
+    "id": "2026-10-24-madrid-lugar-por-concretar"
   },
   {
     "id": "2026-10-28-tractorada",
