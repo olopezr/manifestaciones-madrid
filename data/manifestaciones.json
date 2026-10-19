@@ -363,7 +363,8 @@
     "estado": "por-confirmar",
     "fuente": "20minutos Madrid",
     "fuenteUrl": "https://www.20minutos.es/madrid/tercera-jornada-huelga-mantiene-movilizacion-los-profesores-prepara-segunda-manifestacion-entre-atocha-sol_7049645_0.html",
-    "id": "2026-10-22-atocha"
+    "id": "2026-10-22-atocha",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-10-23",
