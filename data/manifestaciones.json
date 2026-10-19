@@ -352,10 +352,10 @@
   },
   {
     "fecha": "2026-10-19",
-    "hora": null,
+    "hora": "12:30",
     "horaFin": null,
     "lugar": "Moncloa",
-    "recorrido": null,
+    "recorrido": "Puerta del Sol → Vallecas → Moncloa",
     "tipo": "Huelga / movilización",
     "titulo": "Huelga indefinida de educación en Madrid: la segunda semana arranca el lunes 19 de octubre",
     "motivo": null,
@@ -363,7 +363,28 @@
     "estado": "por-confirmar",
     "fuente": "MONCLOA.COM",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObm9kX3UwODZ3bmFGWWVTSHNGUENZdnBYVzRqa0VST0dqaXFwNEt0ZjZtRjhPYmQwZXZCZ1V0NC1TeFlyV0Rmdl9yY3B4UVVCSmlPUjRoNmtuYzhsTXRWTG10QVBHblRudjV4ZEs5aTU5OU1tNHNtTTQxVDQ1ZTZFQkZnQ1kxcU9FTUE?oc=5",
-    "id": "2026-10-19-moncloa"
+    "id": "2026-10-19-moncloa",
+    "otrasFuentes": [
+      {
+        "fuente": "ABC Madrid",
+        "url": "https://www.abc.es/espana/madrid/madrid-alienta-protestas-callejeras-seguimiento-huelga-educativa-20261019150833-nt.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-10-19",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Cargas policiales y pelotas de goma al aire durante la concentración por la Educación en un acto de Ayuso",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Infobae España",
+    "fuenteUrl": "https://www.infobae.com/espana/2026/10/19/cargas-policiales-y-pelotas-de-goma-al-aire-durante-la-concentracion-por-la-educacion-en-un-acto-de-ayuso/",
+    "id": "2026-10-19-madrid-lugar-por-concretar"
   },
   {
     "fecha": "2026-10-22",
