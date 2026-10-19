@@ -337,6 +337,21 @@
   },
   {
     "fecha": "2026-10-19",
+    "hora": "12:00",
+    "horaFin": null,
+    "lugar": "Alcalá, 32",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Alcalá, 32",
+    "motivo": "Desvíos de EMT (12:00): líneas 002, 3, 5, 9, 15, 20, 46, 51, 52, 53 y 150",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/19_10_2026-desvio-lineas-emt-concentracion-alcala-32/?lang=es",
+    "id": "2026-10-19-alcala-32"
+  },
+  {
+    "fecha": "2026-10-19",
     "hora": null,
     "horaFin": null,
     "lugar": "Moncloa",
@@ -364,7 +379,12 @@
     "fuente": "20minutos Madrid",
     "fuenteUrl": "https://www.20minutos.es/madrid/tercera-jornada-huelga-mantiene-movilizacion-los-profesores-prepara-segunda-manifestacion-entre-atocha-sol_7049645_0.html",
     "id": "2026-10-22-atocha",
-    "otrasFuentes": []
+    "otrasFuentes": [
+      {
+        "fuente": "20Minutos",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbWpBbHZhOFZna2l0OWw3MmpiTkxjOC15dWRCbXdNUjFjUlNUYXBCZWh4S3ZQMVphREM1c2VzNHNFZnB0WWx1WEZQR3R0SVJTSWRPRzhEVXh5NTUzR2s2bl9nVHhiVXF2ZDAwb1FxMi1JQ3JaV0pxR05kMFlkc1VXOE9lVHFRWHh3dkI0UWxVMnpDNHowNldxdHJkMWpsb1RSRmRrWFU4M3hFSGJsMTE5NlJTb0czclV6WkVvZDVQRlp5cFI5QkVTVTBKRVdlN1FCTEVCaUw2dnhBN0NLWnlTOWtPeDVXeWJCY0RaczhKZWlZV3pX?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-10-23",
