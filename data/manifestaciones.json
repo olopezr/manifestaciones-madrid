@@ -387,6 +387,21 @@
     "id": "2026-10-19-madrid-lugar-por-concretar"
   },
   {
+    "fecha": "2026-10-20",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Calle Alcalá",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "El seguimiento de los profesores se desgasta en la quinta jornada de huelga y marcharán de Delegación a Alcalá contra las cargas",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20minutos Madrid",
+    "fuenteUrl": "https://www.20minutos.es/madrid/seguimiento-los-profesores-se-desgasta-quinta-jornada-huelga-marcharan-desde-delegacion-alcala-contra-las-cargas_7051022_0.html",
+    "id": "2026-10-20-calle-alcala"
+  },
+  {
     "fecha": "2026-10-22",
     "hora": null,
     "horaFin": null,
@@ -438,6 +453,21 @@
     "id": "2026-10-24-madrid-lugar-por-concretar"
   },
   {
+    "fecha": "2026-10-26",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Vallecas",
+    "recorrido": "Vallecas → Puerta del Sol",
+    "tipo": "Manifestación",
+    "titulo": "Policías exigen la dimisión al delegado del Gobierno por dejarles «vendidos» en las protestas en Madrid: «No da órdenes»",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "ABC Madrid",
+    "fuenteUrl": "https://www.abc.es/espana/madrid/policias-exigen-dimision-delegado-gobierno-dejarles-vendidos-20261020102947-nt.html",
+    "id": "2026-10-26-vallecas"
+  },
+  {
     "id": "2026-10-28-tractorada",
     "convocantes": "Asaja, COAG y Unión de Uniones",
     "estado": "por-confirmar",
@@ -468,6 +498,10 @@
       {
         "fuente": "Guía del Ocio",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRmJzNHBYVUhZWG1UNmJFd2NTSFJILWVhMmVSdXN2V3EtZTZ5Z0R5RGhjM29xRE9ISjk2bUtxZUtiaGMzNzFWLWtUM25POERCSlJfWTFkeWlUV21PMFl4ZnIyV0VmQmdXMDVzeV9XX05BbkVsWkRpNA?oc=5"
+      },
+      {
+        "fuente": "Revista Frisona Española",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWDZYdFNET0IxRVM0NURoXzVxdmVpTzhWM3I0QjNxdWc4VzltVDQ1ajUxT1RuczYyWEQxQmd6WDhjcE5ENDdFemJZa3AzajQ5d2VNQ0pjLUF6Q2M3NnBjbU5QVmpyUkNCaTQ1bTNWeTllYmtham9OYzd3ejl3ZldGdWdNdGpaUnlSTk1hTHQ5NFhkaV8tZHZxS0JYU1VTVXItSXZ6RWtMMzVESS1VdjVKcDBxbm43ZVFVU2IyUHpwXy14dHlGcUVpTURSOFM5a2dBQ0ZObklWR19BWTA4WXE2elR6elVJNlN3ckkzS3pSOA?oc=5"
       }
     ]
   },
@@ -541,6 +575,10 @@
       {
         "fuente": "SIMPA",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSVd2OS1QRTd0QXFLTDZCcW16V0N0dF92VXZ1UWZJYTl6c1lUZXRWT3hoZUtfZTlkTE5uS0NKVXN0WXU2UlZHSEFuRml4bUlSYXlYSWVnT2pQQjFTVlpzOFc1TmlqNV91NDNJU1FReXZNQkkwM0psNzBqMWp1Qi1iX1pPRlYxWldENXdjT1hKMHJtX3hudUx2czJ3V1JPNGxuSmVNN290ek5GSndNZ3pHOWxzaTBRV3diT0xmREVhMHlVMk1jQlMybnVicG5qVFI0ckxtNFZKN21LNVhpU2E1dHNqbWlIN0luQVZR?oc=5"
+      },
+      {
+        "fuente": "Diario Estrategia",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd0FXVkxmeWYxbU1fZWMzWVE1NU94ZjJ6Z2NSdlNlTEZGSXZqQ2dsS2dzSnE0VExoQ19PS0duX0phcW9icWl2b29wOVVCQWg3djhWcWFXdjhpMWthQnlZYWc0U1d6OFc3VTcyLVlGcDBuSzhhOXI4Q1BfS2FEYWlQcHA1RTZPNEVrS1ZuUVNESWdUbnhIN1JTVWMzdlNydGozY3VhN0FYV1o2ZEptNEI0QnhHTERMZ0M5MDdiYzZzWXBLa0lBallwbUtaVnNJTnppMHdnbmRzM09LZE9EOTVyVmZ5Yw?oc=5"
       }
     ]
   }
