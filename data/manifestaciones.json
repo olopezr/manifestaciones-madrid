@@ -442,6 +442,42 @@
     ]
   },
   {
+    "fecha": "2026-10-22",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "en Gran Vía",
+    "recorrido": "en Gran Vía → Jacometrezo",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación en Gran Vía - Jacometrezo",
+    "motivo": "Desvíos de EMT: líneas 001, 002, 1, 2, 3, 44, 46, 74, 75, 133, 146, 147 y 148",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/21_10_2026-desvio-lineas-emt-manifestacion-en-gran-via-jacometrezo/?lang=es",
+    "id": "2026-10-22-en-gran-via"
+  },
+  {
+    "fecha": "2026-10-22",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "La huelga indefinida de profesores en Madrid arranca la semana con una protesta frente a la Consejería y prevén otra marcha el jueves",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20Minutos",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbWpBbHZhOFZna2l0OWw3MmpiTkxjOC15dWRCbXdNUjFjUlNUYXBCZWh4S3ZQMVphREM1c2VzNHNFZnB0WWx1WEZQR3R0SVJTSWRPRzhEVXh5NTUzR2s2bl9nVHhiVXF2ZDAwb1FxMi1JQ3JaV0pxR05kMFlkc1VXOE9lVHFRWHh3dkI0UWxVMnpDNHowNldxdHJkMWpsb1RSRmRrWFU4M3hFSGJsMTE5NlJTb0czclV6WkVvZDVQRlp5cFI5QkVTVTBKRVdlN1FCTEVCaUw2dnhBN0NLWnlTOWtPeDVXeWJCY0RaczhKZWlZV3pX?oc=5",
+    "id": "2026-10-22-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcnliTk5SV29rV2R3QVRzck1ObGdjNnFGdE04NzV5VnpLZ20xYWkzRmVQYnd4UHZZMzFyam9fMGJ2VmZId2dIQ29tUHFtMHk2WldTWEhabTlwaEdTb1ZqNDgtX0tJT19RajNtcFE3cXNiZllEVk5sZEg1Z2J1SWxkbUl5NzZoV1QyWXdmaHBTR21lWnBCcmpaQXE5UVU0dHI3MG14Mk5SNEpVMXVwcHdZLW1UejJfSzZIdi12M1FtZTg2Q2NWWGRKSXV1eFctZ9IB0wFBVV95cUxQSGp5TnZzM0M4WUpqU0JLYk1WckRCWmdmU3lrbWNKN0Z3cjZzY1pxSjVzZTVVVUtqc3duRndkV2FNN1FZT0VMWHBvcmNWVHZaRHNKd3hHS0Y5Z3BYVlo4VEpTeXM4NEZNTWt6Y3RraUJSNWRmcDlQWGVxMmppeDc5Z3BqUFdmMGhIMWl0OHFlNTU0YjBFTjVKLWpfOVY4bzZ5U0dGcDNJTEkxMWN3WENSUGtKcTlNRGY4ZXJhVGI1U29rNFdEWDktRDVrNVVQQkVPS3FN?oc=5"
+      }
+    ]
+  },
+  {
     "fecha": "2026-10-23",
     "hora": null,
     "horaFin": null,
@@ -469,7 +505,13 @@
     "estado": "por-confirmar",
     "fuente": "Europa Press",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVUgtb2gwMzZ5cWpkMjZzbE1WTTkzb2VneXlxS1JBYlhVR1NnS0dmdGVXVXM3YUU0VVhvR1hUVEF5azRuR2Y5Qk93NXZhczZnRXIzeXpCWjVHMGRoUldxSFhHUHZMeUdtM3Zva3lwT3IyZGZrNHpJTkx0R2tBZW9jM3JMVkxReWdkZmFxdGlmX2VyQUtYaEo0cmJvQ3lWck5QdmRLQnBvRUpobWgwMFNUSVUzVkg2ODNxdEM0dk1RbDhYNU5wX3h2aTZ3dnozT2M4dm1ZMVdMUjdudTViYXJ2OWpQWlNFaUZYREcwZmx3?oc=5",
-    "id": "2026-10-24-madrid-lugar-por-concretar"
+    "id": "2026-10-24-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "Tercera Información",
+        "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQMGNTSzA2Q3RwSzIzY0t6eDI2bUpXajhYdEtIT0lDNWNCbFFrSmJjV2g1ZnNTZV8wOVFycF9zVzdTZ2JpYmdrTmU2aThuZWhTM2NMTXMwck5kSE9GWVdPZVNNR1JsLWZJV2U0cmFiYktxTmF0ZjRZUU5FM29na2tCaXZ0bTM4eVI0M1Q3cnFhUHpDa0xjX2VrVGNUaW41b3pyWHNfSkNwdnJOM2FfMDVYaUVadzQzNkY0OWJsR0toVVgySVlrRFFFbVBHTi1RZU9MU2pIWGV1TlBnbUZ5S2VVNmNCeEpkRHlaWXp6ZmFvSFdXeDlvaVNpOFZiRHRuSnJUcHYybTJrYUhJcUhBZGVmX2cyYVhXXzhCLXM1VTM1M0V1M0c2VlU0a2trWmZCZWpjaGtDZFFZTnBpT1diM05oWTRUOGt2QlFpRTFyaGFGOXZLMnB6R3hrTnNucmlqemZEdzVGX2xxbW14cHBsQ19WdUF6eWVoZTNY?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-10-26",
@@ -521,6 +563,18 @@
       {
         "fuente": "Revista Frisona Española",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWDZYdFNET0IxRVM0NURoXzVxdmVpTzhWM3I0QjNxdWc4VzltVDQ1ajUxT1RuczYyWEQxQmd6WDhjcE5ENDdFemJZa3AzajQ5d2VNQ0pjLUF6Q2M3NnBjbU5QVmpyUkNCaTQ1bTNWeTllYmtham9OYzd3ejl3ZldGdWdNdGpaUnlSTk1hTHQ5NFhkaV8tZHZxS0JYU1VTVXItSXZ6RWtMMzVESS1VdjVKcDBxbm43ZVFVU2IyUHpwXy14dHlGcUVpTURSOFM5a2dBQ0ZObklWR19BWTA4WXE2elR6elVJNlN3ckkzS3pSOA?oc=5"
+      },
+      {
+        "fuente": "ASAJA-Sevilla",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS3BLekdvNTllUzl0MzREcUtTUmVRSnZhWndTQ1VCa1dXYTltUWRKOUktWng3X0VHMnYwR3VwZTRubzRuMnhDUExLejNyM1M0X2RMMUJiUjVCRkV4QVQ2dGpLTDk4dDljaHpiXzYxdDJRTVRNV1ZpY21ySGszLXJRYnVjVjFwenkwVlluM084NHgtaVY0Sl9sNHpub1BlaWZYUi14S1BFYzM2UQ?oc=5"
+      },
+      {
+        "fuente": "Europa Press",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOczVhMUM2MHk0bm00djc3RWVCRU9LQkNqR3JtSktYZV9HQzVuRHlqNE9IYTh0bzVWcXJfVWMtdTlRTGtkX1Y4Zkx3NzNEUzdwZUV6X1FmdEJPbmhpbE9pZzF0ZXhUNG9yZTVXT3N6TXdRWHVsd3d1c29IM2dkcDBMeFYyaURteThZMGN1SWlTdHBQeFpiVmdsV2pSWmUtQ0tGN2V4Njlma2NiUUNRSjkwT2hFZWNIQ29aSWI0SmNUeGhVVDF3d3d6b2RhTFJCYVNfNEFUQXFtZ2U4MDBseGZPbF8wZ25vTVFPampOeQ?oc=5"
+      },
+      {
+        "fuente": "Vegabaja Digital",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcno5XzRONTJILWYyWGc0bmxBREFNajVMcjhBS2RRNDcwRk9FZDhKdDViNEZ0YjUwSWJoYks0ak1pY05nbVFmZF9RTi1Oc3BIOXlFYzVOekRhbE80MzhDajVXUnFkelNXSl93S2trWlg1TnJWNjM2UHVyTzNnUUEyaGhWREtRRDF6aXBiNVZDV1RxMHZidDV4V2doNXA1eHlOTWdjdXZsX1BpYWhJUFJzMEE5U0hiampkMnQ4UA?oc=5"
       }
     ]
   },
@@ -539,6 +593,21 @@
     "recorrido": "Jornadas de huelga convocadas; sin lugar ni hora publicados en Madrid",
     "tipo": "Posible movilización",
     "titulo": "Huelga universitaria (4 y 5 de noviembre)"
+  },
+  {
+    "fecha": "2026-11-08",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "El sector agrario riojano respalda la tractorada nacional de Madrid pero convoca otra protesta regional para el 8 de noviembre",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Agroinformacion",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQS1RaNXZORUxKLWxMUlJXOFFDMlJtSWZydDdZYkhaU0tCYjVTSGNKWDExbTBPVWc1ZDRhd3JTdWg1b19fdWJsZE9mdVZJd0MzNkJ4TVZZT2g0Yncyc0JTWFJpcV9RM3hSamx2UzYxUDRLbTNUOE9lYk9QNGhRZUIwNDNzNGFmZVV5MjdqTFhtWnM5VnRIVHV2Mi1vQjMzQlJqSDFweUdpSDhacnJnaVBGRVZHSVlHX1BjLTkxUjlJcXB6UGZVa2JHdlg4U0lDTVUxV1VLZHUwUlRKQ1FDN2NRYW5GQ1Vnb0xFd0dF?oc=5",
+    "id": "2026-11-08-madrid-lugar-por-concretar"
   },
   {
     "fecha": "2026-11-11",
