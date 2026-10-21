@@ -402,6 +402,21 @@
     "id": "2026-10-20-calle-alcala"
   },
   {
+    "fecha": "2026-10-21",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "La huelga de profesores en Madrid continúa hoy con nuevas manifestaciones y posibles cambios en las clases",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Madridinforma",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd1dPQXVUNEs0aVFZTllXd2g3NU11WkdyY052Zl9pa094b1Fpc2Y0dXMwQkJET1lwRjR6Qmh0TXY4LWx1UXpQOGF1c2dNZFhQaUt2LTF0alNMY0NjdFRGMHBXQmNsX2w4anphbVpFM2RWcmdvWDFnVkVydkd4Wjgxc3NsUXJqTWY4emxKVkQ3bWRBUlY1clhiZlVpNWpzWWVVRXp2UkhtdlRFckZmc0RiQVZ5VGw1dEFXUmMwbkN4ZTQwcU43aTJtMVJ3ajk?oc=5",
+    "id": "2026-10-21-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-10-22",
     "hora": null,
     "horaFin": null,
@@ -419,6 +434,10 @@
       {
         "fuente": "20Minutos",
         "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbWpBbHZhOFZna2l0OWw3MmpiTkxjOC15dWRCbXdNUjFjUlNUYXBCZWh4S3ZQMVphREM1c2VzNHNFZnB0WWx1WEZQR3R0SVJTSWRPRzhEVXh5NTUzR2s2bl9nVHhiVXF2ZDAwb1FxMi1JQ3JaV0pxR05kMFlkc1VXOE9lVHFRWHh3dkI0UWxVMnpDNHowNldxdHJkMWpsb1RSRmRrWFU4M3hFSGJsMTE5NlJTb0czclV6WkVvZDVQRlp5cFI5QkVTVTBKRVdlN1FCTEVCaUw2dnhBN0NLWnlTOWtPeDVXeWJCY0RaczhKZWlZV3pX?oc=5"
+      },
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSGp5TnZzM0M4WUpqU0JLYk1WckRCWmdmU3lrbWNKN0Z3cjZzY1pxSjVzZTVVVUtqc3duRndkV2FNN1FZT0VMWHBvcmNWVHZaRHNKd3hHS0Y5Z3BYVlo4VEpTeXM4NEZNTWt6Y3RraUJSNWRmcDlQWGVxMmppeDc5Z3BqUFdmMGhIMWl0OHFlNTU0YjBFTjVKLWpfOVY4bzZ5U0dGcDNJTEkxMWN3WENSUGtKcTlNRGY4ZXJhVGI1U29rNFdEWDktRDVrNVVQQkVPS3FN0gHTAUFVX3lxTFBIanlOdnMzQzhZSmpTQktiTVZyREJaZ2ZTeWttY0o3RndyNnNjWnFKNXNlNVVVS2pzd25Gd2RXYU03UVlPRUxYcG9yY1ZUdlpEc0p3eEdLRjlncFhWWjhUSlN5czg0Rk1Na3pjdGtpQlI1ZGZwOVBYZXEyaml4NzlncGpQV2YwaEgxaXQ4cWU1NTRiMEVONUotal85VjhvNnlTR0ZwM0lMSTExY3dYQ1JQa0pxOU1EZjhlcmFUYjVTb2s0V0RYOS1ENWs1VVBCRU9LcU0?oc=5"
       }
     ]
   },
