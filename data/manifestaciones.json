@@ -499,6 +499,10 @@
       {
         "fuente": "El Confidencial",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUJnaDFVbWpSNHYwX1JCWEwxQ2ZsbV9mZ0FvV2MzNVdna1QzRjJmN0xHbGZ1WE5JOHJhbElrV2lOUkFremluaVBfYkxWMzF5YjUxWGdmaElzeWpmaVpsRzk5ZHpTbnVvYW04MlUtSFhkeW5sQkplZ19iYURoZDVjck45b0w5emtoMTZEeWljaXNFRG9oLUoyRWY0aU16UUZ4WXRURmNySktxanVCS2tkaTE1ckY1eVNPeWQ5TEtGeGNyX0xWaEJKZ19ZanN0MkdhZVkw?oc=5"
+      },
+      {
+        "fuente": "Europa Press Madrid",
+        "url": "https://www.europapress.es/internacional/noticia-macron-anuncia-prohibicion-manifestaciones-convocadas-legitimidad-toda-francia-20261022141546.html"
       }
     ]
   },
@@ -519,6 +523,21 @@
   },
   {
     "fecha": "2026-10-24",
+    "hora": "11:30",
+    "horaFin": "15:00",
+    "lugar": "Paseo del Prado",
+    "recorrido": "Paseo del Prado → Calle Sevilla",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Paseo del Prado - Calle Sevilla",
+    "motivo": "Desvíos de EMT (11:30–15:00): líneas 01, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 53, 74, 146, 150, C03, E1, M1 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/24_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado-c-sevilla/?lang=es",
+    "id": "2026-10-24-paseo-del-prado"
+  },
+  {
+    "fecha": "2026-10-24",
     "hora": null,
     "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
@@ -535,6 +554,14 @@
       {
         "fuente": "Tercera Información",
         "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQMGNTSzA2Q3RwSzIzY0t6eDI2bUpXajhYdEtIT0lDNWNCbFFrSmJjV2g1ZnNTZV8wOVFycF9zVzdTZ2JpYmdrTmU2aThuZWhTM2NMTXMwck5kSE9GWVdPZVNNR1JsLWZJV2U0cmFiYktxTmF0ZjRZUU5FM29na2tCaXZ0bTM4eVI0M1Q3cnFhUHpDa0xjX2VrVGNUaW41b3pyWHNfSkNwdnJOM2FfMDVYaUVadzQzNkY0OWJsR0toVVgySVlrRFFFbVBHTi1RZU9MU2pIWGV1TlBnbUZ5S2VVNmNCeEpkRHlaWXp6ZmFvSFdXeDlvaVNpOFZiRHRuSnJUcHYybTJrYUhJcUhBZGVmX2cyYVhXXzhCLXM1VTM1M0V1M0c2VlU0a2trWmZCZWpjaGtDZFFZTnBpT1diM05oWTRUOGt2QlFpRTFyaGFGOXZLMnB6R3hrTnNucmlqemZEdzVGX2xxbW14cHBsQ19WdUF6eWVoZTNY?oc=5"
+      },
+      {
+        "fuente": "El Tambor.es",
+        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPNFlKYnNFM3JHOERYakpxRDZOX2hNcUJzZjJjTDRsXzYzTVVONDhvUG9EMURYVVRManlCSGw5NVplWVM4Rmt2UUhlazdsOUVrTG9hdGx4TXpYTTZSaUpCRXFhbGgzQmJsaWM2Rl9RS0pFZFpRMlRlVXdnRXdZYUJlUzdqSDlWaFN3UUdnWGFQQkQ2UnR6U2N3RjUzd1dyd24xVE02UGpqZlJwb1E2ZDRmUm9xdjFUSEhsMHAxaHlaTS1OTWMtQUY3bGp0T0tRNWlJM3pnQ0ZHY2k0TXluLWZUYlZ2b2VrdnJrNm9KYmZnZDlsbUtSaFRiT3BobnRVQzExTmdiR2tJOHV3T0llaU5tUzB6SlpLTTNFb2hLTmM0LWNxLUUwd3N0VkpYWXZIOE53UWpYck15cGNjSzFqM0JIMWRWLUI?oc=5"
+      },
+      {
+        "fuente": "Europa Press Madrid",
+        "url": "https://www.europapress.es/internacional/noticia-prohibidas-todas-manifestaciones-convocadas-lyon-sabado-disturbios-fin-semana-anterior-20261022134251.html"
       }
     ]
   },
@@ -604,6 +631,10 @@
       {
         "fuente": "Agronews Castilla y León",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0tyUXJBZS1nbVVtdEJpU2kwZS1Sczc3ZzRSUnVzdVVBYjdhd3JLRXRjY3dPa2pabWp6VklUVWxvM1A0ajRkT1NDeEhQb1dQSnVuZ3RfWEQ0ZVU1eUFIRzUwQ2o1ak9ENEFMdkNhbXJBUFA5X3dzeFZpUVNDblB6anFiblNOSmE0dVFOVGgzQS0yMm00RkdHODl1c3cxUQ?oc=5"
+      },
+      {
+        "fuente": "Salamanca24horas",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ2lhQ0tvb2E0MTliNzh4NnhUdHBjVDZsQ1cxTUxGR2Jlc3JmOEVxVkhsdzg2dDB5d01iQzVCWWppVmJvd3NaaTN3LWNtMllRbkNGZm9EbV9LS0EtZVBvcW5IMFFhY1VoRkVrQ0c0ZlN4cGNnUG5oT1IyTEU4WWFHNlN1WDJWb2E5YWFGRXVEY3VlZTVKbFVRaXJiVHZTU1IzRGtSWmdWYjhOZGRnYU5Oeno4YzlnSFFvYmpnb2RsQQ?oc=5"
       }
     ]
   },
