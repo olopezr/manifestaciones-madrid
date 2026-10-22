@@ -418,6 +418,21 @@
   },
   {
     "fecha": "2026-10-22",
+    "hora": "17:30",
+    "horaFin": "21:00",
+    "lugar": "Calle Alcalá",
+    "recorrido": "Calle Alcalá → Paseo del Prado",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Calle Alcalá - Paseo del Prado",
+    "motivo": "Desvíos de EMT (17:30–21:00): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, C03, E1, M1 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/22_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-calcal%C3%A1-p%C2%BA-del-prado/?lang=es",
+    "id": "2026-10-22-calle-alcala"
+  },
+  {
+    "fecha": "2026-10-22",
     "hora": null,
     "horaFin": null,
     "lugar": "Atocha",
@@ -454,7 +469,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/21_10_2026-desvio-lineas-emt-manifestacion-en-gran-via-jacometrezo/?lang=es",
-    "id": "2026-10-22-en-gran-via"
+    "id": "2026-10-22-en-gran-via",
+    "otrasFuentes": [
+      {
+        "fuente": "Madridinforma",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbW52Y1ZwZG5zN3lrcXBQblVlNFEzc3JlcS1uUUVFdmFDeUlpWFV5ekgwS0NJR0NSVFNjQ3RZWHpBSGR6UjI1UldURU1OWUQ3TkkzbVNESmNySHZaWDNfX1RnRExyZEp0TFJ3OFB5V3o0cUo4NklVYUczZzg3U3RjQTlmQzF6M0MtYVBMY0tSYkxWOWFJWnI1ZUNyRHkwMjhtTFkxYklPVVBvRXQwS3J3ZzVpRVY?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-10-22",
@@ -474,6 +495,10 @@
       {
         "fuente": "El Diario de Madrid",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcnliTk5SV29rV2R3QVRzck1ObGdjNnFGdE04NzV5VnpLZ20xYWkzRmVQYnd4UHZZMzFyam9fMGJ2VmZId2dIQ29tUHFtMHk2WldTWEhabTlwaEdTb1ZqNDgtX0tJT19RajNtcFE3cXNiZllEVk5sZEg1Z2J1SWxkbUl5NzZoV1QyWXdmaHBTR21lWnBCcmpaQXE5UVU0dHI3MG14Mk5SNEpVMXVwcHdZLW1UejJfSzZIdi12M1FtZTg2Q2NWWGRKSXV1eFctZ9IB0wFBVV95cUxQSGp5TnZzM0M4WUpqU0JLYk1WckRCWmdmU3lrbWNKN0Z3cjZzY1pxSjVzZTVVVUtqc3duRndkV2FNN1FZT0VMWHBvcmNWVHZaRHNKd3hHS0Y5Z3BYVlo4VEpTeXM4NEZNTWt6Y3RraUJSNWRmcDlQWGVxMmppeDc5Z3BqUFdmMGhIMWl0OHFlNTU0YjBFTjVKLWpfOVY4bzZ5U0dGcDNJTEkxMWN3WENSUGtKcTlNRGY4ZXJhVGI1U29rNFdEWDktRDVrNVVQQkVPS3FN?oc=5"
+      },
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLUJnaDFVbWpSNHYwX1JCWEwxQ2ZsbV9mZ0FvV2MzNVdna1QzRjJmN0xHbGZ1WE5JOHJhbElrV2lOUkFremluaVBfYkxWMzF5YjUxWGdmaElzeWpmaVpsRzk5ZHpTbnVvYW04MlUtSFhkeW5sQkplZ19iYURoZDVjck45b0w5emtoMTZEeWljaXNFRG9oLUoyRWY0aU16UUZ4WXRURmNySktxanVCS2tkaTE1ckY1eVNPeWQ5TEtGeGNyX0xWaEJKZ19ZanN0MkdhZVkw?oc=5"
       }
     ]
   },
