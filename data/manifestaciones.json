@@ -570,6 +570,21 @@
     ]
   },
   {
+    "fecha": "2026-10-25",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Las claves de la manifestación de este domingo en Madrid por Ceuta: «Necesitamos sentir el calor de España»",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Debate",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS2o1M0NYUVFpWjJOaHUyeTNkRVdLVm5QajRXTThIQ0pKNlBFdGQ4SGVBU3RnYUpCYklsWVU0ZG81NFJrekJmOVVMRU52V0ZQenFHaGZETVlxeFduXzlDYU5IRXl2V0tvYWhGRnF5Q2d6ay00ZHByQ1lxLXpvUDFRZzV4dXFKWFpsNjNMalg5UlJVZTg3OGNwNUpMZVN2cW4xSU16V1ZZTnV4Q3NNZFRoVmVlS1RpYjZsVGxfTHU1R0xjWUYzXzVDNWduN3llMEtp0gHQAUFVX3lxTE1LajUzQ1hRUWlaMk5odTJ5M2RFV0tWblBqNFdNOEhDSko2UEV0ZDhIZUFTdGdhSkJiSWxZVTRkbzU0Umt6QmY5VUxFTnZXRlB6cUdoZkRNWXF4V25fOUNhTkhFeXZXS29haEZGcXlDZ3prLTRkcHJDWXEtem9QMVFnNXh1cUpYWmw2M0xqWDlSUlVlODc4Y3A1SkxlU3ZxbjFJTXpXVllOdXhDc01kVGhWZWVLVGliNmxUbF9MdTVHTGNZRjNfNUM1Z243eWUwS2k?oc=5",
+    "id": "2026-10-25-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-10-26",
     "hora": null,
     "horaFin": null,
