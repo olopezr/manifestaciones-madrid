@@ -538,6 +538,21 @@
   },
   {
     "fecha": "2026-10-24",
+    "hora": "17:30",
+    "horaFin": "20:30",
+    "lugar": "pl. de España",
+    "recorrido": "pl. de España → pl. Cibeles",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación pl. de España - pl. Cibeles",
+    "motivo": "Desvíos de EMT (17:30–20:30): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 25, 27, 34, 37, 39, 44, 45, 46, 51, 53, 74, 75, 133, 138, 146, 147, 148, 150, 158, C03, E1, C1, C2, SE6 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/24_10_2026-desvio-lineas-emt-manifestacion-pl-de-espana-pl-cibeles/?lang=es",
+    "id": "2026-10-24-pl-de-espana"
+  },
+  {
+    "fecha": "2026-10-24",
     "hora": null,
     "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
