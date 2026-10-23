@@ -571,6 +571,21 @@
   },
   {
     "fecha": "2026-10-25",
+    "hora": "11:00",
+    "horaFin": "15:00",
+    "lugar": "Prado-Cánovas del Castillo",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Prado-Cánovas del Castillo",
+    "motivo": "Desvíos de EMT (11:00–15:00): líneas 001, 10, 14, 27, 34, 37, 45, 203, C03 y E1",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/25_10_2026-desvio-lineas-emt-manifestacion-prado-canovas-del-castillo/?lang=es",
+    "id": "2026-10-25-prado-canovas-del-castillo"
+  },
+  {
+    "fecha": "2026-10-25",
     "hora": null,
     "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
@@ -582,7 +597,8 @@
     "estado": "por-confirmar",
     "fuente": "El Debate",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS2o1M0NYUVFpWjJOaHUyeTNkRVdLVm5QajRXTThIQ0pKNlBFdGQ4SGVBU3RnYUpCYklsWVU0ZG81NFJrekJmOVVMRU52V0ZQenFHaGZETVlxeFduXzlDYU5IRXl2V0tvYWhGRnF5Q2d6ay00ZHByQ1lxLXpvUDFRZzV4dXFKWFpsNjNMalg5UlJVZTg3OGNwNUpMZVN2cW4xSU16V1ZZTnV4Q3NNZFRoVmVlS1RpYjZsVGxfTHU1R0xjWUYzXzVDNWduN3llMEtp0gHQAUFVX3lxTE1LajUzQ1hRUWlaMk5odTJ5M2RFV0tWblBqNFdNOEhDSko2UEV0ZDhIZUFTdGdhSkJiSWxZVTRkbzU0Umt6QmY5VUxFTnZXRlB6cUdoZkRNWXF4V25fOUNhTkhFeXZXS29haEZGcXlDZ3prLTRkcHJDWXEtem9QMVFnNXh1cUpYWmw2M0xqWDlSUlVlODc4Y3A1SkxlU3ZxbjFJTXpXVllOdXhDc01kVGhWZWVLVGliNmxUbF9MdTVHTGNZRjNfNUM1Z243eWUwS2k?oc=5",
-    "id": "2026-10-25-madrid-lugar-por-concretar"
+    "id": "2026-10-25-madrid-lugar-por-concretar",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-10-26",
@@ -654,6 +670,10 @@
       {
         "fuente": "Salamanca24horas",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ2lhQ0tvb2E0MTliNzh4NnhUdHBjVDZsQ1cxTUxGR2Jlc3JmOEVxVkhsdzg2dDB5d01iQzVCWWppVmJvd3NaaTN3LWNtMllRbkNGZm9EbV9LS0EtZVBvcW5IMFFhY1VoRkVrQ0c0ZlN4cGNnUG5oT1IyTEU4WWFHNlN1WDJWb2E5YWFGRXVEY3VlZTVKbFVRaXJiVHZTU1IzRGtSWmdWYjhOZGRnYU5Oeno4YzlnSFFvYmpnb2RsQQ?oc=5"
+      },
+      {
+        "fuente": "SoriaNoticias",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSkhSOXFzaDU2TEp5b0s4OU9jZnFlck5VNGViMS1QVWtxS2lpa21OZ2t3NmVucVV6cC0wc1g4S2FLWGIyZ3JmTWZSYkttWXlVOHdhZWlRMG1VbEk5ejdhU2VUSXl4SXdQUE9zMkc4cEFNQzJtV3NfZThJTEFqSTZGcnpESV95NzVhOXVxcmpPSVlJZ0RKRW1xczUzbWRWNnA2NWhDdEM0Rm5qR1JldkxrbzBnakNFRzE0Z3JQUTBOVDdibm5RWEFxTw?oc=5"
       }
     ]
   },
