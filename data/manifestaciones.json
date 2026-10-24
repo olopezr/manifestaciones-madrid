@@ -637,6 +637,21 @@
     ]
   },
   {
+    "fecha": "2026-10-25",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Congreso",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Ceuta se planta en Madrid: la protesta del domingo llevará sus reivindicaciones hasta el Congreso",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Ceuta TV",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUkRmaDRFa2ZVTTlvSVZCd0R5eFhuV29KeTBEUDJ0eWdKWmlfS3RJbHJmOUwyb0xYYnA4UmJhMDlRN3dUb2ZYamowRHNVM1NCTjBGNk9saUhTdUg4Ykl3a2ZRbFpxaEtvZnhyRkNPWXplZUpTREc2ck11cHVMMmpmR3J2cFd1ZkpHRm5Hb1pvdUtBR0YyY2E0VDNfWFBFb3MwdXViYklURzVXOE5YSmFJNEYxbDZPNklzc0F1c0ZhM0ZvWEFObUJURE9mXzFlT1FFUXJOU9IB2gFBVV95cUxNTFNYWEktd3pxWDAyOUxZem5wOXVnTndpNGtTS0wxSjR2NHpzS3B2VzBoYmJ3NXZtMXJiT3Z5NHBrdm5mOU9pc1h5ZzJ5SXlyUFNLUTV1N0JKN1ZGSXFDb1ZhbzQtMzlxdU44YkQycjdBeDVKbnJuVF9sUUhGc3p5U0I5cTNZYU1rdUJHQ1RzWHI5VWJnSXZlNDQycllQWmVWX2h6XzFoY1d0N2JIUFdtY1c5a29QTDlxa1RXd1BxUENQM015YjdJd3ZQMTJkcTk5VTRXYkxFdFU5dw?oc=5",
+    "id": "2026-10-25-congreso"
+  },
+  {
     "fecha": "2026-10-26",
     "hora": null,
     "horaFin": null,
