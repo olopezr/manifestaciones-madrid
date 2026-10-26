@@ -668,7 +668,13 @@
     "estado": "por-confirmar",
     "fuente": "ABC Madrid",
     "fuenteUrl": "https://www.abc.es/espana/madrid/policias-exigen-dimision-delegado-gobierno-dejarles-vendidos-20261020102947-nt.html",
-    "id": "2026-10-26-vallecas"
+    "id": "2026-10-26-vallecas",
+    "otrasFuentes": [
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSDBBVXpCU1UxcjBDSVRjWm5Uem9SRHdGcE14SFZEUU1mb1VnTnROM3hpLTRabEZMWTFsMnI2cE5admJDbS1hRl9FeWxUUms4SHdiRVYzcVdMMmJlSmkyemlRcU9VNlYyNHREMjd3clRza0E1ODFvT0htems0alRMcjBFY0lnaFR2dlVkOThaTXdDWXVyRDgtRW5OM0FKOHNBa1pCTlg3YVRwRWl3RW9objJRQzM5X3hiX1BDWnBKVVFfMU5rMkprUUxpLWpxTjhp?oc=5"
+      }
+    ]
   },
   {
     "id": "2026-10-28-tractorada",
@@ -737,6 +743,10 @@
       {
         "fuente": "Demócrata",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQei1MNXFBLXpkVFdmOV9aNkhqcXVfbFJzUjNFVDNYRm1KdU9qLWpkZkw1bG9XYm1RYnVmM0NfZGsxMnFMWEhoSkZZbU5ta3llZFNnRHVLYlp1OWw4RXREVmVIUDB2YmJ6Mkx6RnFCNFd0cjZCdk4zUWJGRVZUUlYwRm13RGxJWUtRUk9oNmRfMnliRTBRVnhENkl3TzkxcW1qa2ZfcU1yeWhRVFJBY0xsNWtlenVIZ3hIczM0czJhVzBIVVdKODd2WTBOck42QWdscjA1SkpOWdIB3AFBVV95cUxOc0NkWVl4Yms5REwyOHJ5WExtS1piQkxHR0hzVTVGN0dWMVJVRjlHUHZLODBubmpWV1VrVjVpWHI1cV9HaS1WS0ZMVDRTV1BCQ05GWWEyU3lYYVo1SUM5YkUyZy1YYVRmQVFKMFV3VWVfY1RseDIzU1p1TjYtRGlOVWhiUEY4Qnc4QVVSUk9mb05IM0VqUnpZa29xc2VZOWZMZTl2dVlGRTlYVDVxUWlFRndPX3p6UldaRnlXR2g2X3N5NW5vc291Q21nMHlNaU52a2pvX1J5b3djRFpZ?oc=5"
+      },
+      {
+        "fuente": "Diario Público",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU9UdExLRmVFQ1YxM25JV0l0TnNlTTJod2JwNWlFa2Zyd3hZR011SThsSldCblp0NGtWek1qOW9HUTEwQW1uYVY1cGtyWHZTSEhIVUMxd2VMVEk3akVuX1JaUDA5V1NYTTA4bTYzcXpRVzkzRlpQR3BUZXA5RWQ2U09hQXNuRk56S3Voc3VfQW1yNFlwN08zNjRoR2RXZXBaWUVONDdfQUhDaXdydGNHdG5UX2ZwYXRaR3RqUGFrSFJlSFRK0gHKAUFVX3lxTE84Z2tfTmlFaWZrNEpFVzVUR0N3T3ZQS2FseHhQeHlaamtyRmRVWjFVM0ViRlJqR2RqNUl6UHFMcVJHbzBhVUtNc01kNUJheVVmTUVnZ3Z4bXh6S1lySy1FMzM5U0dJVXpLY2xjUHYtTVV3UmJzVEFDV0E2ZmpiQ1lQSFBiTEx5REp5YkhwWWV4aUs5WFFqd3U5NWNwR1ExZjh4dDJDdHlPV3ZnRk1jcS0yYS14RXVtUXozdG5Ba3VsWllIZkVkYWt4aEE?oc=5"
       }
     ]
   },
