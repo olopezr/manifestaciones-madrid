@@ -677,6 +677,31 @@
     ]
   },
   {
+    "fecha": "2026-10-28",
+    "hora": "11:00",
+    "horaFin": null,
+    "lugar": "Colón",
+    "recorrido": "Colón → Atocha",
+    "tipo": "Convocatoria",
+    "titulo": "Tractorada en Madrid este miércoles de Colón a Atocha - El Imparcial",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Imparcial - Diario liberal e independiente",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHFlMHlJMWNRZ01Vb0JiTVFpVlRBeWR3VGNSX1FXdGhLakxZNlZmQTdvSVVBeEdBaThYcy1CakV6bWF1MWNIU3A2OTVqSkpJQUVrUWxfS0JSQ0VkR2hneFZyX0FUMWtKcTZobVJLZ2NqTWRqbWNVcUpSMzNzWlNlZzRBM3hCRUVWaS0zWHc3c2JxbUo0ckIzcHlralVuaHUxN0FEZk9pSU1laUdtSFE?oc=5",
+    "id": "2026-10-28-colon",
+    "otrasFuentes": [
+      {
+        "fuente": "Bing Noticias",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1227878514287be0bc78caa0ff87c&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fotras%2flos-cortes-de-tr%25C3%25A1fico-previstos-este-mi%25C3%25A9rcoles-por-la-tractorada-que-recorrer%25C3%25A1-madrid-a-trav%25C3%25A9s-de-cinco-columnas%2far-AA2gb4Qk&c=10593130668951417983&mkt=es-us"
+      },
+      {
+        "fuente": "eldiario.es Madrid",
+        "url": "https://www.eldiario.es/madrid/somos/cortes-trafico-previstos-miercoles-tractorada-recorrera-madrid-traves-cinco-columnas_1_13619397.html"
+      }
+    ]
+  },
+  {
     "id": "2026-10-28-tractorada",
     "convocantes": "Asaja, COAG y Unión de Uniones",
     "estado": "por-confirmar",
@@ -766,22 +791,6 @@
     "fecha": "2026-10-28",
     "hora": null,
     "horaFin": null,
-    "lugar": "Colón",
-    "recorrido": "Colón → Atocha",
-    "tipo": "Convocatoria",
-    "titulo": "Tractorada en Madrid este miércoles de Colón a Atocha - El Imparcial",
-    "motivo": null,
-    "convocantes": null,
-    "estado": "por-confirmar",
-    "fuente": "El Imparcial - Diario liberal e independiente",
-    "fuenteUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHFlMHlJMWNRZ01Vb0JiTVFpVlRBeWR3VGNSX1FXdGhLakxZNlZmQTdvSVVBeEdBaThYcy1CakV6bWF1MWNIU3A2OTVqSkpJQUVrUWxfS0JSQ0VkR2hneFZyX0FUMWtKcTZobVJLZ2NqTWRqbWNVcUpSMzNzWlNlZzRBM3hCRUVWaS0zWHc3c2JxbUo0ckIzcHlralVuaHUxN0FEZk9pSU1laUdtSFE?oc=5",
-    "id": "2026-10-28-colon",
-    "otrasFuentes": []
-  },
-  {
-    "fecha": "2026-10-28",
-    "hora": null,
-    "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
     "recorrido": null,
     "tipo": "Convocatoria",
@@ -820,6 +829,26 @@
       {
         "fuente": "Guía del Ocio",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRmJzNHBYVUhZWG1UNmJFd2NTSFJILWVhMmVSdXN2V3EtZTZ5Z0R5RGhjM29xRE9ISjk2bUtxZUtiaGMzNzFWLWtUM25POERCSlJfWTFkeWlUV21PMFl4ZnIyV0VmQmdXMDVzeV9XX05BbkVsWkRpNA?oc=5"
+      },
+      {
+        "fuente": "El Mundo",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15QWxiemFPZ1JUUzdmWWIwY2o3Z0syb0RmendiVzYyVmZRMkxZVU1sSDV1Tkw2SXhGSUI5VjF2NWx3ZmN5VE0tV28yQ1R5ajRyVTNtUzhDYzl6R0NpWWZhdkd6WmFScmNNcFFoeDJIbU5GcGVfMm9j0gF3QVVfeXFMTkh1MnFQLTV1MmMzN1kzWVY4NFZHQWZHTnFaVG9ib196TW1ac0VyTTJ3QWVhUDZsc3hxVmpzWWlUWFFyQjNpRzlLb2RkcVBEdXlCR2xBa2twa1FMMXhpZzFSSEVYVzkyUGFrQllubno0cC1GU3ZaWEk?oc=5"
+      },
+      {
+        "fuente": "elDiario.es",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRXY1RmVyeHpyYXpmSXpGQ1JIZ2plS3FHZ0NCaEVwY2t2Yy1sWnJ5c2p1OFRJSjVlLW1NaG1HaUxrRV9ueWEtUlBaaWxFRVlDS0lQWHV5a25pQUdnYUhjaE1IRmFIS0xJLTVRWHMyM2dwbG1BdjVWcW9zSGJuRW5GemlpS1hrVDc3a29NU2VEVTBuaG9xcVFNdDZPLTZXM25GV2M2blJGZE5fcmhfekU2aVpuVWtnb3psY1l1WkEzVkhVQkxoNkRhVk83Q0VMakVxRUVn0gHYAUFVX3lxTFBaMW1tcVVmd2VvMTFja0cwU1p2M1hIRHl1Zk84VW9xWkIyRVFXVnpQSkExbmREZWk5ZExZOVlRMVF1V0ZLck1aSmhpb2VURmVoLUFDRXNndFlyalk1aUpsekIxak81VFY2ckNEUnMyN1ppa3VCbnlOdGFvVUxlOFRDdjVob181cWNYZTF1VVVWeVVVRndPNnpwOVR1akNqdFJqekdTZFgyb2RSSjQyUVZRQnl2Q2d3RGJsRHhVVjBXcmp3UEdvTWphMFZ1U1JnS0lSTk45Y3dpag?oc=5"
+      },
+      {
+        "fuente": "SoriaNoticias",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSkhSOXFzaDU2TEp5b0s4OU9jZnFlck5VNGViMS1QVWtxS2lpa21OZ2t3NmVucVV6cC0wc1g4S2FLWGIyZ3JmTWZSYkttWXlVOHdhZWlRMG1VbEk5ejdhU2VUSXl4SXdQUE9zMkc4cEFNQzJtV3NfZThJTEFqSTZGcnpESV95NzVhOXVxcmpPSVlJZ0RKRW1xczUzbWRWNnA2NWhDdEM0Rm5qR1JldkxrbzBnakNFRzE0Z3JQUTBOVDdibm5RWEFxTw?oc=5"
+      },
+      {
+        "fuente": "Madridiario",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdU5yY0taLVpwNEtWQTFfLXI4ZThFMWFEV2t5ZW5pU1VTVlVSMXc0SXJDU1dsV2YwSkNOSlpQMjRuNm5hVkR5dWZaZ0pQU1d2bG11QW1tcmZFT1haVV9QN1dQUE1Qa3VadFRHaUF0VHUyYmFSWG9KZlFpSzFWVVd1V2NycG5kMGE2N2M4RXM0cDBkUGxMRTVHMVQ3cE5oYkpEcTJodjIyRFB2Rkxi?oc=5"
+      },
+      {
+        "fuente": "Servimedia",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2tZcW1YRWc5MTI3NUFfcUhCMEl4N25lV185NDBvc2g2RFFKd2ZoNFhidTNBYkp1eUhjQVpVVU10RmNNam1ZYlVudHI3MTdIMFJPLVVUci1Bd1dXLVQ1TTg1RXFiZFFQZ21zYjUwVVlrQjF0UF9oVDRSZm9pUlhPNnVqakVfcms2Q3RaT2hrazcxQlJBZHREcjhJdHQ0MmJhSDM2by03cDJ3WUZ3bHpPS0Y2TEc?oc=5"
       }
     ]
   },
