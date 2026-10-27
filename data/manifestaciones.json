@@ -763,6 +763,46 @@
     ]
   },
   {
+    "fecha": "2026-10-28",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Colón",
+    "recorrido": "Colón → Atocha",
+    "tipo": "Convocatoria",
+    "titulo": "Tractorada en Madrid este miércoles de Colón a Atocha - El Imparcial",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Imparcial - Diario liberal e independiente",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHFlMHlJMWNRZ01Vb0JiTVFpVlRBeWR3VGNSX1FXdGhLakxZNlZmQTdvSVVBeEdBaThYcy1CakV6bWF1MWNIU3A2OTVqSkpJQUVrUWxfS0JSQ0VkR2hneFZyX0FUMWtKcTZobVJLZ2NqTWRqbWNVcUpSMzNzWlNlZzRBM3hCRUVWaS0zWHc3c2JxbUo0ckIzcHlralVuaHUxN0FEZk9pSU1laUdtSFE?oc=5",
+    "id": "2026-10-28-colon"
+  },
+  {
+    "fecha": "2026-10-28",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Los agricultores salen este miércoles con una tractorada por Madrid para pedir medidas inmediatas por el encarecimiento de costes",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20Minutos",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcGtQZEJ2Uk1LcjA4OVVqaWpFeXBGVXFiamRHSmNIWUZweUhSbmZDMUFUbjZzS0tHWHgxTWRKaGI1SEc3N3EtRVp1d21Zdk84V0M1eEN6RkJKUWtzaUJOWUp2dC1lc09tZGd5bVlvdnB0OEo1RVZUWXdzbmxZbC1FNHVma2ZHSkRnYjZKek1DaGlxVjJTX200NVlZd0lPMGY5dWEydS1vdUNqSEFPOWhKTkZHWERnUDZyRVQwMmExN1pKM1pSdEpGaEI5ZzhuZ1ZBTDhYUVhtaXFnZXdybzZHUtIB5gFBVV95cUxPLVd6cHcxemRMY3R4Qk8xQ2xmQVVOVlBEUVVsblp2ZnpndGYtZFdWZjNUQTNoX2Q0NTRQaDBRdUl4M3VUU1lMQnpVZ3NfdGNHV3lDY2V5NjdOYV8xaXF4TTVlYWFFVWJEM1lqUnlvYzItY2NmaktDSjlkeThkcEdGbWJtcVduS3I0V2xRS2V5c05pLVNoR19xejNSUDV3a0JaeVpwQ3VubGxnWE1kcnpRbVdYLWp5aFJQSm9nd0piRDRHRGxWZFFSTXdHR2kxMk9JVUZtc1FKZVJ6YTdaUjVISldIRDJmZw?oc=5",
+    "id": "2026-10-28-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "La Bandera",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmMtLTFEMTFrcmRheVcyMTgwX2VfOGNRN2Nqc3JISUJVaWhMb0oxazFuNm00WXVNNU1ndTgxNksyWWVfUDlVZ3Y1b29PX2J2UFBZRm9LZlFxSVBkamJfaU54VkRQQlp1aGFjdzgwanlUNWhfMGJZTFg2ekd4REk5TDFISmpwSk1qMUNxMzVzNjZ5dFRMZUt1aEt3bi1ucDhybWZGZFRSdjNOUQ?oc=5"
+      },
+      {
+        "fuente": "Diario Público",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU9UdExLRmVFQ1YxM25JV0l0TnNlTTJod2JwNWlFa2Zyd3hZR011SThsSldCblp0NGtWek1qOW9HUTEwQW1uYVY1cGtyWHZTSEhIVUMxd2VMVEk3akVuX1JaUDA5V1NYTTA4bTYzcXpRVzkzRlpQR3BUZXA5RWQ2U09hQXNuRk56S3Voc3VfQW1yNFlwN08zNjRoR2RXZXBaWUVONDdfQUhDaXdydGNHdG5UX2ZwYXRaR3RqUGFrSFJlSFRK0gHKAUFVX3lxTE84Z2tfTmlFaWZrNEpFVzVUR0N3T3ZQS2FseHhQeHlaamtyRmRVWjFVM0ViRlJqR2RqNUl6UHFMcVJHbzBhVUtNc01kNUJheVVmTUVnZ3Z4bXh6S1lySy1FMzM5U0dJVXpLY2xjUHYtTVV3UmJzVEFDV0E2ZmpiQ1lQSFBiTEx5REp5YkhwWWV4aUs5WFFqd3U5NWNwR1ExZjh4dDJDdHlPV3ZnRk1jcS0yYS14RXVtUXozdG5Ba3VsWllIZkVkYWt4aEE?oc=5"
+      }
+    ]
+  },
+  {
     "fecha": "2026-10-31",
     "hora": "18:00",
     "horaFin": null,
