@@ -775,7 +775,8 @@
     "estado": "por-confirmar",
     "fuente": "El Imparcial - Diario liberal e independiente",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHFlMHlJMWNRZ01Vb0JiTVFpVlRBeWR3VGNSX1FXdGhLakxZNlZmQTdvSVVBeEdBaThYcy1CakV6bWF1MWNIU3A2OTVqSkpJQUVrUWxfS0JSQ0VkR2hneFZyX0FUMWtKcTZobVJLZ2NqTWRqbWNVcUpSMzNzWlNlZzRBM3hCRUVWaS0zWHc3c2JxbUo0ckIzcHlralVuaHUxN0FEZk9pSU1laUdtSFE?oc=5",
-    "id": "2026-10-28-colon"
+    "id": "2026-10-28-colon",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-10-28",
@@ -799,6 +800,26 @@
       {
         "fuente": "Diario Público",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU9UdExLRmVFQ1YxM25JV0l0TnNlTTJod2JwNWlFa2Zyd3hZR011SThsSldCblp0NGtWek1qOW9HUTEwQW1uYVY1cGtyWHZTSEhIVUMxd2VMVEk3akVuX1JaUDA5V1NYTTA4bTYzcXpRVzkzRlpQR3BUZXA5RWQ2U09hQXNuRk56S3Voc3VfQW1yNFlwN08zNjRoR2RXZXBaWUVONDdfQUhDaXdydGNHdG5UX2ZwYXRaR3RqUGFrSFJlSFRK0gHKAUFVX3lxTE84Z2tfTmlFaWZrNEpFVzVUR0N3T3ZQS2FseHhQeHlaamtyRmRVWjFVM0ViRlJqR2RqNUl6UHFMcVJHbzBhVUtNc01kNUJheVVmTUVnZ3Z4bXh6S1lySy1FMzM5U0dJVXpLY2xjUHYtTVV3UmJzVEFDV0E2ZmpiQ1lQSFBiTEx5REp5YkhwWWV4aUs5WFFqd3U5NWNwR1ExZjh4dDJDdHlPV3ZnRk1jcS0yYS14RXVtUXozdG5Ba3VsWllIZkVkYWt4aEE?oc=5"
+      },
+      {
+        "fuente": "Libertad Digital",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVjQwRnFQWDB5bW5Xd25SZlRSejZDZEFEc0dENXJzRlRrVkIwUjhRR0FaVkdEZ1J4RDNKOUp6TDdXUFc2RElhYWFCeENWSnRtZWxYT0sxMzllcXQ1dkNTNW9uQzRhZlhudDE5Njc1dm1fZ1Yta0diSm1iMWVxbExtdEVaOFA2bVhLNjk1c3RTQ2xfRi12YXFfXzVJOUFxQTAzT2VMNHBnd0FEVllSVFM0bmFWLW5JSi1YQkdkMl9FMl9oQmd0cURTZUtLQVZZb1Zw?oc=5"
+      },
+      {
+        "fuente": "Demócrata",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQei1MNXFBLXpkVFdmOV9aNkhqcXVfbFJzUjNFVDNYRm1KdU9qLWpkZkw1bG9XYm1RYnVmM0NfZGsxMnFMWEhoSkZZbU5ta3llZFNnRHVLYlp1OWw4RXREVmVIUDB2YmJ6Mkx6RnFCNFd0cjZCdk4zUWJGRVZUUlYwRm13RGxJWUtRUk9oNmRfMnliRTBRVnhENkl3TzkxcW1qa2ZfcU1yeWhRVFJBY0xsNWtlenVIZ3hIczM0czJhVzBIVVdKODd2WTBOck42QWdscjA1SkpOWdIB3AFBVV95cUxOc0NkWVl4Yms5REwyOHJ5WExtS1piQkxHR0hzVTVGN0dWMVJVRjlHUHZLODBubmpWV1VrVjVpWHI1cV9HaS1WS0ZMVDRTV1BCQ05GWWEyU3lYYVo1SUM5YkUyZy1YYVRmQVFKMFV3VWVfY1RseDIzU1p1TjYtRGlOVWhiUEY4Qnc4QVVSUk9mb05IM0VqUnpZa29xc2VZOWZMZTl2dVlGRTlYVDVxUWlFRndPX3p6UldaRnlXR2g2X3N5NW5vc291Q21nMHlNaU52a2pvX1J5b3djRFpZ?oc=5"
+      },
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWEctTGtXOE9jNFRWdVFfNmxrYkZOR3M0bjVYbEtaUG9rUWZzaWpRWFhIRXV1d0tfTmFKcVVoV1RKSkV4YVFLcHhzVWNOaFBPRWxYMURZWGR6Z2w0S2J5bFd5RUJEV216QWRJLUVzeW1TeWhIczFzUEJaU183OFBaV0ZyNEotRzFRZEhkWlAxOXN0a1Z0eklKNVlyclpnNVVkWUZJd2lyLTMtWGFmODZ4UFl2cktKbElMelNrYldSU1RoOWE4MWdqbzAwU1lWM2lMbWVZSTdDemUxN0Fz0gHiAUFVX3lxTE1TTkZnZ2tHalFhWkN6QkdLNXN2ck96QWhBd1BoaVU4akZsUktNVGdJX19LalFfdE1xeWN1MjdPdjNkcEw2YzlSbExmV3M4WGFXUmNZMFRCbmoyeHllb1FVWU9XRmQ2OXV3andiSUhoaUxIQmRjS0dJRk13empzWDB1bXpOOGN6Nk9VZ0xyWGZRVXpyeUhNcGV1d2dobUM5T0o5X2ZxaWJZajRleS1uV29pZDZKbkN4b3pNLThPZzdfYjlLdENINjJwT1NDN2tEdlBqdTl6SnRiNWVQSE44MFdEcmc?oc=5"
+      },
+      {
+        "fuente": "Madrid Secreto",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTI1dkc2LWJxNnpsRFlEN3o0d25nUHNhV3lKUmNYZ3BJZnAzMlpZTWRETmctYjFqVURZNERndlZBTU9fY0otWlZFY09tZnkwV3A3VXpzcm1NdkVnRUNIV3JoREo3VHhEOENMaHdvWU9ZU3pfamlxNjR0YjhKeThqcmd4SWRyZG5UaGZpbGVVRQ?oc=5"
+      },
+      {
+        "fuente": "Guía del Ocio",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRmJzNHBYVUhZWG1UNmJFd2NTSFJILWVhMmVSdXN2V3EtZTZ5Z0R5RGhjM29xRE9ISjk2bUtxZUtiaGMzNzFWLWtUM25POERCSlJfWTFkeWlUV21PMFl4ZnIyV0VmQmdXMDVzeV9XX05BbkVsWkRpNA?oc=5"
       }
     ]
   },
@@ -815,7 +836,13 @@
     "estado": "por-confirmar",
     "fuente": "El Mundo Madrid",
     "fuenteUrl": "https://www.elmundo.es/madrid/2026/10/26/6adf5212fdddff53378b45ab.html",
-    "id": "2026-10-31-plaza-de-espana"
+    "id": "2026-10-31-plaza-de-espana",
+    "otrasFuentes": [
+      {
+        "fuente": "El Debate",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ05QN19PNWZiWnktRFViSHFrUTFTc252dEhvVEdGcjJ4X25Wd3A3cHc1bEhaTjJSVldBeTk3TkV0OW5tbnZNOWpNVTVZZEFoaHRrNXFLd1JSLVVGbDdjclBPa0xWZDRiSTBSRWRCckd4OHJLaWprWFl1OFItVUJoaGROb3JPdXItS0Q2X1BhcFFrY0RLYzdNcXNvUlVtNzVmdmFlSGQzZ3ZzR3NiTzgxUHd1dnNzaUlwdjhDbDBNT0FqQW42ZDN1YktTTdIB0AFBVV95cUxPV0VuTnNHU2Zkb2V0eDI0dFMzdkc3U2VNYWdhYmszWGRXc0xTd091OWJyV3JLV0pNWDM2eFlycWYzek5BWEJOTmdvdGNxTlJVZlZIbmE0MnZwWTROT1phOGpvY2F0NzhDX0VBU19vR0pRNy1YSHR1d0tDYnBqR1JNOTcwVjRTNzgtNEZpVng0WC1OemwwREhaTGRnRlNKOG9ndnl1LVhBRE1rXy1IdG9OUGdCd2x5c3g0ekpTajNfZUFvb3Y1U0tNVkYteUFHTkhp?oc=5"
+      }
+    ]
   },
   {
     "id": "2026-11-04-huelga-universitaria",
@@ -908,5 +935,20 @@
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd0FXVkxmeWYxbU1fZWMzWVE1NU94ZjJ6Z2NSdlNlTEZGSXZqQ2dsS2dzSnE0VExoQ19PS0duX0phcW9icWl2b29wOVVCQWg3djhWcWFXdjhpMWthQnlZYWc0U1d6OFc3VTcyLVlGcDBuSzhhOXI4Q1BfS2FEYWlQcHA1RTZPNEVrS1ZuUVNESWdUbnhIN1JTVWMzdlNydGozY3VhN0FYV1o2ZEptNEI0QnhHTERMZ0M5MDdiYzZzWXBLa0lBallwbUtaVnNJTnppMHdnbmRzM09LZE9EOTVyVmZ5Yw?oc=5"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-29",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Puerta del Sol",
+    "recorrido": "Puerta del Sol → Moncloa",
+    "tipo": "Huelga / movilización",
+    "titulo": "Pilar Trinidad es nombrada nueva delegada del Gobierno en Madrid antes de un noviembre lleno de protestas",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/pilar-trinidad-nombrada-nueva-delegada-gobierno-madrid-noviembre-lleno-protestas_1_13618552.html",
+    "id": "2026-11-29-puerta-del-sol"
   }
 ]
