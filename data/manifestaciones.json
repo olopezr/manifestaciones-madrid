@@ -944,6 +944,51 @@
     "id": "2026-10-28-puerta-del-sol"
   },
   {
+    "fecha": "2026-10-28",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Congreso",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Elecciones generales España 29-N, en directo | La Policía carga contra manifestantes en la protesta organizada por Falange frente al Ministe",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Infobae España",
+    "fuenteUrl": "https://www.infobae.com/espana/2026/10/28/elecciones-generales-espana-29-n-en-directo-ultima-hora-de-los-sondeos-la-ley-de-nietos-y-la-precampana/",
+    "id": "2026-10-28-congreso"
+  },
+  {
+    "fecha": "2026-10-29",
+    "hora": "08:53",
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Puente reconoce un fallo del sistema de seguridad y una «inexplicable» reanudación de la marcha, pero rechaza dimitir",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "ABC Madrid",
+    "fuenteUrl": "https://www.abc.es/espana/madrid/puente-reconoce-fallo-sistema-seguridad-inexplicable-reanudacion-20261028152138-nt.html",
+    "id": "2026-10-29-atocha"
+  },
+  {
+    "fecha": "2026-10-29",
+    "hora": "12:30",
+    "horaFin": "14:00",
+    "lugar": "Calle Alcalá 35",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Calle Alcalá 35",
+    "motivo": "Desvíos de EMT (12:30–14:00): líneas 002, 3, 5, 9, 15, 20, 46, 51, 52, 53 y 150",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/28_10_2026-desvio-lineas-emt-concentracion-c-alcala-35/?lang=es",
+    "id": "2026-10-29-calle-alcala-35"
+  },
+  {
     "fecha": "2026-10-29",
     "hora": "17:30",
     "horaFin": "21:00",
@@ -956,7 +1001,8 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/28_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado-sevilla/?lang=es",
-    "id": "2026-10-29-p-del-prado-sevilla"
+    "id": "2026-10-29-p-del-prado-sevilla",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-10-31",
