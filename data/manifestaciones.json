@@ -694,6 +694,111 @@
       {
         "fuente": "El Mundo Madrid",
         "url": "https://www.elmundo.es/como/2026/10/27/6ae0c8d4fdddff0b088b459d.html"
+      },
+      {
+        "fuente": "ABC Madrid",
+        "url": "https://www.abc.es/espana/madrid/calles-afectadas-tractorada-madrid-hoy-horarios-cortes-20261028091509-nt.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-10-28",
+    "hora": "08:30",
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Los agricultores salen este miércoles con una tractorada por Madrid para pedir medidas inmediatas por el encarecimiento de costes",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20Minutos",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcGtQZEJ2Uk1LcjA4OVVqaWpFeXBGVXFiamRHSmNIWUZweUhSbmZDMUFUbjZzS0tHWHgxTWRKaGI1SEc3N3EtRVp1d21Zdk84V0M1eEN6RkJKUWtzaUJOWUp2dC1lc09tZGd5bVlvdnB0OEo1RVZUWXdzbmxZbC1FNHVma2ZHSkRnYjZKek1DaGlxVjJTX200NVlZd0lPMGY5dWEydS1vdUNqSEFPOWhKTkZHWERnUDZyRVQwMmExN1pKM1pSdEpGaEI5ZzhuZ1ZBTDhYUVhtaXFnZXdybzZHUtIB5gFBVV95cUxPLVd6cHcxemRMY3R4Qk8xQ2xmQVVOVlBEUVVsblp2ZnpndGYtZFdWZjNUQTNoX2Q0NTRQaDBRdUl4M3VUU1lMQnpVZ3NfdGNHV3lDY2V5NjdOYV8xaXF4TTVlYWFFVWJEM1lqUnlvYzItY2NmaktDSjlkeThkcEdGbWJtcVduS3I0V2xRS2V5c05pLVNoR19xejNSUDV3a0JaeVpwQ3VubGxnWE1kcnpRbVdYLWp5aFJQSm9nd0piRDRHRGxWZFFSTXdHR2kxMk9JVUZtc1FKZVJ6YTdaUjVISldIRDJmZw?oc=5",
+    "id": "2026-10-28-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "La Bandera",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmMtLTFEMTFrcmRheVcyMTgwX2VfOGNRN2Nqc3JISUJVaWhMb0oxazFuNm00WXVNNU1ndTgxNksyWWVfUDlVZ3Y1b29PX2J2UFBZRm9LZlFxSVBkamJfaU54VkRQQlp1aGFjdzgwanlUNWhfMGJZTFg2ekd4REk5TDFISmpwSk1qMUNxMzVzNjZ5dFRMZUt1aEt3bi1ucDhybWZGZFRSdjNOUQ?oc=5"
+      },
+      {
+        "fuente": "Diario Público",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU9UdExLRmVFQ1YxM25JV0l0TnNlTTJod2JwNWlFa2Zyd3hZR011SThsSldCblp0NGtWek1qOW9HUTEwQW1uYVY1cGtyWHZTSEhIVUMxd2VMVEk3akVuX1JaUDA5V1NYTTA4bTYzcXpRVzkzRlpQR3BUZXA5RWQ2U09hQXNuRk56S3Voc3VfQW1yNFlwN08zNjRoR2RXZXBaWUVONDdfQUhDaXdydGNHdG5UX2ZwYXRaR3RqUGFrSFJlSFRK0gHKAUFVX3lxTE84Z2tfTmlFaWZrNEpFVzVUR0N3T3ZQS2FseHhQeHlaamtyRmRVWjFVM0ViRlJqR2RqNUl6UHFMcVJHbzBhVUtNc01kNUJheVVmTUVnZ3Z4bXh6S1lySy1FMzM5U0dJVXpLY2xjUHYtTVV3UmJzVEFDV0E2ZmpiQ1lQSFBiTEx5REp5YkhwWWV4aUs5WFFqd3U5NWNwR1ExZjh4dDJDdHlPV3ZnRk1jcS0yYS14RXVtUXozdG5Ba3VsWllIZkVkYWt4aEE?oc=5"
+      },
+      {
+        "fuente": "Libertad Digital",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVjQwRnFQWDB5bW5Xd25SZlRSejZDZEFEc0dENXJzRlRrVkIwUjhRR0FaVkdEZ1J4RDNKOUp6TDdXUFc2RElhYWFCeENWSnRtZWxYT0sxMzllcXQ1dkNTNW9uQzRhZlhudDE5Njc1dm1fZ1Yta0diSm1iMWVxbExtdEVaOFA2bVhLNjk1c3RTQ2xfRi12YXFfXzVJOUFxQTAzT2VMNHBnd0FEVllSVFM0bmFWLW5JSi1YQkdkMl9FMl9oQmd0cURTZUtLQVZZb1Zw?oc=5"
+      },
+      {
+        "fuente": "Demócrata",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQei1MNXFBLXpkVFdmOV9aNkhqcXVfbFJzUjNFVDNYRm1KdU9qLWpkZkw1bG9XYm1RYnVmM0NfZGsxMnFMWEhoSkZZbU5ta3llZFNnRHVLYlp1OWw4RXREVmVIUDB2YmJ6Mkx6RnFCNFd0cjZCdk4zUWJGRVZUUlYwRm13RGxJWUtRUk9oNmRfMnliRTBRVnhENkl3TzkxcW1qa2ZfcU1yeWhRVFJBY0xsNWtlenVIZ3hIczM0czJhVzBIVVdKODd2WTBOck42QWdscjA1SkpOWdIB3AFBVV95cUxOc0NkWVl4Yms5REwyOHJ5WExtS1piQkxHR0hzVTVGN0dWMVJVRjlHUHZLODBubmpWV1VrVjVpWHI1cV9HaS1WS0ZMVDRTV1BCQ05GWWEyU3lYYVo1SUM5YkUyZy1YYVRmQVFKMFV3VWVfY1RseDIzU1p1TjYtRGlOVWhiUEY4Qnc4QVVSUk9mb05IM0VqUnpZa29xc2VZOWZMZTl2dVlGRTlYVDVxUWlFRndPX3p6UldaRnlXR2g2X3N5NW5vc291Q21nMHlNaU52a2pvX1J5b3djRFpZ?oc=5"
+      },
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWEctTGtXOE9jNFRWdVFfNmxrYkZOR3M0bjVYbEtaUG9rUWZzaWpRWFhIRXV1d0tfTmFKcVVoV1RKSkV4YVFLcHhzVWNOaFBPRWxYMURZWGR6Z2w0S2J5bFd5RUJEV216QWRJLUVzeW1TeWhIczFzUEJaU183OFBaV0ZyNEotRzFRZEhkWlAxOXN0a1Z0eklKNVlyclpnNVVkWUZJd2lyLTMtWGFmODZ4UFl2cktKbElMelNrYldSU1RoOWE4MWdqbzAwU1lWM2lMbWVZSTdDemUxN0Fz0gHiAUFVX3lxTE1TTkZnZ2tHalFhWkN6QkdLNXN2ck96QWhBd1BoaVU4akZsUktNVGdJX19LalFfdE1xeWN1MjdPdjNkcEw2YzlSbExmV3M4WGFXUmNZMFRCbmoyeHllb1FVWU9XRmQ2OXV3andiSUhoaUxIQmRjS0dJRk13empzWDB1bXpOOGN6Nk9VZ0xyWGZRVXpyeUhNcGV1d2dobUM5T0o5X2ZxaWJZajRleS1uV29pZDZKbkN4b3pNLThPZzdfYjlLdENINjJwT1NDN2tEdlBqdTl6SnRiNWVQSE44MFdEcmc?oc=5"
+      },
+      {
+        "fuente": "Madrid Secreto",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTI1dkc2LWJxNnpsRFlEN3o0d25nUHNhV3lKUmNYZ3BJZnAzMlpZTWRETmctYjFqVURZNERndlZBTU9fY0otWlZFY09tZnkwV3A3VXpzcm1NdkVnRUNIV3JoREo3VHhEOENMaHdvWU9ZU3pfamlxNjR0YjhKeThqcmd4SWRyZG5UaGZpbGVVRQ?oc=5"
+      },
+      {
+        "fuente": "Guía del Ocio",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRmJzNHBYVUhZWG1UNmJFd2NTSFJILWVhMmVSdXN2V3EtZTZ5Z0R5RGhjM29xRE9ISjk2bUtxZUtiaGMzNzFWLWtUM25POERCSlJfWTFkeWlUV21PMFl4ZnIyV0VmQmdXMDVzeV9XX05BbkVsWkRpNA?oc=5"
+      },
+      {
+        "fuente": "El Mundo",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15QWxiemFPZ1JUUzdmWWIwY2o3Z0syb0RmendiVzYyVmZRMkxZVU1sSDV1Tkw2SXhGSUI5VjF2NWx3ZmN5VE0tV28yQ1R5ajRyVTNtUzhDYzl6R0NpWWZhdkd6WmFScmNNcFFoeDJIbU5GcGVfMm9j0gF3QVVfeXFMTkh1MnFQLTV1MmMzN1kzWVY4NFZHQWZHTnFaVG9ib196TW1ac0VyTTJ3QWVhUDZsc3hxVmpzWWlUWFFyQjNpRzlLb2RkcVBEdXlCR2xBa2twa1FMMXhpZzFSSEVYVzkyUGFrQllubno0cC1GU3ZaWEk?oc=5"
+      },
+      {
+        "fuente": "elDiario.es",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRXY1RmVyeHpyYXpmSXpGQ1JIZ2plS3FHZ0NCaEVwY2t2Yy1sWnJ5c2p1OFRJSjVlLW1NaG1HaUxrRV9ueWEtUlBaaWxFRVlDS0lQWHV5a25pQUdnYUhjaE1IRmFIS0xJLTVRWHMyM2dwbG1BdjVWcW9zSGJuRW5GemlpS1hrVDc3a29NU2VEVTBuaG9xcVFNdDZPLTZXM25GV2M2blJGZE5fcmhfekU2aVpuVWtnb3psY1l1WkEzVkhVQkxoNkRhVk83Q0VMakVxRUVn0gHYAUFVX3lxTFBaMW1tcVVmd2VvMTFja0cwU1p2M1hIRHl1Zk84VW9xWkIyRVFXVnpQSkExbmREZWk5ZExZOVlRMVF1V0ZLck1aSmhpb2VURmVoLUFDRXNndFlyalk1aUpsekIxak81VFY2ckNEUnMyN1ppa3VCbnlOdGFvVUxlOFRDdjVob181cWNYZTF1VVVWeVVVRndPNnpwOVR1akNqdFJqekdTZFgyb2RSSjQyUVZRQnl2Q2d3RGJsRHhVVjBXcmp3UEdvTWphMFZ1U1JnS0lSTk45Y3dpag?oc=5"
+      },
+      {
+        "fuente": "SoriaNoticias",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSkhSOXFzaDU2TEp5b0s4OU9jZnFlck5VNGViMS1QVWtxS2lpa21OZ2t3NmVucVV6cC0wc1g4S2FLWGIyZ3JmTWZSYkttWXlVOHdhZWlRMG1VbEk5ejdhU2VUSXl4SXdQUE9zMkc4cEFNQzJtV3NfZThJTEFqSTZGcnpESV95NzVhOXVxcmpPSVlJZ0RKRW1xczUzbWRWNnA2NWhDdEM0Rm5qR1JldkxrbzBnakNFRzE0Z3JQUTBOVDdibm5RWEFxTw?oc=5"
+      },
+      {
+        "fuente": "Madridiario",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdU5yY0taLVpwNEtWQTFfLXI4ZThFMWFEV2t5ZW5pU1VTVlVSMXc0SXJDU1dsV2YwSkNOSlpQMjRuNm5hVkR5dWZaZ0pQU1d2bG11QW1tcmZFT1haVV9QN1dQUE1Qa3VadFRHaUF0VHUyYmFSWG9KZlFpSzFWVVd1V2NycG5kMGE2N2M4RXM0cDBkUGxMRTVHMVQ3cE5oYkpEcTJodjIyRFB2Rkxi?oc=5"
+      },
+      {
+        "fuente": "Servimedia",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2tZcW1YRWc5MTI3NUFfcUhCMEl4N25lV185NDBvc2g2RFFKd2ZoNFhidTNBYkp1eUhjQVpVVU10RmNNam1ZYlVudHI3MTdIMFJPLVVUci1Bd1dXLVQ1TTg1RXFiZFFQZ21zYjUwVVlrQjF0UF9oVDRSZm9pUlhPNnVqakVfcms2Q3RaT2hrazcxQlJBZHREcjhJdHQ0MmJhSDM2by03cDJ3WUZ3bHpPS0Y2TEc?oc=5"
+      },
+      {
+        "fuente": "CLMPress",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdkFIMFpUMWpxYUxYWGNZSmRWQVhxX1RFSHFWVklmMXlJQ1NLdXVPWURkR0JzNmUyeVRicW1lMTV3MDhHbzQzZ2dJd3RaMnA4OGlsRksyQ3N5SDRlbTFsSmtTVUZkbGhYaW1jdV9kNVFlZXdlWno0a3UzVnRaenE0dkkzMko4TkxsdHJSQkk0dkJoUHpFTFo0a0lkd2dhVlJzWW1WME83LTZheGJhcF9nM3dQYw?oc=5"
+      },
+      {
+        "fuente": "Las Provincias",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTE1SYURuV3dxd1p3R1hPT0lQLUg5TDNwSUFPc0djb0ZNS1hxT2RTZEhuNTZKdU1nc1p4UEszM3dGYzNKTVdnVUFGX19JdFl6Z1EwZEV1TTNlZzVSNUZrRDFYMDhNOWlrbWtzaFVvQ2tkb3dOMm5PZlZWQjBnQzlBRWdtaUwyd2JtVi1GX29nSWlKZEY2eVNNSU54eHprclFtdzB5Znp5d2Z1RkRQcXVxbW84ZnVoTjRVb0RBWDlCbU5sdFJXSG84NU1OX1dxZG90elhkMnFSZmZmMk1r0gHiAUFVX3lxTE81V2NrTnBRT19hM1N2ZjVlTVBsSURjLU5ybjZQOVJCVlRTa0hBamstN3AtaEdHU2d1UFZOWktmMF9Hb3ctdjRySFp3aW85QnBreU9lQzh4UmtLcXVYV2RieXdnTDVReUJMQkFVQVg5YWx6Z0tCS3Z4VTdRcjU4ZkJPekFhWFJMMkxlRFFDVUltajFGaTU0T0hiVnZwSjh2TG91cUZ2eWtRN3hSeEFJN3QzTWVEUV9qdlZsUXhXcUtuY1o3aVVuNXdvaEtUSktIblFsZnVOWXBkWTY1WUlGdzdveFE?oc=5"
+      },
+      {
+        "fuente": "La Razón",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUJYRWtWaGIycFZZVjhsM3Q3VEpEOXA4R2l6aDB2OF9sQVJDWkx0bXlmWE5XdnF5TV9JMFZlSGgzQWxFc2JyczlfNDZPMFR1UjlZQjhXemhWbS11Sl9uY2x4RDktM296WFhSNXhzTTR0M2FRTi1PRmhnSFBhTFNkTGtuLWEzUzcweGU3TmV5bFZZRmpmdTZNbjY3dm0tWl83NW9XNVBSYkR3N0I3YWUxcmUzaUdLRVB4SVRZdTNSUXoxWFNlQVJGZHhvMTVqZzJOMGxEY1YwbEw0TElT0gHwAUFVX3lxTE9UbkhCQnItZm1QOEN4MG95VjhHVmNEdVF5N3ZHX3diTnRHdFFRSmRiV2sxWWVPWXpYa1hCNllhcDBwNnpyN0RTeWduV2lQQ1BHcXdMSFJ3XzI4NmpHbWZtQkZNYk9sZ3A1WXdqd0xxV3dMcm1US0dTb2Zic0x4UEZESktVcXJlY0wxRUZCcEQ4ZTlIa2JjZjBVdVBqUnFHMGNrcHk1WnlhQzh6clo3Q0kzcHBHNWRLcERNczUzNk00Mm9VU0JrTkQ0SWJETU5wLVlMWDRkaGtjOHFWREszZG1XMDlGcUpTN1g4ZjY2b1Mteg?oc=5"
+      },
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR3dNak9INXcwUzZoM2VfZ1A4X241X2tONk9TSHo5X2QyTUY4N0VzU3FQZEJiYS1xTXdpZEw0MHRvU3U2Rmc2cHRVeF9SdUY1WUNRN0s4OUhVNm5WME1SOHhTclE5MUYta0IwV0doZGUtanZsRmppVHZBTXFvcmtRVTd6QkVpb3RUOWFvRHNka0tSUjM3Rm9KNXhjWUo4ZUVHdFN6czMxOEJPQU0xMUxRTF9Nb0pXSjhSV1NEbndkR2x2Yl93V3ROZnA0XzlaelVybXdoYQ?oc=5"
+      },
+      {
+        "fuente": "LOS40",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRGQydzQxOUFVV3AxWF95dFVEaFRIanQtcm9hY0ExYUpGY3ZsU1o4ZTk2RmlEODVmMVZHQzZBTjFRN2d0d2x5REhyYk5PZzdlOUNxWkhxVkNuM1NCUkZXalFSNTFQa2NRRVBESHFmWnhIVE9GVWdndVQ3cnUyeG9YckxJRC1jN3dXTzNlQ0VwTHBaM0MwanktLTlYWEd6ck1FQnNYRXhyaEZ5ZTIwSGfSAcIBQVVfeXFMTTB6REtucVBSRk5Bb1NIdXBzQ0Jldkp4Yklpc2xQZ2pTeXBfcE9uN09QVVM2WVJXZlBIX19EcEdob1ZmS2o5a0xUVzAtZ1V3NVFpbllBTGhzdGg3Zk5WblpFN0l2WC1xNldzMWFzZ3Y2d2R2d2xIRDBZRm83TWZfVWNvOFd1QzVjSlluVThzSXEwbHU3YjhMWG1qWjJpTzZSRUpGMzBkV0FsT3VjcGpwb2lnaFdINUZXckR6YjJUdTVsbkE?oc=5"
+      },
+      {
+        "fuente": "ABC",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNXzEyQ2s3ODhRM1pldURMcmRhREhBbHpSZWt4S3Y3bHYzdXhpTGxhd2Flc3E5M1h0VU4wT3JDWW5EVEwzTVljcFpqdHZPUjlRaldKRVlab192WmdQdGZ5cnZ1S0VUQzJqNEFGd1A3RTdhdzBqZFhTZTlUeXMtLXZpTUwzTmRldjFVX0xDNmRhQi1vOFFoMlo1eDlSb0tTamhOX09jQzgySHJxSU1GQUJj0gG0AUFVX3lxTFBZNEd4dnEyR1FyNmVqNlNwWi1vRVVFb2RlYk4xUWpuVlQwNmowblVseVZGV1B5R1lGdXVOa09RUTc1T3c4NHJlV1kxSVY2Y2hOaDMwWDVfb0xZTDlfbTRMM1Y0NkxybjBpODlRTlBkM3BOZHM3SFpHM1FET1o2Y3JxdVd4R2xJWm9FY21JSThaTkdCYU8zbkxNQV9TT1IyVUpzRHZac2ZGdmdHT2UyRVByOVVxcw?oc=5"
+      },
+      {
+        "fuente": "es por madrid",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSl8xMjJ3MUJfVUYyRUlmMDRPUUlfX0xxVTRCRXpCSU44ZWhmUWJMb0ZiVkc3ejd6UHg1TndxSkUwNXpDN19JVDhJZ1Zoc0xlOXowcmpsN0hCNi1VNlRQVUVJeGpzNXdyWjNmcWVGMEdHeld3Nk5YNl9ZSDdxS015MVVjV0JZQQ?oc=5"
+      },
+      {
+        "fuente": "El Pespunte",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHJiOVhrNGNHbFM4VXJ0RldkNEdfZEFxTWx0NkhILThJNkY2S2xrOWQ2cHdxSkx4X1RJRURTcE1JN09STzdiT0tnbWdOTVB5TjctT2dLREdEUW1Xd1dsVThxX1BkUEpHenpCSUVzU3ltbUotLWpjT28zYWNlSU8xazJ1QWNPczNWM18zRXRERG5NbTVxVWhIajVTbUpDVDl3emxmdlZaank4OTRZb04wMVdKMm5pQUhFSTdXNkx6d25BZDJhR3pPTVhiRmhlVVk?oc=5"
+      },
+      {
+        "fuente": "20minutos Madrid",
+        "url": "https://www.20minutos.es/madrid/tractorada-madrid-cortes-trafico-retenciones-calles-carreteras-afectadas-hoy-directo_7054056_0.html"
       }
     ]
   },
@@ -721,6 +826,21 @@
         "url": "https://www.eldiario.es/madrid/somos/cortes-trafico-previstos-miercoles-tractorada-recorrera-madrid-traves-cinco-columnas_1_13619397.html"
       }
     ]
+  },
+  {
+    "fecha": "2026-10-28",
+    "hora": "17:30",
+    "horaFin": "20:00",
+    "lugar": "Calle Alcalá 35",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Calle Alcalá 35",
+    "motivo": "Desvíos de EMT (17:30–20:00): líneas 002, 3, 5, 9, 15, 20, 46, 51, 52, 53 y 150",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/28_10_2026-desvio-lineas-emt-concentracion-c-alcala-35/?lang=es",
+    "id": "2026-10-28-calle-alcala-35"
   },
   {
     "id": "2026-10-28-tractorada",
@@ -812,87 +932,6 @@
     "fecha": "2026-10-28",
     "hora": null,
     "horaFin": null,
-    "lugar": "Madrid (lugar por concretar)",
-    "recorrido": null,
-    "tipo": "Convocatoria",
-    "titulo": "Los agricultores salen este miércoles con una tractorada por Madrid para pedir medidas inmediatas por el encarecimiento de costes",
-    "motivo": null,
-    "convocantes": null,
-    "estado": "por-confirmar",
-    "fuente": "20Minutos",
-    "fuenteUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcGtQZEJ2Uk1LcjA4OVVqaWpFeXBGVXFiamRHSmNIWUZweUhSbmZDMUFUbjZzS0tHWHgxTWRKaGI1SEc3N3EtRVp1d21Zdk84V0M1eEN6RkJKUWtzaUJOWUp2dC1lc09tZGd5bVlvdnB0OEo1RVZUWXdzbmxZbC1FNHVma2ZHSkRnYjZKek1DaGlxVjJTX200NVlZd0lPMGY5dWEydS1vdUNqSEFPOWhKTkZHWERnUDZyRVQwMmExN1pKM1pSdEpGaEI5ZzhuZ1ZBTDhYUVhtaXFnZXdybzZHUtIB5gFBVV95cUxPLVd6cHcxemRMY3R4Qk8xQ2xmQVVOVlBEUVVsblp2ZnpndGYtZFdWZjNUQTNoX2Q0NTRQaDBRdUl4M3VUU1lMQnpVZ3NfdGNHV3lDY2V5NjdOYV8xaXF4TTVlYWFFVWJEM1lqUnlvYzItY2NmaktDSjlkeThkcEdGbWJtcVduS3I0V2xRS2V5c05pLVNoR19xejNSUDV3a0JaeVpwQ3VubGxnWE1kcnpRbVdYLWp5aFJQSm9nd0piRDRHRGxWZFFSTXdHR2kxMk9JVUZtc1FKZVJ6YTdaUjVISldIRDJmZw?oc=5",
-    "id": "2026-10-28-madrid-lugar-por-concretar",
-    "otrasFuentes": [
-      {
-        "fuente": "La Bandera",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmMtLTFEMTFrcmRheVcyMTgwX2VfOGNRN2Nqc3JISUJVaWhMb0oxazFuNm00WXVNNU1ndTgxNksyWWVfUDlVZ3Y1b29PX2J2UFBZRm9LZlFxSVBkamJfaU54VkRQQlp1aGFjdzgwanlUNWhfMGJZTFg2ekd4REk5TDFISmpwSk1qMUNxMzVzNjZ5dFRMZUt1aEt3bi1ucDhybWZGZFRSdjNOUQ?oc=5"
-      },
-      {
-        "fuente": "Diario Público",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU9UdExLRmVFQ1YxM25JV0l0TnNlTTJod2JwNWlFa2Zyd3hZR011SThsSldCblp0NGtWek1qOW9HUTEwQW1uYVY1cGtyWHZTSEhIVUMxd2VMVEk3akVuX1JaUDA5V1NYTTA4bTYzcXpRVzkzRlpQR3BUZXA5RWQ2U09hQXNuRk56S3Voc3VfQW1yNFlwN08zNjRoR2RXZXBaWUVONDdfQUhDaXdydGNHdG5UX2ZwYXRaR3RqUGFrSFJlSFRK0gHKAUFVX3lxTE84Z2tfTmlFaWZrNEpFVzVUR0N3T3ZQS2FseHhQeHlaamtyRmRVWjFVM0ViRlJqR2RqNUl6UHFMcVJHbzBhVUtNc01kNUJheVVmTUVnZ3Z4bXh6S1lySy1FMzM5U0dJVXpLY2xjUHYtTVV3UmJzVEFDV0E2ZmpiQ1lQSFBiTEx5REp5YkhwWWV4aUs5WFFqd3U5NWNwR1ExZjh4dDJDdHlPV3ZnRk1jcS0yYS14RXVtUXozdG5Ba3VsWllIZkVkYWt4aEE?oc=5"
-      },
-      {
-        "fuente": "Libertad Digital",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVjQwRnFQWDB5bW5Xd25SZlRSejZDZEFEc0dENXJzRlRrVkIwUjhRR0FaVkdEZ1J4RDNKOUp6TDdXUFc2RElhYWFCeENWSnRtZWxYT0sxMzllcXQ1dkNTNW9uQzRhZlhudDE5Njc1dm1fZ1Yta0diSm1iMWVxbExtdEVaOFA2bVhLNjk1c3RTQ2xfRi12YXFfXzVJOUFxQTAzT2VMNHBnd0FEVllSVFM0bmFWLW5JSi1YQkdkMl9FMl9oQmd0cURTZUtLQVZZb1Zw?oc=5"
-      },
-      {
-        "fuente": "Demócrata",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQei1MNXFBLXpkVFdmOV9aNkhqcXVfbFJzUjNFVDNYRm1KdU9qLWpkZkw1bG9XYm1RYnVmM0NfZGsxMnFMWEhoSkZZbU5ta3llZFNnRHVLYlp1OWw4RXREVmVIUDB2YmJ6Mkx6RnFCNFd0cjZCdk4zUWJGRVZUUlYwRm13RGxJWUtRUk9oNmRfMnliRTBRVnhENkl3TzkxcW1qa2ZfcU1yeWhRVFJBY0xsNWtlenVIZ3hIczM0czJhVzBIVVdKODd2WTBOck42QWdscjA1SkpOWdIB3AFBVV95cUxOc0NkWVl4Yms5REwyOHJ5WExtS1piQkxHR0hzVTVGN0dWMVJVRjlHUHZLODBubmpWV1VrVjVpWHI1cV9HaS1WS0ZMVDRTV1BCQ05GWWEyU3lYYVo1SUM5YkUyZy1YYVRmQVFKMFV3VWVfY1RseDIzU1p1TjYtRGlOVWhiUEY4Qnc4QVVSUk9mb05IM0VqUnpZa29xc2VZOWZMZTl2dVlGRTlYVDVxUWlFRndPX3p6UldaRnlXR2g2X3N5NW5vc291Q21nMHlNaU52a2pvX1J5b3djRFpZ?oc=5"
-      },
-      {
-        "fuente": "El Diario de Madrid",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWEctTGtXOE9jNFRWdVFfNmxrYkZOR3M0bjVYbEtaUG9rUWZzaWpRWFhIRXV1d0tfTmFKcVVoV1RKSkV4YVFLcHhzVWNOaFBPRWxYMURZWGR6Z2w0S2J5bFd5RUJEV216QWRJLUVzeW1TeWhIczFzUEJaU183OFBaV0ZyNEotRzFRZEhkWlAxOXN0a1Z0eklKNVlyclpnNVVkWUZJd2lyLTMtWGFmODZ4UFl2cktKbElMelNrYldSU1RoOWE4MWdqbzAwU1lWM2lMbWVZSTdDemUxN0Fz0gHiAUFVX3lxTE1TTkZnZ2tHalFhWkN6QkdLNXN2ck96QWhBd1BoaVU4akZsUktNVGdJX19LalFfdE1xeWN1MjdPdjNkcEw2YzlSbExmV3M4WGFXUmNZMFRCbmoyeHllb1FVWU9XRmQ2OXV3andiSUhoaUxIQmRjS0dJRk13empzWDB1bXpOOGN6Nk9VZ0xyWGZRVXpyeUhNcGV1d2dobUM5T0o5X2ZxaWJZajRleS1uV29pZDZKbkN4b3pNLThPZzdfYjlLdENINjJwT1NDN2tEdlBqdTl6SnRiNWVQSE44MFdEcmc?oc=5"
-      },
-      {
-        "fuente": "Madrid Secreto",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTI1dkc2LWJxNnpsRFlEN3o0d25nUHNhV3lKUmNYZ3BJZnAzMlpZTWRETmctYjFqVURZNERndlZBTU9fY0otWlZFY09tZnkwV3A3VXpzcm1NdkVnRUNIV3JoREo3VHhEOENMaHdvWU9ZU3pfamlxNjR0YjhKeThqcmd4SWRyZG5UaGZpbGVVRQ?oc=5"
-      },
-      {
-        "fuente": "Guía del Ocio",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRmJzNHBYVUhZWG1UNmJFd2NTSFJILWVhMmVSdXN2V3EtZTZ5Z0R5RGhjM29xRE9ISjk2bUtxZUtiaGMzNzFWLWtUM25POERCSlJfWTFkeWlUV21PMFl4ZnIyV0VmQmdXMDVzeV9XX05BbkVsWkRpNA?oc=5"
-      },
-      {
-        "fuente": "El Mundo",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15QWxiemFPZ1JUUzdmWWIwY2o3Z0syb0RmendiVzYyVmZRMkxZVU1sSDV1Tkw2SXhGSUI5VjF2NWx3ZmN5VE0tV28yQ1R5ajRyVTNtUzhDYzl6R0NpWWZhdkd6WmFScmNNcFFoeDJIbU5GcGVfMm9j0gF3QVVfeXFMTkh1MnFQLTV1MmMzN1kzWVY4NFZHQWZHTnFaVG9ib196TW1ac0VyTTJ3QWVhUDZsc3hxVmpzWWlUWFFyQjNpRzlLb2RkcVBEdXlCR2xBa2twa1FMMXhpZzFSSEVYVzkyUGFrQllubno0cC1GU3ZaWEk?oc=5"
-      },
-      {
-        "fuente": "elDiario.es",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRXY1RmVyeHpyYXpmSXpGQ1JIZ2plS3FHZ0NCaEVwY2t2Yy1sWnJ5c2p1OFRJSjVlLW1NaG1HaUxrRV9ueWEtUlBaaWxFRVlDS0lQWHV5a25pQUdnYUhjaE1IRmFIS0xJLTVRWHMyM2dwbG1BdjVWcW9zSGJuRW5GemlpS1hrVDc3a29NU2VEVTBuaG9xcVFNdDZPLTZXM25GV2M2blJGZE5fcmhfekU2aVpuVWtnb3psY1l1WkEzVkhVQkxoNkRhVk83Q0VMakVxRUVn0gHYAUFVX3lxTFBaMW1tcVVmd2VvMTFja0cwU1p2M1hIRHl1Zk84VW9xWkIyRVFXVnpQSkExbmREZWk5ZExZOVlRMVF1V0ZLck1aSmhpb2VURmVoLUFDRXNndFlyalk1aUpsekIxak81VFY2ckNEUnMyN1ppa3VCbnlOdGFvVUxlOFRDdjVob181cWNYZTF1VVVWeVVVRndPNnpwOVR1akNqdFJqekdTZFgyb2RSSjQyUVZRQnl2Q2d3RGJsRHhVVjBXcmp3UEdvTWphMFZ1U1JnS0lSTk45Y3dpag?oc=5"
-      },
-      {
-        "fuente": "SoriaNoticias",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSkhSOXFzaDU2TEp5b0s4OU9jZnFlck5VNGViMS1QVWtxS2lpa21OZ2t3NmVucVV6cC0wc1g4S2FLWGIyZ3JmTWZSYkttWXlVOHdhZWlRMG1VbEk5ejdhU2VUSXl4SXdQUE9zMkc4cEFNQzJtV3NfZThJTEFqSTZGcnpESV95NzVhOXVxcmpPSVlJZ0RKRW1xczUzbWRWNnA2NWhDdEM0Rm5qR1JldkxrbzBnakNFRzE0Z3JQUTBOVDdibm5RWEFxTw?oc=5"
-      },
-      {
-        "fuente": "Madridiario",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdU5yY0taLVpwNEtWQTFfLXI4ZThFMWFEV2t5ZW5pU1VTVlVSMXc0SXJDU1dsV2YwSkNOSlpQMjRuNm5hVkR5dWZaZ0pQU1d2bG11QW1tcmZFT1haVV9QN1dQUE1Qa3VadFRHaUF0VHUyYmFSWG9KZlFpSzFWVVd1V2NycG5kMGE2N2M4RXM0cDBkUGxMRTVHMVQ3cE5oYkpEcTJodjIyRFB2Rkxi?oc=5"
-      },
-      {
-        "fuente": "Servimedia",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2tZcW1YRWc5MTI3NUFfcUhCMEl4N25lV185NDBvc2g2RFFKd2ZoNFhidTNBYkp1eUhjQVpVVU10RmNNam1ZYlVudHI3MTdIMFJPLVVUci1Bd1dXLVQ1TTg1RXFiZFFQZ21zYjUwVVlrQjF0UF9oVDRSZm9pUlhPNnVqakVfcms2Q3RaT2hrazcxQlJBZHREcjhJdHQ0MmJhSDM2by03cDJ3WUZ3bHpPS0Y2TEc?oc=5"
-      },
-      {
-        "fuente": "CLMPress",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdkFIMFpUMWpxYUxYWGNZSmRWQVhxX1RFSHFWVklmMXlJQ1NLdXVPWURkR0JzNmUyeVRicW1lMTV3MDhHbzQzZ2dJd3RaMnA4OGlsRksyQ3N5SDRlbTFsSmtTVUZkbGhYaW1jdV9kNVFlZXdlWno0a3UzVnRaenE0dkkzMko4TkxsdHJSQkk0dkJoUHpFTFo0a0lkd2dhVlJzWW1WME83LTZheGJhcF9nM3dQYw?oc=5"
-      },
-      {
-        "fuente": "Las Provincias",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTE1SYURuV3dxd1p3R1hPT0lQLUg5TDNwSUFPc0djb0ZNS1hxT2RTZEhuNTZKdU1nc1p4UEszM3dGYzNKTVdnVUFGX19JdFl6Z1EwZEV1TTNlZzVSNUZrRDFYMDhNOWlrbWtzaFVvQ2tkb3dOMm5PZlZWQjBnQzlBRWdtaUwyd2JtVi1GX29nSWlKZEY2eVNNSU54eHprclFtdzB5Znp5d2Z1RkRQcXVxbW84ZnVoTjRVb0RBWDlCbU5sdFJXSG84NU1OX1dxZG90elhkMnFSZmZmMk1r0gHiAUFVX3lxTE81V2NrTnBRT19hM1N2ZjVlTVBsSURjLU5ybjZQOVJCVlRTa0hBamstN3AtaEdHU2d1UFZOWktmMF9Hb3ctdjRySFp3aW85QnBreU9lQzh4UmtLcXVYV2RieXdnTDVReUJMQkFVQVg5YWx6Z0tCS3Z4VTdRcjU4ZkJPekFhWFJMMkxlRFFDVUltajFGaTU0T0hiVnZwSjh2TG91cUZ2eWtRN3hSeEFJN3QzTWVEUV9qdlZsUXhXcUtuY1o3aVVuNXdvaEtUSktIblFsZnVOWXBkWTY1WUlGdzdveFE?oc=5"
-      },
-      {
-        "fuente": "La Razón",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUJYRWtWaGIycFZZVjhsM3Q3VEpEOXA4R2l6aDB2OF9sQVJDWkx0bXlmWE5XdnF5TV9JMFZlSGgzQWxFc2JyczlfNDZPMFR1UjlZQjhXemhWbS11Sl9uY2x4RDktM296WFhSNXhzTTR0M2FRTi1PRmhnSFBhTFNkTGtuLWEzUzcweGU3TmV5bFZZRmpmdTZNbjY3dm0tWl83NW9XNVBSYkR3N0I3YWUxcmUzaUdLRVB4SVRZdTNSUXoxWFNlQVJGZHhvMTVqZzJOMGxEY1YwbEw0TElT0gHwAUFVX3lxTE9UbkhCQnItZm1QOEN4MG95VjhHVmNEdVF5N3ZHX3diTnRHdFFRSmRiV2sxWWVPWXpYa1hCNllhcDBwNnpyN0RTeWduV2lQQ1BHcXdMSFJ3XzI4NmpHbWZtQkZNYk9sZ3A1WXdqd0xxV3dMcm1US0dTb2Zic0x4UEZESktVcXJlY0wxRUZCcEQ4ZTlIa2JjZjBVdVBqUnFHMGNrcHk1WnlhQzh6clo3Q0kzcHBHNWRLcERNczUzNk00Mm9VU0JrTkQ0SWJETU5wLVlMWDRkaGtjOHFWREszZG1XMDlGcUpTN1g4ZjY2b1Mteg?oc=5"
-      },
-      {
-        "fuente": "El Confidencial",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR3dNak9INXcwUzZoM2VfZ1A4X241X2tONk9TSHo5X2QyTUY4N0VzU3FQZEJiYS1xTXdpZEw0MHRvU3U2Rmc2cHRVeF9SdUY1WUNRN0s4OUhVNm5WME1SOHhTclE5MUYta0IwV0doZGUtanZsRmppVHZBTXFvcmtRVTd6QkVpb3RUOWFvRHNka0tSUjM3Rm9KNXhjWUo4ZUVHdFN6czMxOEJPQU0xMUxRTF9Nb0pXSjhSV1NEbndkR2x2Yl93V3ROZnA0XzlaelVybXdoYQ?oc=5"
-      }
-    ]
-  },
-  {
-    "fecha": "2026-10-28",
-    "hora": null,
-    "horaFin": null,
     "lugar": "Puerta del Sol",
     "recorrido": null,
     "tipo": "Huelga / movilización",
@@ -903,6 +942,21 @@
     "fuente": "20minutos Madrid",
     "fuenteUrl": "https://www.20minutos.es/madrid/desalojo-sol-noche-halloween-bajo-amenaza-huelgas-los-retos-pilar-trinidad-como-nueva-delegada-gobierno-madrid_7053921_0.html",
     "id": "2026-10-28-puerta-del-sol"
+  },
+  {
+    "fecha": "2026-10-29",
+    "hora": "17:30",
+    "horaFin": "21:00",
+    "lugar": "pº del Prado-Sevilla",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación pº del Prado-Sevilla",
+    "motivo": "Desvíos de EMT (17:30–21:00): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, 203, C03, E1 y M1",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/28_10_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-del-prado-sevilla/?lang=es",
+    "id": "2026-10-29-p-del-prado-sevilla"
   },
   {
     "fecha": "2026-10-31",
