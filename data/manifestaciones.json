@@ -678,6 +678,27 @@
   },
   {
     "fecha": "2026-10-28",
+    "hora": "06:30",
+    "horaFin": null,
+    "lugar": "Colón",
+    "recorrido": "Colón → Atocha",
+    "tipo": "Convocatoria",
+    "titulo": "Tractorada en Madrid: cortes de tráfico desde las 6:30 y cinco columnas hasta Colón",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Bing Noticias",
+    "fuenteUrl": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae18bbe4f6a497ba2e3d6d476771c7f&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fotras%2ftractorada-en-madrid-cortes-de-tr%25C3%25A1fico-desde-las-630-y-cinco-columnas-hasta-col%25C3%25B3n%2far-AA2gbDBH&c=18131633549631489117&mkt=es-us",
+    "id": "2026-10-28-colon-2",
+    "otrasFuentes": [
+      {
+        "fuente": "El Mundo Madrid",
+        "url": "https://www.elmundo.es/como/2026/10/27/6ae0c8d4fdddff0b088b459d.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-10-28",
     "hora": "11:00",
     "horaFin": null,
     "lugar": "Colón",
@@ -849,8 +870,39 @@
       {
         "fuente": "Servimedia",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2tZcW1YRWc5MTI3NUFfcUhCMEl4N25lV185NDBvc2g2RFFKd2ZoNFhidTNBYkp1eUhjQVpVVU10RmNNam1ZYlVudHI3MTdIMFJPLVVUci1Bd1dXLVQ1TTg1RXFiZFFQZ21zYjUwVVlrQjF0UF9oVDRSZm9pUlhPNnVqakVfcms2Q3RaT2hrazcxQlJBZHREcjhJdHQ0MmJhSDM2by03cDJ3WUZ3bHpPS0Y2TEc?oc=5"
+      },
+      {
+        "fuente": "CLMPress",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdkFIMFpUMWpxYUxYWGNZSmRWQVhxX1RFSHFWVklmMXlJQ1NLdXVPWURkR0JzNmUyeVRicW1lMTV3MDhHbzQzZ2dJd3RaMnA4OGlsRksyQ3N5SDRlbTFsSmtTVUZkbGhYaW1jdV9kNVFlZXdlWno0a3UzVnRaenE0dkkzMko4TkxsdHJSQkk0dkJoUHpFTFo0a0lkd2dhVlJzWW1WME83LTZheGJhcF9nM3dQYw?oc=5"
+      },
+      {
+        "fuente": "Las Provincias",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTE1SYURuV3dxd1p3R1hPT0lQLUg5TDNwSUFPc0djb0ZNS1hxT2RTZEhuNTZKdU1nc1p4UEszM3dGYzNKTVdnVUFGX19JdFl6Z1EwZEV1TTNlZzVSNUZrRDFYMDhNOWlrbWtzaFVvQ2tkb3dOMm5PZlZWQjBnQzlBRWdtaUwyd2JtVi1GX29nSWlKZEY2eVNNSU54eHprclFtdzB5Znp5d2Z1RkRQcXVxbW84ZnVoTjRVb0RBWDlCbU5sdFJXSG84NU1OX1dxZG90elhkMnFSZmZmMk1r0gHiAUFVX3lxTE81V2NrTnBRT19hM1N2ZjVlTVBsSURjLU5ybjZQOVJCVlRTa0hBamstN3AtaEdHU2d1UFZOWktmMF9Hb3ctdjRySFp3aW85QnBreU9lQzh4UmtLcXVYV2RieXdnTDVReUJMQkFVQVg5YWx6Z0tCS3Z4VTdRcjU4ZkJPekFhWFJMMkxlRFFDVUltajFGaTU0T0hiVnZwSjh2TG91cUZ2eWtRN3hSeEFJN3QzTWVEUV9qdlZsUXhXcUtuY1o3aVVuNXdvaEtUSktIblFsZnVOWXBkWTY1WUlGdzdveFE?oc=5"
+      },
+      {
+        "fuente": "La Razón",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUJYRWtWaGIycFZZVjhsM3Q3VEpEOXA4R2l6aDB2OF9sQVJDWkx0bXlmWE5XdnF5TV9JMFZlSGgzQWxFc2JyczlfNDZPMFR1UjlZQjhXemhWbS11Sl9uY2x4RDktM296WFhSNXhzTTR0M2FRTi1PRmhnSFBhTFNkTGtuLWEzUzcweGU3TmV5bFZZRmpmdTZNbjY3dm0tWl83NW9XNVBSYkR3N0I3YWUxcmUzaUdLRVB4SVRZdTNSUXoxWFNlQVJGZHhvMTVqZzJOMGxEY1YwbEw0TElT0gHwAUFVX3lxTE9UbkhCQnItZm1QOEN4MG95VjhHVmNEdVF5N3ZHX3diTnRHdFFRSmRiV2sxWWVPWXpYa1hCNllhcDBwNnpyN0RTeWduV2lQQ1BHcXdMSFJ3XzI4NmpHbWZtQkZNYk9sZ3A1WXdqd0xxV3dMcm1US0dTb2Zic0x4UEZESktVcXJlY0wxRUZCcEQ4ZTlIa2JjZjBVdVBqUnFHMGNrcHk1WnlhQzh6clo3Q0kzcHBHNWRLcERNczUzNk00Mm9VU0JrTkQ0SWJETU5wLVlMWDRkaGtjOHFWREszZG1XMDlGcUpTN1g4ZjY2b1Mteg?oc=5"
+      },
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR3dNak9INXcwUzZoM2VfZ1A4X241X2tONk9TSHo5X2QyTUY4N0VzU3FQZEJiYS1xTXdpZEw0MHRvU3U2Rmc2cHRVeF9SdUY1WUNRN0s4OUhVNm5WME1SOHhTclE5MUYta0IwV0doZGUtanZsRmppVHZBTXFvcmtRVTd6QkVpb3RUOWFvRHNka0tSUjM3Rm9KNXhjWUo4ZUVHdFN6czMxOEJPQU0xMUxRTF9Nb0pXSjhSV1NEbndkR2x2Yl93V3ROZnA0XzlaelVybXdoYQ?oc=5"
       }
     ]
+  },
+  {
+    "fecha": "2026-10-28",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Puerta del Sol",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "El desalojo de Sol, la noche de Halloween bajo amenaza y huelgas: los retos de Pilar Trinidad como nueva delegada del Gobierno",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20minutos Madrid",
+    "fuenteUrl": "https://www.20minutos.es/madrid/desalojo-sol-noche-halloween-bajo-amenaza-huelgas-los-retos-pilar-trinidad-como-nueva-delegada-gobierno-madrid_7053921_0.html",
+    "id": "2026-10-28-puerta-del-sol"
   },
   {
     "fecha": "2026-10-31",
