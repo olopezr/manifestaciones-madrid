@@ -1020,6 +1020,21 @@
     "id": "2026-10-29-castellana"
   },
   {
+    "fecha": "2026-10-29",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Cortes de tráfico en Madrid hoy jueves por manifestaciones: horarios, zonas y calles afectadas",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Confidencial",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONjRJdlJfU0JScTF2VUV2azFnN3lqUzd0YmttYjB3bTRWWEF1bnZLRXNRSjAzWGpuN1VxaWJ6WFEtVWNTZEZSTlNYTG5XeUZXVG1KTklSYjFlLU9rMVZXdnA5ZGstMnR6THpZSDJGLWZqNG95X2JwR3RxdzJqV0YyenUtWjVQVWFDT09XTW8yQlV4ZUtFcEhDOFBjYWRJWG5nNTROOGltU29wZ0ItTnBaUEJqWWRuVDNzWlZtcWx0UjJrb2FjZkJBY2czOU16Y0wySzBRb0hmbw?oc=5",
+    "id": "2026-10-29-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-10-30",
     "hora": "08:53",
     "horaFin": null,
@@ -1048,6 +1063,21 @@
     "fuente": "ABC Madrid",
     "fuenteUrl": "https://www.abc.es/espana/madrid/manifestacion-accidente-urda-frente-sede-ministerio-transportes-20261028213319-nt.html",
     "id": "2026-10-30-castellana"
+  },
+  {
+    "fecha": "2026-10-31",
+    "hora": "12:00",
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración contra la macroincineradora de residuos de Titulcia",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "FRAVM (asociaciones vecinales)",
+    "fuenteUrl": "https://fravm.org/medio-ambiente/contaminacion-atmosferica/concentracion-contra-la-macroincineradora-de-residuos-de-titulcia/",
+    "id": "2026-10-31-madrid-lugar-por-concretar"
   },
   {
     "fecha": "2026-10-31",
