@@ -1005,6 +1005,36 @@
     "otrasFuentes": []
   },
   {
+    "fecha": "2026-10-29",
+    "hora": "21:10",
+    "horaFin": null,
+    "lugar": "Castellana",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "La manifestación por el accidente en Urda frente al Ministerio de Transportes acaba con disturbios y cargas policiales",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "ABC Madrid",
+    "fuenteUrl": "https://www.abc.es/espana/madrid/manifestacion-accidente-urda-frente-sede-ministerio-transportes-20261028213319-nt.html",
+    "id": "2026-10-29-castellana"
+  },
+  {
+    "fecha": "2026-10-30",
+    "hora": "08:53",
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Puente reconoce un fallo del sistema de seguridad y una «inexplicable» reanudación de la marcha, pero rechaza dimitir",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "ABC Madrid",
+    "fuenteUrl": "https://www.abc.es/espana/madrid/puente-reconoce-fallo-sistema-seguridad-inexplicable-reanudacion-20261028152138-nt.html",
+    "id": "2026-10-30-atocha"
+  },
+  {
     "fecha": "2026-10-31",
     "hora": "18:00",
     "horaFin": null,
