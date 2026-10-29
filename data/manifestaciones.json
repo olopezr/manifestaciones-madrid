@@ -1035,6 +1035,21 @@
     "id": "2026-10-30-atocha"
   },
   {
+    "fecha": "2026-10-30",
+    "hora": "21:10",
+    "horaFin": null,
+    "lugar": "Castellana",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "La manifestación por el accidente en Urda frente al Ministerio de Transportes acaba con disturbios y cargas policiales",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "ABC Madrid",
+    "fuenteUrl": "https://www.abc.es/espana/madrid/manifestacion-accidente-urda-frente-sede-ministerio-transportes-20261028213319-nt.html",
+    "id": "2026-10-30-castellana"
+  },
+  {
     "fecha": "2026-10-31",
     "hora": "18:00",
     "horaFin": null,
