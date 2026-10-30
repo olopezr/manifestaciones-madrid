@@ -1111,6 +1111,36 @@
     ]
   },
   {
+    "fecha": "2026-11-01",
+    "hora": "11:30",
+    "horaFin": "14:30",
+    "lugar": "Princesa",
+    "recorrido": "Princesa → Gran Vía",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Princesa - Gran Vía",
+    "motivo": "Desvíos de EMT (11:30–14:30): líneas 001, 002, 1, 2, 3, 5, 9, 15, 20, 25, 39, 44, 46, 51, 52, 53, 74, 75, 133, 138, 146, 147, 148, 150, 158, C1 y C2",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/01_11_2026-desvio-lineas-emt-manifestacion-princesa-gran-via/?lang=es",
+    "id": "2026-11-01-princesa"
+  },
+  {
+    "fecha": "2026-11-03",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "CCOO y UGT convocan concentraciones el 3 de noviembre contra el bloqueo patronal en la restauración colectiva",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Bing Noticias",
+    "fuenteUrl": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae4db8aa5a64fc0bba169971fccac0f&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fother%2fccoo-y-ugt-convocan-concentraciones-el-3-de-noviembre-contra-el-bloqueo-patronal-en-la-restauraci%25C3%25B3n-colectiva%2far-AA2goXE4&c=585568638372086634&mkt=es-us",
+    "id": "2026-11-03-madrid-lugar-por-concretar"
+  },
+  {
     "id": "2026-11-04-huelga-universitaria",
     "convocantes": null,
     "estado": "probable",
