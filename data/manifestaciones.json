@@ -1095,7 +1095,7 @@
     "titulo": "Blocus, el movimiento de TikTok que recluta jóvenes para imitar las violentas protestas de Francia, lanza una convocatoria para la noche de ",
     "motivo": null,
     "convocantes": null,
-    "estado": "por-confirmar",
+    "estado": "confirmada",
     "fuente": "El Mundo Madrid",
     "fuenteUrl": "https://www.elmundo.es/madrid/2026/10/26/6adf5212fdddff53378b45ab.html",
     "id": "2026-10-31-plaza-de-espana",
@@ -1103,6 +1103,10 @@
       {
         "fuente": "El Debate",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ05QN19PNWZiWnktRFViSHFrUTFTc252dEhvVEdGcjJ4X25Wd3A3cHc1bEhaTjJSVldBeTk3TkV0OW5tbnZNOWpNVTVZZEFoaHRrNXFLd1JSLVVGbDdjclBPa0xWZDRiSTBSRWRCckd4OHJLaWprWFl1OFItVUJoaGROb3JPdXItS0Q2X1BhcFFrY0RLYzdNcXNvUlVtNzVmdmFlSGQzZ3ZzR3NiTzgxUHd1dnNzaUlwdjhDbDBNT0FqQW42ZDN1YktTTdIB0AFBVV95cUxPV0VuTnNHU2Zkb2V0eDI0dFMzdkc3U2VNYWdhYmszWGRXc0xTd091OWJyV3JLV0pNWDM2eFlycWYzek5BWEJOTmdvdGNxTlJVZlZIbmE0MnZwWTROT1phOGpvY2F0NzhDX0VBU19vR0pRNy1YSHR1d0tDYnBqR1JNOTcwVjRTNzgtNEZpVng0WC1OemwwREhaTGRnRlNKOG9ndnl1LVhBRE1rXy1IdG9OUGdCd2x5c3g0ekpTajNfZUFvb3Y1U0tNVkYteUFHTkhp?oc=5"
+      },
+      {
+        "fuente": "Aviso EMT (CRTM)",
+        "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/31_10_2026-desvio-lineas-emt-concentracion-plaza-espana/?lang=es"
       }
     ]
   },
