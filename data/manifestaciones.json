@@ -1077,7 +1077,13 @@
     "estado": "por-confirmar",
     "fuente": "FRAVM (asociaciones vecinales)",
     "fuenteUrl": "https://fravm.org/medio-ambiente/contaminacion-atmosferica/concentracion-contra-la-macroincineradora-de-residuos-de-titulcia/",
-    "id": "2026-10-31-madrid-lugar-por-concretar"
+    "id": "2026-10-31-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "El Debate",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ05QN19PNWZiWnktRFViSHFrUTFTc252dEhvVEdGcjJ4X25Wd3A3cHc1bEhaTjJSVldBeTk3TkV0OW5tbnZNOWpNVTVZZEFoaHRrNXFLd1JSLVVGbDdjclBPa0xWZDRiSTBSRWRCckd4OHJLaWprWFl1OFItVUJoaGROb3JPdXItS0Q2X1BhcFFrY0RLYzdNcXNvUlVtNzVmdmFlSGQzZ3ZzR3NiTzgxUHd1dnNzaUlwdjhDbDBNT0FqQW42ZDN1YktTTdIB0AFBVV95cUxPV0VuTnNHU2Zkb2V0eDI0dFMzdkc3U2VNYWdhYmszWGRXc0xTd091OWJyV3JLV0pNWDM2eFlycWYzek5BWEJOTmdvdGNxTlJVZlZIbmE0MnZwWTROT1phOGpvY2F0NzhDX0VBU19vR0pRNy1YSHR1d0tDYnBqR1JNOTcwVjRTNzgtNEZpVng0WC1OemwwREhaTGRnRlNKOG9ndnl1LVhBRE1rXy1IdG9OUGdCd2x5c3g0ekpTajNfZUFvb3Y1U0tNVkYteUFHTkhp?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-10-31",
