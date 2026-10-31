@@ -1158,6 +1158,21 @@
     "titulo": "Huelga universitaria (4 y 5 de noviembre)"
   },
   {
+    "fecha": "2026-11-06",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "La Policía italiana realiza 60 registros en 23 ciudades tras las manifestaciones del viernes",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Europa Press Madrid",
+    "fuenteUrl": "https://www.europapress.es/internacional/noticia-policia-italiana-realiza-60-registros-23-ciudades-manifestaciones-viernes-20261031161339.html",
+    "id": "2026-11-06-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-11-08",
     "hora": null,
     "horaFin": null,
