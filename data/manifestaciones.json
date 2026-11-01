@@ -1123,7 +1123,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/01_11_2026-desvio-lineas-emt-manifestacion-princesa-gran-via/?lang=es",
-    "id": "2026-11-01-princesa"
+    "id": "2026-11-01-princesa",
+    "otrasFuentes": [
+      {
+        "fuente": "Europa Press Madrid",
+        "url": "https://www.europapress.es/internacional/noticia-menos-325-detenidos-manifestacion-apoyo-palestine-action-londres-20261101133127.html"
+      }
+    ]
   },
   {
     "fecha": "2026-11-03",
