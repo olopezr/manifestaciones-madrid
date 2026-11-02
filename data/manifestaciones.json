@@ -1222,7 +1222,12 @@
     "fuente": "eldiario.es Madrid",
     "fuenteUrl": "https://www.eldiario.es/madrid/somos/protesta-sol-empieza-hablar-desacampada-no-pone-fecha-salida_1_13587779.html",
     "id": "2026-11-11-puerta-del-sol",
-    "otrasFuentes": []
+    "otrasFuentes": [
+      {
+        "fuente": "20minutos Madrid",
+        "url": "https://www.20minutos.es/madrid/mayoria-comisiones-acampada-sol-anuncian-salida-plaza-para-preparar-huelga-general-11-noviembre_7055866_0.html"
+      }
+    ]
   },
   {
     "fecha": "2026-11-21",
