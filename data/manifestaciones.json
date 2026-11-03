@@ -1150,18 +1150,24 @@
   {
     "id": "2026-11-04-huelga-universitaria",
     "convocantes": null,
-    "estado": "probable",
+    "estado": "confirmada",
     "fecha": "2026-11-04",
     "fuente": "El Diario de Madrid",
     "fuenteUrl": "https://www.eldiariodemadrid.es/articulo/educacion/huelga-indefinida-profesores-madrid-14-octubre-2026-manifestaciones-servicios-minimos/20261014092042144084.html",
-    "hora": null,
-    "horaFin": null,
+    "hora": "09:30",
+    "horaFin": "12:00",
     "lugar": "Por anunciar",
     "mapa": "Ciudad Universitaria",
     "motivo": "Huelga en las universidades",
     "recorrido": "Jornadas de huelga convocadas; sin lugar ni hora publicados en Madrid",
     "tipo": "Posible movilización",
-    "titulo": "Huelga universitaria (4 y 5 de noviembre)"
+    "titulo": "Huelga universitaria (4 y 5 de noviembre)",
+    "otrasFuentes": [
+      {
+        "fuente": "Aviso EMT (CRTM)",
+        "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/04_11_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-virgen-de-los-peligros-carr%C2%AA-de-san-jer%C3%B3nimo/?lang=es"
+      }
+    ]
   },
   {
     "fecha": "2026-11-06",
