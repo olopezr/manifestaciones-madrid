@@ -1148,6 +1148,21 @@
     "otrasFuentes": []
   },
   {
+    "fecha": "2026-11-03",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Puerta del Sol",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "El desalojo de la acampada 26S de Sol y las últimas horas de su protesta",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/desalojo-acampada-26s-sol-ultimas-horas-protesta_3_13632978.html",
+    "id": "2026-11-03-puerta-del-sol"
+  },
+  {
     "id": "2026-11-04-huelga-universitaria",
     "convocantes": null,
     "estado": "confirmada",
@@ -1166,8 +1181,57 @@
       {
         "fuente": "Aviso EMT (CRTM)",
         "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/04_11_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-virgen-de-los-peligros-carr%C2%AA-de-san-jer%C3%B3nimo/?lang=es"
+      },
+      {
+        "fuente": "Gacetín Madrid",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdTBaZi1xY29tQ0ZHNzRFYUtzeXNQcHRRUm4zX0NzS0k1RnhmWUFiN19TS0pwU0lRSTFHOHJ1M0ZKSnUyVlhyVHBzZW5FNFRSVUFSd2c5UzlDMDlwTHFtS2djY092eUxwdjktWlZwQjRXbHI4LTlaVkVMSGtPdkZRWmpMX1NnejI1cWRjRFlwaE52VEZ5cjNxU1VaNC1kUHNZSTlr?oc=5"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-04",
+    "hora": "13:00",
+    "horaFin": null,
+    "lugar": "Puerta del Sol",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "La Policía desaloja de madrugada la acampada de Sol tras la marcha de las principales organizaciones",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/policia-desaloja-madrugada-acampada-sol-marcha-principales-organizaciones_1_13632746.html",
+    "id": "2026-11-04-puerta-del-sol"
+  },
+  {
+    "fecha": "2026-11-04",
+    "hora": "19:00",
+    "horaFin": null,
+    "lugar": "Vallecas",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestaciones en Ciudad Lineal y Vallecas para calentar motores ante la Huelga General del 11N",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "FRAVM (asociaciones vecinales)",
+    "fuenteUrl": "https://fravm.org/noticias/manifestaciones-en-ciudad-lineal-y-vallecas-para-calentar-motores-ante-la-huelga-general-del-11n/",
+    "id": "2026-11-04-vallecas"
+  },
+  {
+    "fecha": "2026-11-05",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Huelga de profesores en Madrid: corte de la A-42, reivindicaciones y manifestaciones del 4 y 5 de noviembre",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Diario de Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZGZnRFVjbG9WZzktdnJjbko2VFJpMUJZMXBCV0FCemREbGY4bThvY1dpclBFdkZyNFdvSUhlb3pUWC0wYUpEWUw1X1Q5WF8xemxGZ3l0NnJHYmVQaFgtU1d5cmZlVGZBc1o0LVdaNnNNeThYVEJ6bGlYZXZOYTlXNTM0bVhZeFc1bFRsdkR4Y0M4enJpeXZUQkd0S2hVLVJGQ0NDN0dQbjhacHRQX0VsSkpabVBnQmd6WjhsdGNwYWpqT1E0c3F1R20yRTNUQ1dPR3RhX1RQeS1lX3dL0gHiAUFVX3lxTE84Si03aUVsbTRqSE45cm53OVhiUG1xbzFyYTk0NzFuNmpjVkxmczJjVjlwQzVuZy14NDk0b0d2SVJpZW5udDhDTTV3MlMwTlpFWWxpSEtUb3c4aVdmVHNlTFZKU1RwaHRwem1KNDB2YXFjLV9SLTZtNFBHRjZURlYwWWh3YVFUUUJnQWVqMDNDYUs1NHNGQVdBeHp4Z1pDVmN6WHVGcFF0MmZGcVFXNEluS0RIVDFNNm5rSXNRNVlpa2NETnRlVWYzTS1HeHFsX0sxcFl4VjZhd2dnUjAyZkRkV0E?oc=5",
+    "id": "2026-11-05-madrid-lugar-por-concretar"
   },
   {
     "fecha": "2026-11-06",
