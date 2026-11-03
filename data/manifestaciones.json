@@ -1219,6 +1219,21 @@
     "id": "2026-11-04-vallecas"
   },
   {
+    "fecha": "2026-11-04",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Congreso",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Los médicos retoman este miércoles la huelga en Madrid con una marcha al Congreso",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Noticias para Municipios",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUk10MVVKY0tIMUoxeW5sTGJjUlI1SmNYRkpaVEpsQlFjNVZOREZpZ2twc0lGQTNUOWtUU0JMY2lGeng5MXR4MGQ2MFJDMlV3RTB1NG1NS1g2MEpVYWVLX0ZrSnM5a0FlbU9BRndYYmpsa2VwTkI0NE9ONVc0b1h4QXItWnVMNmNYdkI1UDI3T1FaaHdi?oc=5",
+    "id": "2026-11-04-congreso"
+  },
+  {
     "fecha": "2026-11-05",
     "hora": null,
     "horaFin": null,
