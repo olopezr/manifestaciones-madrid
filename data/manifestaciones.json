@@ -1250,6 +1250,21 @@
   },
   {
     "fecha": "2026-11-05",
+    "hora": "17:00",
+    "horaFin": "21:00",
+    "lugar": "Paseo Prado-Alcalá",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Paseo Prado-Alcalá",
+    "motivo": "Desvíos de EMT (17:00–21:00): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, C03, E1 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/05_11_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-prado-alcal%C3%A1/?lang=es",
+    "id": "2026-11-05-paseo-prado-alcala"
+  },
+  {
+    "fecha": "2026-11-05",
     "hora": null,
     "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
@@ -1280,18 +1295,24 @@
   },
   {
     "fecha": "2026-11-07",
-    "hora": null,
-    "horaFin": null,
+    "hora": "19:30",
+    "horaFin": "22:30",
     "lugar": "Madrid (lugar por concretar)",
     "recorrido": null,
     "tipo": "Manifestación",
     "titulo": "Menos de 800 detenidos en los incidentes del sábado tras el 'Tercer Acto' de las manifestaciones en Francia",
     "motivo": null,
     "convocantes": null,
-    "estado": "por-confirmar",
+    "estado": "confirmada",
     "fuente": "Europa Press Madrid",
     "fuenteUrl": "https://www.europapress.es/internacional/noticia-menos-800-detenidos-incidentes-sabado-tercer-acto-manifestaciones-francia-20261101143638.html",
-    "id": "2026-11-07-madrid-lugar-por-concretar"
+    "id": "2026-11-07-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "Aviso EMT (CRTM)",
+        "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/07_11_2026-desvio-lineas-emt-manifestacion-princesa-marques-de-urquijo/?lang=es"
+      }
+    ]
   },
   {
     "fecha": "2026-11-08",
