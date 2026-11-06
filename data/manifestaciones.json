@@ -1351,6 +1351,21 @@
     ]
   },
   {
+    "fecha": "2026-11-12",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "CSIF Educación Madrid convoca una concentración el 12 de noviembre para exigir a Zarzalejo que negocie",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Diario de Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNREpRaG5jYnVhNmwtdVZ4SjRsQWlWM1ZrU1o2SEkxcjNxcnlZaktlWnNMcXJhNkNnTEw2bldYVDh3ZmNlRGxvZ3ZYWkRQc2xDQnhYT1JxNGZsVGRhanAwNkUzbUtjLVJidy05QjV0dXlOOVBEVzdfM3Z3cmc2RU1TdWI3aHJKdzZxZFAtTmxoZGZRdFlHOHRRVG81ay1HRW1FakVFRnFDMXNJc2tYMF9wYUZLUUlhMnU2RkVnekhuck1jbDN6OW8zdy1UN0NkbXlGYU4teEhBVW41MjZHM25z0gHfAUFVX3lxTE1ESlFobmNidWE2bC11VnhKNGxBaVYzVmtTWjZISTFyM3FyeVlqS2Vac0xxcmE2Q2dMTDZuV1hUOHdmY2VEbG9ndlhaRFBzbENCeFhPUnE0ZmxUZGFqcDA2RTNtS2MtUmJ3LTlCNXR1eU45UERXN18zdndyZzZFTVN1Yjdockp3NnFkUC1ObGhkZlF0WUc4dFFUbzVrLUdFbUVqRUVGcUMxc0lza1gwX3BhRktRSWEydTZGRWd6SG5yTWNsM3o5bzN3LVQ3Q2RteUZhTi14SEFVbjUyNkczbnM?oc=5",
+    "id": "2026-11-12-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-11-21",
     "hora": null,
     "horaFin": null,
