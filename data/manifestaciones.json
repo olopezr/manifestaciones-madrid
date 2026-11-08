@@ -1334,6 +1334,21 @@
     "id": "2026-11-08-madrid-lugar-por-concretar"
   },
   {
+    "fecha": "2026-11-10",
+    "hora": "20:00",
+    "horaFin": "22:30",
+    "lugar": "Alcalá",
+    "recorrido": "Alcalá → Cánovas del Castillo",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Alcalá - Cánovas del Castillo",
+    "motivo": "Desvíos de EMT (20:00–22:30): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, C03, E1, Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/10_11_2026-desvio-lineas-emt-manifestacion-alcala-canovas-del-castillo/?lang=es",
+    "id": "2026-11-10-alcala"
+  },
+  {
     "fecha": "2026-11-11",
     "hora": "19:00",
     "horaFin": null,
