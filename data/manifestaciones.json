@@ -1401,6 +1401,21 @@
   },
   {
     "fecha": "2026-11-12",
+    "hora": "12:30",
+    "horaFin": "14:00",
+    "lugar": "Alcalá",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Alcalá",
+    "motivo": "Desvíos de EMT (12:30–14:00): líneas 002, 3, 5, 9, 15, 20, 46, 51, 52, 53 y 150",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/12_11_2026-desvio-lineas-emt-concentracion-alcala/?lang=es",
+    "id": "2026-11-12-alcala"
+  },
+  {
+    "fecha": "2026-11-12",
     "hora": null,
     "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
