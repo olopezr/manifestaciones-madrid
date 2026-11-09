@@ -1350,6 +1350,36 @@
   },
   {
     "fecha": "2026-11-11",
+    "hora": "11:30",
+    "horaFin": "13:30",
+    "lugar": "Plaza Cibeles",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Plaza Cibeles",
+    "motivo": "Desvíos de EMT (11:30–13:30): líneas 001, 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, C03, E1 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/11_11_2026-desvio-lineas-emt-concentracion-plaza-cibeles/?lang=es",
+    "id": "2026-11-11-plaza-cibeles"
+  },
+  {
+    "fecha": "2026-11-11",
+    "hora": "18:30",
+    "horaFin": "22:30",
+    "lugar": "Paseo del prado",
+    "recorrido": "Paseo del prado → Plaza de España",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Paseo del prado - Plaza de España",
+    "motivo": "Desvíos de EMT (18:30–22:30): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 25, 27, 34, 37, 39, 44, 45, 46, 51, 52, 53, 74, 75, 133, 138, 146, 147, 148, 150, 158, C03, C1, C2, E1 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/11_11_2026-desvio-lineas-emt-desvio-lineas-emt-manifestacion-paseo-del-prado-plaza-de-espana/?lang=es",
+    "id": "2026-11-11-paseo-del-prado"
+  },
+  {
+    "fecha": "2026-11-11",
     "hora": "19:00",
     "horaFin": null,
     "lugar": "Puerta del Sol",
@@ -1443,6 +1473,12 @@
     "estado": "por-confirmar",
     "fuente": "eldiario.es Madrid",
     "fuenteUrl": "https://www.eldiario.es/madrid/somos/pilar-trinidad-nombrada-nueva-delegada-gobierno-madrid-noviembre-lleno-protestas_1_13618552.html",
-    "id": "2026-11-29-puerta-del-sol"
+    "id": "2026-11-29-puerta-del-sol",
+    "otrasFuentes": [
+      {
+        "fuente": "ABC Madrid",
+        "url": "https://www.abc.es/espana/madrid/huelga-examina-delegada-gobierno-madrid-pone-prueba-20261107010040-nt.html"
+      }
+    ]
   }
 ]
