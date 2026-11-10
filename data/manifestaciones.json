@@ -1335,6 +1335,43 @@
   },
   {
     "fecha": "2026-11-10",
+    "hora": "06:00",
+    "horaFin": "09:00",
+    "lugar": "Atocha",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Parón casi total en los Cercanías de Madrid este martes por la huelga de maquinistas",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/paron-total-cercanias-madrid-martes-huelga-maquinistas_1_13651026.html",
+    "id": "2026-11-10-atocha-2",
+    "otrasFuentes": [
+      {
+        "fuente": "Infobae España",
+        "url": "https://www.infobae.com/espana/2026/11/10/la-huelga-de-maquinistas-el-incumplimiento-de-los-servicios-minimos-y-la-borrasca-bruna-sumen-a-madrid-y-cataluna-en-un-caos-circulatorio-a-primera-hora/"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-10",
+    "hora": "18:00",
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Guía de movilidad para la huelga del 11N en Madrid: horarios y zonas cortadas al tráfico por la manifestación",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Bing Noticias",
+    "fuenteUrl": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af3303d387840af9c512b9761f1f6bd&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fotras%2fgu%25C3%25ADa-de-movilidad-para-la-huelga-del-11n-en-madrid-horarios-y-zonas-cortadas-al-tr%25C3%25A1fico-por-la-manifestaci%25C3%25B3n%2far-AA2h7331&c=4727711848307583561&mkt=es-us",
+    "id": "2026-11-10-atocha",
+    "otrasFuentes": []
+  },
+  {
+    "fecha": "2026-11-10",
     "hora": "20:00",
     "horaFin": "22:30",
     "lugar": "Alcalá",
@@ -1346,7 +1383,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/10_11_2026-desvio-lineas-emt-manifestacion-alcala-canovas-del-castillo/?lang=es",
-    "id": "2026-11-10-alcala"
+    "id": "2026-11-10-alcala",
+    "otrasFuentes": [
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZPUkpScVBRYnE5eFcwdGpVcUMtenBuVU5CenZKTGxVN0d3eGNWaVA2SlRVbG1WTjlyTDlkRjJSRHRURWg4OVdhNmhES0pvWlBBanpWdlkxc21MS0F6YzUyRkthT040MlRDZGR0dURSXzRUT3Jwd1ZvcTlpekpIYmRKbkF1R2UzbXExVVdZUHZPaEhfZldLQWhEUTZWZzlONXBNd3N3V1BJQ2pDTk5lYVlLZDlURkdKRk1FY1Z2MEpSbk5UVWs0Ri1B?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-11-11",
@@ -1361,7 +1404,42 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/11_11_2026-desvio-lineas-emt-concentracion-plaza-cibeles/?lang=es",
-    "id": "2026-11-11-plaza-cibeles"
+    "id": "2026-11-11-plaza-cibeles",
+    "otrasFuentes": [
+      {
+        "fuente": "El Diario de Madrid",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHhLRVYxY1Zad0JBUHZVQTExVU9hU2d0VXJNWld4WkVBV3U0TjhYT1lNWG4wTFN0VlNKamNjZHFsRDZJXzBZZm1yZFlCNmZyR3dwdS14LU1TaFhrV3RmOHhLSXUxZnJuUko3RVg5Mm5Wb21BQ0pmU1poSTJ0dmEtSmZPNmpCRXFHbkRuR19WbTVxWjEtWWcxS2JuZFhuSW0zZXlSalhGS2FfVm1qeVJ6cnlVUFVQeldCM3ctcXFDMmhMQUVrNGlhTTBGVHjSAdIBQVVfeXFMTnRjN3dZcm9BTFBrdmk2bTVVbGdhU3ktZmdHSzMxMlAyWVRPUnJZOW9kajBzcU1nUzlOaVJLbURIZEtSZ2NUbjBxZVpTUVc4WlEwaTFRLTdEenNlNW5vTjNabzV5UjlKTklwUF9xUmhiUXZIS0VxcHFMbzJJVXNNRjhDNEE2eHo2NllSRkNpQ2xXSHdNWUlOMmlQdkZEajhUR3ZaYWNEY0I1b2ltTklQdDQ0M2ZsejdsaER1U2VieWlMc1A2Vi1YRkdTVEVkb2ptejBn?oc=5"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-11",
+    "hora": "16:00",
+    "horaFin": "18:30",
+    "lugar": "Paseo Delicias",
+    "recorrido": "Paseo Delicias → pl. Emperador Carlos V",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Paseo Delicias - pl. Emperador Carlos V",
+    "motivo": "Desvíos de EMT (16:00–18:30)",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/11_11_2026-desv%C3%ADo-l%C3%ADneas-emt-manifestaci%C3%B3n-p%C2%BA-delicias-pl-emperador-carlos-v/?lang=es",
+    "id": "2026-11-11-paseo-delicias",
+    "otrasFuentes": [
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaFZsOWpIOGpFRlhDdlFrUHBWcUxaYVdIckEyWTlHalpXX0E2NjdIREY1YUhHRTFEbE0zVE9QYXpHQ1NwUDhtUkxFUnRubTRUQkJHV3g4cVRFbkdEbnF0a3hvX3FCNGtXRnJsb2hyWHVScVZoMHVXRXh3YUhtMGxkQnhZckRud3U0YzRGSkV4WTdKMWJHUkNBVGE2bTgxeHBHMDhIWTFKUkF1QTRYMlE?oc=5"
+      },
+      {
+        "fuente": "La Vanguardia",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSkg1WmJwWUV2cVlJV0czQ3lXcTNZcjBidmxLUGFoZTdkN19JLWE2MGhmZVR1ekZnRF9KSThER0xjU09LT0tfdUpxN25TRWJJWTFoem1qSzVmckhNb2dTZGNIQlJLd2FzQVBTNUVmbGtlcWtBdmRaMVFBYTg4RXctUVNTeFpZbUlEd0h2TF9zMktObzV5WUtvakhDLTBwSWxndzhSbk5GOFRTNFk3NXVhZ2FjYzRuMmczUWVEQ29kRFpuVDgzM0NWVFZHaVhBeTVkQVlPMXNSV0doZnB6TkYw0gHkAUFVX3lxTE92TkNQQUJFRGhqTVpXTDU2dUpfdzFWMXRveXI0WUwyelJaSGpIX3RwWGQ2TFoya3J2VWZYMDYxQkpoS0tOQ0sxcWEtS0QwWTNJMmRSWFB2anhQUC1BSjJKbm96VFktN3dNSlRXd1I4RFZIZWdYR1pnaXFZVFRPcG5lbmN0a2pFdFJya3lwaThEUl93T3d0MWNjNW0ySVg2dEJ4cEQ3WU5KaFp5M3k4N2RaZ0RxLTRnUmpvUGlPcUEzdWtuUG1wNWF6NjFGX2hvVHBPa0FvWUFUSk4tNjhhbmgtYnJHQQ?oc=5"
+      },
+      {
+        "fuente": "Bing Noticias",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af3303e9c2847ccb4c4a55b30e3bfcb&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fespana%2fhuelga-general-el-11-de-noviembre-en-madrid-horario-y-recorrido-de-la-manifestaci%25C3%25B3n-servicios-m%25C3%25ADnimos-en-transporte-y-hospitales-y-cortes-de-tr%25C3%25A1fico%2far-AA2h83DI&c=11058186153168684146&mkt=es-us"
+      }
+    ]
   },
   {
     "fecha": "2026-11-11",
