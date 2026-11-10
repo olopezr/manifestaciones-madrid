@@ -1392,11 +1392,41 @@
     ]
   },
   {
+    "fecha": "2026-11-10",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Cortes de tráfico en Madrid por manifestaciones hoy, martes 10 de noviembre, en estas zonas muy concurridas de la ciudad",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Confidencial",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZPUkpScVBRYnE5eFcwdGpVcUMtenBuVU5CenZKTGxVN0d3eGNWaVA2SlRVbG1WTjlyTDlkRjJSRHRURWg4OVdhNmhES0pvWlBBanpWdlkxc21MS0F6YzUyRkthT040MlRDZGR0dURSXzRUT3Jwd1ZvcTlpekpIYmRKbkF1R2UzbXExVVdZUHZPaEhfZldLQWhEUTZWZzlONXBNd3N3V1BJQ2pDTk5lYVlLZDlURkdKRk1FY1Z2MEpSbk5UVWs0Ri1B?oc=5",
+    "id": "2026-11-10-madrid-lugar-por-concretar"
+  },
+  {
+    "fecha": "2026-11-11",
+    "hora": "10:30",
+    "horaFin": "14:00",
+    "lugar": "Calle Ocaña",
+    "recorrido": "Calle Ocaña → Maqueda",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Calle Ocaña - Maqueda",
+    "motivo": "Desvíos de EMT (10:30–14:00): líneas 17, 25, 31, 65, 121, 131, 138, 139, 155, H y SE2",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/11_11_2026-desvio-lineas-emt-manifestacion-c-ocana-maqueda/?lang=es",
+    "id": "2026-11-11-calle-ocana"
+  },
+  {
     "fecha": "2026-11-11",
     "hora": "11:30",
     "horaFin": "13:30",
     "lugar": "Plaza Cibeles",
-    "recorrido": null,
+    "recorrido": "Cibeles → Atocha",
     "tipo": "Concentración",
     "titulo": "Concentración Plaza Cibeles",
     "motivo": "Desvíos de EMT (11:30–13:30): líneas 001, 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, C03, E1 y Exprés Aeropuerto",
@@ -1409,6 +1439,10 @@
       {
         "fuente": "El Diario de Madrid",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHhLRVYxY1Zad0JBUHZVQTExVU9hU2d0VXJNWld4WkVBV3U0TjhYT1lNWG4wTFN0VlNKamNjZHFsRDZJXzBZZm1yZFlCNmZyR3dwdS14LU1TaFhrV3RmOHhLSXUxZnJuUko3RVg5Mm5Wb21BQ0pmU1poSTJ0dmEtSmZPNmpCRXFHbkRuR19WbTVxWjEtWWcxS2JuZFhuSW0zZXlSalhGS2FfVm1qeVJ6cnlVUFVQeldCM3ctcXFDMmhMQUVrNGlhTTBGVHjSAdIBQVVfeXFMTnRjN3dZcm9BTFBrdmk2bTVVbGdhU3ktZmdHSzMxMlAyWVRPUnJZOW9kajBzcU1nUzlOaVJLbURIZEtSZ2NUbjBxZVpTUVc4WlEwaTFRLTdEenNlNW5vTjNabzV5UjlKTklwUF9xUmhiUXZIS0VxcHFMbzJJVXNNRjhDNEE2eHo2NllSRkNpQ2xXSHdNWUlOMmlQdkZEajhUR3ZaYWNEY0I1b2ltTklQdDQ0M2ZsejdsaER1U2VieWlMc1A2Vi1YRkdTVEVkb2ptejBn?oc=5"
+      },
+      {
+        "fuente": "20minutos Madrid",
+        "url": "https://www.20minutos.es/madrid/cortes-trafico-madrid-huelga-general-11-noviembre-calles-afectadas_7059383_0.html"
       }
     ]
   },
@@ -1438,6 +1472,14 @@
       {
         "fuente": "Bing Noticias",
         "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af3303e9c2847ccb4c4a55b30e3bfcb&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fespana%2fhuelga-general-el-11-de-noviembre-en-madrid-horario-y-recorrido-de-la-manifestaci%25C3%25B3n-servicios-m%25C3%25ADnimos-en-transporte-y-hospitales-y-cortes-de-tr%25C3%25A1fico%2far-AA2h83DI&c=11058186153168684146&mkt=es-us"
+      },
+      {
+        "fuente": "El Economista",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRVdvYW5TUXk0cS00YmhEN2t0T0c4d3gxdHZ6T0FVWTdrb1lYYXQ5bERHUFFMV2hmVzRxam1qRER5UXB4N3lfSFc1ZXJjUVdYN3ROQ2NpZXU0RTEzVHlCTm5sNW9rLVFHVldNUnVZMUJ4ZHR6N2ZxVzNNUk5pY0dBdVZMYzFaenY2Zm1wTURTbE9pNDhkVG1wZ1dGcmlLV1hlNnVpNllQcEVLSXhhRnJOV1dJVS04LXJPZ2RMRWFSc2s3S3JXeHd0aHBLTGM1QlFoTDU2MWpnck5EQ3BjZm9uQ0xVZzlvVXNpRjMxY0FpdG41QzFoNTl1Ym5SMEVkUDNmakIydjgwYlNRX0dfMlBnWkJR0gGSAkFVX3lxTE1FV29hblNReTRxLTRiaEQ3a3RPRzh3eDF0dnpPQVVZN2tvWVhhdDlsREdQUUxXaGZXNHFqbWpERHlRcHg3eV9IVzVlcmNRV1g3dE5DY2lldTRFMTNUeUJObmw1b2stUUdWV01SdVkxQnhkdHo3ZnFXM01STmljR0F1VkxjMVp6djZmbXBNRFNsT2k0OGRUbXBnV0ZyaUtXWGU2dWk2WVBwRUtJeGFGck5XV0lVLTgtck9nZExFYVJzazdLcld4d3RocEtMYzVCUWhMNTYxamdyTkRDcGNmb25DTFVnOW9Vc2lGMzFjQWl0bjVDMWg1OXViblIwRWRQM2ZqQjJ2ODBiU1FfR18yUGdaQlE?oc=5"
+      },
+      {
+        "fuente": "elDiario.es",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVlh5b0VpWXJ0aWRsOU51OXZGZ241UzJQbkx5VnNyQVJsNkxDdUw2d1Jad3oteGRUaVlaNHRjNTZDRmdUVUd6Z1FybXRHNVZFZ0U4bndlWDltdmVGbVBVQmZ3RnJHTFZwU1Y5UEg3MDlBOFhDa1dmbXBqU1BOSjkwYlQyUW5CNHNIT1dGaWlxcllXR09XdWNYX0x3eC1jYUVXeUNsS2IyRnJSVzFfcVFEZlZKZkltX3ZTeDM0aDZSekhjc0dTM3ZzcEFMMENGRjJBSFNYN3ZudWdYeXJ5bENr0gHfAUFVX3lxTE1WWHlvRWlZcnRpZGw5TnU5dkZnbjVTMlBuTHlWc3JBUmw2TEN1TDZ3Ulp3ei14ZFRpWVo0dGM1NkNGZ1RVR3pnUXJtdEc1VkVnRThud2VYOW12ZUZtUFVCZndGckdMVnBTVjlQSDcwOUE4WENrV2ZtcGpTUE5KOTBiVDJRbkI0c0hPV0ZpaXFyWVdHT1d1Y1hfTHd4LWNhRVd5Q2xLYjJGclJXMV9xUURmVkpmSW1fdlN4MzRoNlJ6SGNzR1MzdnNwQUwwQ0ZGMkFIU1g3dm51Z1h5cnlsQ2s?oc=5"
       }
     ]
   },
@@ -1454,7 +1496,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/11_11_2026-desvio-lineas-emt-desvio-lineas-emt-manifestacion-paseo-del-prado-plaza-de-espana/?lang=es",
-    "id": "2026-11-11-paseo-del-prado"
+    "id": "2026-11-11-paseo-del-prado",
+    "otrasFuentes": [
+      {
+        "fuente": "eldiario.es Madrid",
+        "url": "https://www.eldiario.es/madrid/somos/manifestacion-unitaria-huelga-general-11-noviembre-madrid-horario-recorrido-convocatorias_1_13651933.html"
+      }
+    ]
   },
   {
     "fecha": "2026-11-11",
