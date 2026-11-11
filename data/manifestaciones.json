@@ -1408,6 +1408,21 @@
   },
   {
     "fecha": "2026-11-11",
+    "hora": "00:00",
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": "Atocha → Paseo del Prado → Cibeles → Calle Alcalá",
+    "tipo": "Manifestación",
+    "titulo": "Huelga general 11 de noviembre en Madrid: horario, recorrido y cortes de tráficos previstos por la manifestación por la vivienda hoy",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "ABC Madrid",
+    "fuenteUrl": "https://www.abc.es/espana/madrid/huelga-general-noviembre-madrid-horario-recorrido-cortes-20261111050000-nt.html",
+    "id": "2026-11-11-atocha-2"
+  },
+  {
+    "fecha": "2026-11-11",
     "hora": "10:30",
     "horaFin": "14:00",
     "lugar": "Calle Ocaña",
@@ -1480,6 +1495,35 @@
       {
         "fuente": "elDiario.es",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVlh5b0VpWXJ0aWRsOU51OXZGZ241UzJQbkx5VnNyQVJsNkxDdUw2d1Jad3oteGRUaVlaNHRjNTZDRmdUVUd6Z1FybXRHNVZFZ0U4bndlWDltdmVGbVBVQmZ3RnJHTFZwU1Y5UEg3MDlBOFhDa1dmbXBqU1BOSjkwYlQyUW5CNHNIT1dGaWlxcllXR09XdWNYX0x3eC1jYUVXeUNsS2IyRnJSVzFfcVFEZlZKZkltX3ZTeDM0aDZSekhjc0dTM3ZzcEFMMENGRjJBSFNYN3ZudWdYeXJ5bENr0gHfAUFVX3lxTE1WWHlvRWlZcnRpZGw5TnU5dkZnbjVTMlBuTHlWc3JBUmw2TEN1TDZ3Ulp3ei14ZFRpWVo0dGM1NkNGZ1RVR3pnUXJtdEc1VkVnRThud2VYOW12ZUZtUFVCZndGckdMVnBTVjlQSDcwOUE4WENrV2ZtcGpTUE5KOTBiVDJRbkI0c0hPV0ZpaXFyWVdHT1d1Y1hfTHd4LWNhRVd5Q2xLYjJGclJXMV9xUURmVkpmSW1fdlN4MzRoNlJ6SGNzR1MzdnNwQUwwQ0ZGMkFIU1g3dm51Z1h5cnlsQ2s?oc=5"
+      },
+      {
+        "fuente": "ABC",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZEQ2NXJtZUZ6Wl8wNE9keTVSNlhMZlFFVkNxdWhxN1ZpLXJtUndKMnlxaFVoTm50bld4RGN2NGRlY1pWVFBWX0ZwU0NOd0tRZHJ2eW4xUFE0MjZKZEdPOHh0SHhoTnZKd29KYmlTMU0xWTdKUlB3QWYyOS05bDdqTFoxR2stc1l3cnhGcG9GZEVQSXZiVGs5MzBSMkZ4azYxQmRhNjNXVEJ6MjlRblJXLTFB0gG3AUFVX3lxTE9fYklDOUVOZ19jYnlJTDVPNkdVbXNNSUFqSGtBZ3Y4TS1PMzNQa0ZZNDY1SWs4R0I0akhib0dZWDBWejVMU3Q3WWJ2MDYtbGltb1ZPdDAxbVBhZDFjcHdkNkdjeFE4YWVfTTh1SGpJS25XajYyWXNpdGJQMTlVTlNJS3F0ZFN4aWdKZzV5RjZvaFlJSnVBYmQ4OTk4ZzFTSXBZSkpZWWdmMExCSUhXdlhlTWdIU0JpOA?oc=5"
+      },
+      {
+        "fuente": "La Razón",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOb1hvV3BuZkVVaXdfYzYyckhJV0w5LU1Lb2hheURtMG9fbmxPSG1Pb0V2U05qaGl6MUJiN3IycTVUaGxlQWFZOWhtSzNJMFBUaUJJNGFJU1ZVZUFEdkxTZ3BtQ0xicWlzSzI1Vl8wakhPcmcxOHFSMGNRNUViXzJ2Mm9LeWVlM2dRY0lUZVpYLVRVTlJwMzduVm96dzdmS0QxTXkyeG5TaXpMTklqQm9OVHRXTkgyMDNNc0JPeXFwb0I0bnRZaE05bEIwUmpCRTYzME1rU3FkbUFnalgwOEY0Q1BmbUdSSlFLcFk40gH_AUFVX3lxTE1RZjM1c0wtY3lBMkJydDlLMUZYdWJiYW9KeEx5b0tUV2xja25RQjdjb3g1VnQ0NDVsalB2bFNHLVZMT0hfNmpES3dMZHBrRFZOaU5MM20wMFEtWUFsSW51T2h2cmVvZmdqMlNWa3c1OG93eVE5UFBvTWVWUEVwRUp1TTVMYVFrbjVrM181bGlXZW95Z1ZPTzRON0F5d3FGYzBIM3R4eVk2andibm1uUWczREUycHhCa3l1M19vdUhqVEZLUkw1ZzUxam42X19GTnpoYllqVFZXSERKcm4xWnRKczgtdjhnalBXRzV0R1FKcjdEeExZNU1rWGd2MXJlZw?oc=5"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-11",
+    "hora": "18:00",
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": "Atocha → Plaza de España → Cibeles → Puerta del Sol",
+    "tipo": "Manifestación",
+    "titulo": "El mapa de la Huelga General del 11N en Madrid: a qué hora empieza la manifestación en Atocha y qué calles evitar",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Bing Noticias",
+    "fuenteUrl": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af40a39593d425788b41b978469aabe&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fotras%2fel-mapa-de-la-huelga-general-del-11n-en-madrid-a-qu%25C3%25A9-hora-empieza-la-manifestaci%25C3%25B3n-en-atocha-y-qu%25C3%25A9-calles-evitar%2far-AA2h7dEb&c=1053207003764028620&mkt=es-us",
+    "id": "2026-11-11-atocha",
+    "otrasFuentes": [
+      {
+        "fuente": "eldiario.es Madrid",
+        "url": "https://www.eldiario.es/madrid/somos/manifestacion-unitaria-huelga-general-11-noviembre-madrid-horario-recorrido-convocatorias_1_13651933.html"
       }
     ]
   },
@@ -1501,6 +1545,10 @@
       {
         "fuente": "eldiario.es Madrid",
         "url": "https://www.eldiario.es/madrid/somos/manifestacion-unitaria-huelga-general-11-noviembre-madrid-horario-recorrido-convocatorias_1_13651933.html"
+      },
+      {
+        "fuente": "Bing Noticias",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af40a38eb854c7c8d9c63494cfdc66c&url=https%3a%2f%2fwww.msn.com%2fes-es%2fnoticias%2fotras%2fmanifestaci%25C3%25B3n-unitaria-por-la-huelga-general-del-11-de-noviembre-en-madrid-horario-recorrido-y-otras-convocatorias%2far-AA2hajkz&c=10987119939104677531&mkt=es-us"
       }
     ]
   },
@@ -1524,6 +1572,21 @@
         "url": "https://www.20minutos.es/madrid/mayoria-comisiones-acampada-sol-anuncian-salida-plaza-para-preparar-huelga-general-11-noviembre_7055866_0.html"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-11",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Moncloa",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Mapa de Madrid con las calles cortadas por la huelga general de hoy y a qué hora vuelve la normalidad al centro",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "MONCLOA.COM",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vNVNRVDdTNkx6QU5uUVFtS3M1SGZhV3d3N0FCZmxIT1BkTVNrUDlOWTlad0JkWC1KV0hxRDRvMFdoUG9wUk1lSzk4ZjktRlFpanFwRGZRSXNoTmVFUkM2NE9wYklSMnIwRm1saFFKQ0stR2hMaDBvU3MzeEg?oc=5",
+    "id": "2026-11-11-moncloa"
   },
   {
     "fecha": "2026-11-12",
