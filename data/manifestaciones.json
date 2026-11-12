@@ -1669,6 +1669,10 @@
       {
         "fuente": "RTVE.es",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcDFKdmdQazJkS0w5bnNVZldqaVNsSXh0X05xRUFBSUNBWGliUWJ6NGp5WGl4S3Zpd3pGOEpjbzI1Zmd5Wmw2RWtkcjNaTEt3RnpiTkVHeng4Sm5UMl9WXzkwWlRUeTdWWW1kdTNxNFBPcWEzYlBLVjNraTlyaGJDOHRfdVFuNGxRWnI4b1Jzckx1WDZDTzhDLXYwU1FiMnRBclZFNU9MZw?oc=5"
+      },
+      {
+        "fuente": "Córdoba Buenas Noticias",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNazFWdENHOG5OcXMyamdJeFdBeUxUdTlBejhKMjAyMHRhR0ZrSWxvM1BIM3ZHNWhVazM3MkxVbjRlbEJDUWUwUXVCNFYyRDRxbkJvS1JyLWxlREVheDhwT0FxZjFsd0ZtV3J4N0QwcGZkVHZxSGdnSVh1S0VLT3R0TjVrZ3VOWjd4a0pBT2MzdTBPMHRFcmlaaFBZV3FEZ1FDUFpTVFNBVUkyTFI2dzljekNiaklaaDhBR1FsQTFheXVRS1NFU1hHSGFZanFMNG1OOTZTQWdTNUdaQ1l2dzU5SVdES1DSAeoBQVVfeXFMT3IwcTJwTWNURnp3dmI0c3R2dlp4QndvaWFCdkRhQVl0Y2VjWmdmZ2tBSmUzanNnVWFDUjREa1VzLVNpWmdfQ1NXS2xwTTQzaV9sb2V0d09LN2ZldXJ1WW5yS2J4WDV4U3VyNW4wLTVTMW1nWHBHbTBKUWtMcExaRmJ6MGZzS214MDdFWTJmSEdvNVBLTXVJNlc1cGhBcTRPZjZEUlhyU2k4dFptVmFLeTZKQXo3SXZ6QjFWSE8xNU1rSVQ0MWFxSURTSDY4Wl9SRVhudFNXWmNBc190d3NzZFd0SkxtcmljaFhR?oc=5"
       }
     ]
   },
@@ -1686,6 +1690,39 @@
     "fuente": "eldiario.es Madrid",
     "fuenteUrl": "https://www.eldiario.es/madrid/somos/desconvocada-huelga-maquinistas-cercanias-madrid-jueves-c-3-corta-averia_1_13656881.html",
     "id": "2026-11-12-atocha"
+  },
+  {
+    "fecha": "2026-11-14",
+    "hora": "11:30",
+    "horaFin": "15:00",
+    "lugar": "Castellana-Cánovas del Castillo",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Castellana-Cánovas del Castillo",
+    "motivo": "Desvíos de EMT (11:30–15:00): líneas 001, 1, 2, 5, 7, 9, 10, 12, 14, 15, 16, 20, 21, 27, 34, 37, 51, 52, 53, 61, 74, 146, 147, 150, C03, E1, S10 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/14_11_2026-desvio-lineas-emt-manifestacion-castellana-canovas-del-castillo/?lang=es",
+    "id": "2026-11-14-castellana-canovas-del-castillo",
+    "otrasFuentes": [
+      {
+        "fuente": "Europa Press",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQmlqbWN4c0lFU3VqMVpVcXpOTlB5Y09FUTF0Tm4wQTZ4S2c5N3A2RXNNSW1uQ0RhRGxmaVd1M1VuSDJLLUhUbjFPZVpZN000TzZYRUlJOUlpZTEtcV9vVk15YVptS2F3SXlSRDBuUGJYenJZYllrQzNyZHhNbEIxamdoUEFoMTF2MVl4NG00OVhNbF9qUlREZGNmWE50NU5PcmtvRXE4aTJDRVRMcmd5VHBxN2N1NThzeHc4ZWF2RlNJN2N6Mk9Fckh5UTJvMHFCRGtKanBaOTdXQ2MwNzNjV0ZkOFdHNm0yYjdPNWY5SHZZYUlH?oc=5"
+      },
+      {
+        "fuente": "El Mundo",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ19ZQ2g3aFpXVzdYbnFiWVkyeENHbV9CU0huUUNhNElDbDVYUnhTQUUzdzN2R1BnaFRlTEJ2ei1HMkxGSTA3UWtBRnpPcDZhcUU0S0dLVHZRVkN5Z1dxYjdzSW5IQnI4UFVhMHFvTHNlaWE3dFBWNVRiRHlGZW9UR2NfeGFtcy1Y0gGIAUFVX3lxTFBham9kRUswTFJGSTl5dnB4bWZ2SVNXbWYyWEI2dXBFOVNmQkVyQV9iN196V2V0b3N4d2QxUDZRM0Fta1BjQVZIVU1aN3RVRGJjQkJUNkU2bVBCOHVlMzF6UmVfNXZmZVgwOGQ0SlpjbmxrTGR5a01CNWtLT2RZQlR3RU5OM1dCbFM?oc=5"
+      },
+      {
+        "fuente": "Madridiario",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObllzeVRYWExFNG1HMnI2S1FuWW9oNFh2R2dXTVUyVkRTWDZOaHRoaWREbDFpNHUxd3BjOS1xTkIycWhPSnp5QVhzeGhQRjNmcjJlaFdaeWc0N3dfcWw1S0Z3LTJ2TFdPTEx4QTFkYUxpOWM2T1ljTVp2Qy1HSFEtOUhKVlB1cnVSU1lSd0RSbi16RGloTEthUzFPYjhSRDA?oc=5"
+      },
+      {
+        "fuente": "Tercera Información",
+        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxObVJXdWphRHg4M25oNktMOGdrYV9CcjV5cjdwTXIwNVM5X18wZkxwd0V2aTRXT2tidXNRSGlTdVpmSkNIREYwVi14VllWVmlCOGZtWEVOdC1hVnJDQUUtQlNUYWxyZUxYajhycXNUNGFNSTI4QlYyLTRTYVVPY3gyMG9pVm5JRm1oNENtWVRKdGRxdnE4OHo3enV5WEtIZ3gyQmtSQWV3V3dFeTJmWjRhUTNXampKcFl0aElKRDZSOXVDSkNyemVCWFFqWEFHSXNFMVN4eGFWS1NMLWswcG1RWURRN0RGelJaWTZydjNJN3NhMXd5VVp2YWpsYUdqZzJWdGRtVThXSDJxWGE3ZHBCNU9NMVRCWWJ4XzZjd0FZR25Oc1lBVVZKMW1Ld0hGbFZ0dlJhSTNua29nd04zTTZHTFl2V1hSNTYydlJLV0dUMlB0U3VCVExERQ?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-11-21",
