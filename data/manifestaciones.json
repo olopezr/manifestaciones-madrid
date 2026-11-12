@@ -1627,7 +1627,8 @@
     "estado": "por-confirmar",
     "fuente": "ABC Madrid",
     "fuenteUrl": "https://www.abc.es/espana/madrid/puerta-sol-inspiro-huelga-amanece-seguridad-calma-20261111103417-nt.html",
-    "id": "2026-11-12-puerta-del-sol"
+    "id": "2026-11-12-puerta-del-sol",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-11-12",
@@ -1664,7 +1665,12 @@
     "fuente": "El Diario de Madrid",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNREpRaG5jYnVhNmwtdVZ4SjRsQWlWM1ZrU1o2SEkxcjNxcnlZaktlWnNMcXJhNkNnTEw2bldYVDh3ZmNlRGxvZ3ZYWkRQc2xDQnhYT1JxNGZsVGRhanAwNkUzbUtjLVJidy05QjV0dXlOOVBEVzdfM3Z3cmc2RU1TdWI3aHJKdzZxZFAtTmxoZGZRdFlHOHRRVG81ay1HRW1FakVFRnFDMXNJc2tYMF9wYUZLUUlhMnU2RkVnekhuck1jbDN6OW8zdy1UN0NkbXlGYU4teEhBVW41MjZHM25z0gHfAUFVX3lxTE1ESlFobmNidWE2bC11VnhKNGxBaVYzVmtTWjZISTFyM3FyeVlqS2Vac0xxcmE2Q2dMTDZuV1hUOHdmY2VEbG9ndlhaRFBzbENCeFhPUnE0ZmxUZGFqcDA2RTNtS2MtUmJ3LTlCNXR1eU45UERXN18zdndyZzZFTVN1Yjdockp3NnFkUC1ObGhkZlF0WUc4dFFUbzVrLUdFbUVqRUVGcUMxc0lza1gwX3BhRktRSWEydTZGRWd6SG5yTWNsM3o5bzN3LVQ3Q2RteUZhTi14SEFVbjUyNkczbnM?oc=5",
     "id": "2026-11-12-madrid-lugar-por-concretar",
-    "otrasFuentes": []
+    "otrasFuentes": [
+      {
+        "fuente": "RTVE.es",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcDFKdmdQazJkS0w5bnNVZldqaVNsSXh0X05xRUFBSUNBWGliUWJ6NGp5WGl4S3Zpd3pGOEpjbzI1Zmd5Wmw2RWtkcjNaTEt3RnpiTkVHeng4Sm5UMl9WXzkwWlRUeTdWWW1kdTNxNFBPcWEzYlBLVjNraTlyaGJDOHRfdVFuNGxRWnI4b1Jzckx1WDZDTzhDLXYwU1FiMnRBclZFNU9MZw?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-11-21",
