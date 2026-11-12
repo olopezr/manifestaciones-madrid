@@ -1673,6 +1673,21 @@
     ]
   },
   {
+    "fecha": "2026-11-12",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Atocha",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Desconvocada la huelga de maquinistas en Cercanías Madrid de este jueves, aunque la C-3 se corta por una avería",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/desconvocada-huelga-maquinistas-cercanias-madrid-jueves-c-3-corta-averia_1_13656881.html",
+    "id": "2026-11-12-atocha"
+  },
+  {
     "fecha": "2026-11-21",
     "hora": null,
     "horaFin": null,
@@ -1714,6 +1729,14 @@
       {
         "fuente": "Diario Estrategia",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd0FXVkxmeWYxbU1fZWMzWVE1NU94ZjJ6Z2NSdlNlTEZGSXZqQ2dsS2dzSnE0VExoQ19PS0duX0phcW9icWl2b29wOVVCQWg3djhWcWFXdjhpMWthQnlZYWc0U1d6OFc3VTcyLVlGcDBuSzhhOXI4Q1BfS2FEYWlQcHA1RTZPNEVrS1ZuUVNESWdUbnhIN1JTVWMzdlNydGozY3VhN0FYV1o2ZEptNEI0QnhHTERMZ0M5MDdiYzZzWXBLa0lBallwbUtaVnNJTnppMHdnbmRzM09LZE9EOTVyVmZ5Yw?oc=5"
+      },
+      {
+        "fuente": "Gaceta Médica",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQXzRzZTdhclVOMDd1MWtsd0ZvNGpLNFhfNG1iVG9BaVRqcG9XRUUyWWVlY3ZqWnVZaUxIaHczeVQtSDFLNFUzNWlrTnJJNGh3X3ZlQ29iMmIxX1p5c1JQYTY1UmZlTTI2MmlyeDh0ak8zS25oTjJJYnlYeVpZR2V2UWpoLXRsa2FDNDRaWk5zc2dMYlJFU1dnYQ?oc=5"
+      },
+      {
+        "fuente": "Infobae",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTll1VEI4YUNBMFNsRVNfVUs5dXJva0V3VkZON0ZHY3NTeGxWbDJJSE5IVDMxZWh4aElaUUZESlF0Zk9EWWt1dGNsWk9rdzJ6bFlCQWQyRHZZcFFfckltMVZMSVJzWnRqX2h0M3NteDVHLW5Lektvdi16WkVNRVk1ZERaeVI4QWFHSUthb1lqVmVMaUwwa3hLX1NTUkxoTTl0RlpYMlBYQWhhMnRCQUdxeGVfa3dkX25hQkc0LUxFZXZIOXZqSDhlOHQxTlBqYmFEOE96T2J30gHwAUFVX3lxTE1URk0wcy1KcThGaVAyb1pxQTRTR05naXY1dzUxT093cmZvVkNpMjNsSW5xVUNzNVFLYlNzM2dRTWhQclczS05oempvaG9WRUdLODg3ZFgwRlFjSXhhSWZvMnF6YUZWdjIwWTJfSVJqejdtRkRJQ3pnTFZucGhCWHJyNVpMVkNsb1Q1YUhyWHNrQUctQ2ZZUlR1VlNFbjhSU1hzNFJ6Yk1pZkNRM244UkFNdVlpRUJmV19ZbjRuUUhKSWN2OE9UNHMtNGhBYVE4M1hSbkxBTDhtcGJwSUZrMk5ldTllUnNMNzNxbWlGZE1nbQ?oc=5"
       }
     ]
   },
