@@ -1729,6 +1729,21 @@
     ]
   },
   {
+    "fecha": "2026-11-15",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Cortes de tráfico en Madrid hoy, domingo 15 de noviembre, por varias manifestaciones y carreras: horarios y calles afectadas",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "El Confidencial",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVmdwZzFSdkg5cWs1OEJjVm9RclQ5d3BNYUg3TFFJX256NlRoTHhfaHYzNnBnSUJrdmpaWGVlMDYwQzZ0UlBCeHZWOXp1NTFpMko2VVdETWg5bVB6eHhtMUNSVjdMTkFqMS1uSGtrZWxnMGtIRmlJUldDR29VVE5iLUJWcDlreUVSQnc3enh2WmlGaGp4VUlVbnlNMl9SdFljNGNMZXZyYXpGdFR6aFQ5Q1V4MTlUZ2VJWGYySTFaR3pxa1M3VldWQ04zbWdwMHkx?oc=5",
+    "id": "2026-11-15-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-11-21",
     "hora": null,
     "horaFin": null,
