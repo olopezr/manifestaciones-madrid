@@ -1744,6 +1744,36 @@
     "id": "2026-11-15-madrid-lugar-por-concretar"
   },
   {
+    "fecha": "2026-11-16",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Convocatoria",
+    "titulo": "Trump considera que Putin \"cede un poco\" en Ucrania y quiere el final de la guerra: \"Está dando marcha atrás\"",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Europa Press Madrid",
+    "fuenteUrl": "https://www.europapress.es/internacional/noticia-trump-considera-putin-cede-poco-ucrania-quiere-final-guerra-dando-marcha-atras-20261116165417.html",
+    "id": "2026-11-16-madrid-lugar-por-concretar"
+  },
+  {
+    "fecha": "2026-11-17",
+    "hora": "11:30",
+    "horaFin": "13:00",
+    "lugar": "Ciudad de Barcelona",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Concentración Ciudad de Barcelona",
+    "motivo": "Desvíos de EMT (11:30–13:00): líneas 001, 10, 14, 19, 24, 26, 32, 37, 54, 57, 59, 85, 86, 102, 141, C2 y Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/17_11_2026-desvio-lineas-emt-concentracion-ciudad-de-barcelona/?lang=es",
+    "id": "2026-11-17-ciudad-de-barcelona"
+  },
+  {
     "fecha": "2026-11-21",
     "hora": null,
     "horaFin": null,
@@ -1797,6 +1827,14 @@
       {
         "fuente": "GaliciaPress",
         "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQck5mQWx2dlhzR0NPVkxpZEFPaV9ZUVNSSnNSWDRRUUdnUm1xQjJGV0FuamQzdTdldlRKbmR4aWxBaWhCcWJ5Y21XUjFCVlhEb3ZxTF9zajF6THpMQk8wUTRJZnJtRWp1aFJhTzRsejJMQ01ZYVFCMjlUTDZ0amdNU1dUNHNVZUZid2dhVW5aWHFPRDVrWHhnUXg0TnhCS19RZTdDUlF1ZVZiNlEtYzhfVXAwZ0haRmFadVBsYTZ5dFpBdDFrS1RYZkwxS2RPNTVMUUhocWNVdE1Edm1Na2FXRWd4amd5NkxLUnQxS2dR?oc=5"
+      },
+      {
+        "fuente": "Univadis",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSEZMVTlPVlJxeVBzWHFKeklwNDRBMXJxazkwWHVqcjlBLUE3SllQSjdGa1VLTmJHRlNhbGtZQWNVNmxjc0lOQ1JfNFNzNUE3amE3NGVMVWM2dzUwcmNYSkw2cjFSQjB0ejNKajRIM3htSzlwTk1GazV5ZFlOS1JYZ2t2d1FXVElhcEdyaDhhdWZqbkpPejhyQ2V1T3NkaHM5bUE?oc=5"
+      },
+      {
+        "fuente": "101TV",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQekU3ZVUxUmt2OHhUcTZZTDBlR3hSX2padEFSNURYbkw0RUhpNWRUN2JNMzJ2SS02ZlA1SXg3amZjeDVkcWJSUHZOS2dtRWk3Zjh6QUNHMXFMQVdheWlORGw0QXBRNnFubGNkZXkyNTVVN0Y3dTRkb2N2M2d5VGZvQl9NUnhxM3l5ZWZWNWZDU2h4RjJYbUEwZUNwUmwwMTZEOUpYVVlnRnM5TUVrN01MRHJaZ1lxU1BoNFB1MWhvNkgtanp2b3ljREp1VkQ1aTFyWU83VDVjMHJ1dmNMLWhMUmpn?oc=5"
       }
     ]
   },
