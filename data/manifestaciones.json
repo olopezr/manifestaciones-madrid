@@ -1774,6 +1774,21 @@
     "id": "2026-11-17-ciudad-de-barcelona"
   },
   {
+    "fecha": "2026-11-20",
+    "hora": "08:00",
+    "horaFin": "09:30",
+    "lugar": "Diego de León",
+    "recorrido": "Diego de León → Maldonado",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Diego de León - Maldonado",
+    "motivo": "Desvíos de EMT (08:00–09:30)",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/19_11_2026-desvio-lineas-emt-manifestacion-diego-de-leon-maldonado/?lang=es",
+    "id": "2026-11-20-diego-de-leon"
+  },
+  {
     "fecha": "2026-11-21",
     "hora": null,
     "horaFin": null,
