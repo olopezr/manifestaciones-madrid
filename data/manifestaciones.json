@@ -1760,6 +1760,22 @@
   },
   {
     "fecha": "2026-11-17",
+    "hora": "06:00",
+    "horaFin": "09:00",
+    "lugar": "Atocha",
+    "recorrido": "Atocha → Recoletos → Nuevos Ministerios → Vallecas",
+    "tipo": "Huelga / movilización",
+    "titulo": "Atocha vive otro martes de caos, malestar y resignación por una huelga casi total sin trenes: \"Mi jefe sigue esperando\"",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "eldiario.es Madrid",
+    "fuenteUrl": "https://www.eldiario.es/madrid/somos/atocha-vive-martes-caos-malestar-resignacion-huelga-total-trenes-jefe-sigue-esperando_1_13669640.html",
+    "id": "2026-11-17-atocha",
+    "otrasFuentes": []
+  },
+  {
+    "fecha": "2026-11-17",
     "hora": "11:30",
     "horaFin": "13:00",
     "lugar": "Ciudad de Barcelona",
@@ -1771,7 +1787,13 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/17_11_2026-desvio-lineas-emt-concentracion-ciudad-de-barcelona/?lang=es",
-    "id": "2026-11-17-ciudad-de-barcelona"
+    "id": "2026-11-17-ciudad-de-barcelona",
+    "otrasFuentes": [
+      {
+        "fuente": "Madrid24Horas",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQckVMYlRLVjNPZFYzdHFWMmphcUdxcFJLU1RHXzRCYkMyZllMNWtsYkVaX04zUTVVSWhwMHNWSFpSLTljaUYyZXVkam5NX2lnUnVIVWF1clBaMUlxd2l6Q1lsWGlldlZyX2dXeWcxeF9ZNXIxdVV4TWJEWUk0VlRJX2JRLUUySUxfOHlFcVUtVVVaSDhJMG1HZTQ4akVaNFNqLTF0TGF6QVdSUTItOXJZNGx2RjlXVWk3UTRVUVlNa1hHcWxJSUVHMkVXMFRrR1BVV3U3Vzl1b0lfSm9LX2pJRUxvcFh4SnVGSHR6bE5WRWlPUQ?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-11-20",
