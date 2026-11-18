@@ -1796,6 +1796,21 @@
     ]
   },
   {
+    "fecha": "2026-11-18",
+    "hora": "11:00",
+    "horaFin": "13:30",
+    "lugar": "San Jerónimo",
+    "recorrido": "San Jerónimo → Cedaceros",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación San Jerónimo - Cedaceros",
+    "motivo": "Desvíos de EMT (11:00–13:30): líneas 002, 5, 15, 20, 51, 53, 150, M1 y M3",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/18_11_2026-desvio-lineas-emt-manifestacion-san-jeronimo-cedaceros/?lang=es",
+    "id": "2026-11-18-san-jeronimo"
+  },
+  {
     "fecha": "2026-11-20",
     "hora": "08:00",
     "horaFin": "09:30",
@@ -1809,6 +1824,21 @@
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/19_11_2026-desvio-lineas-emt-manifestacion-diego-de-leon-maldonado/?lang=es",
     "id": "2026-11-20-diego-de-leon"
+  },
+  {
+    "fecha": "2026-11-20",
+    "hora": "17:30",
+    "horaFin": "22:00",
+    "lugar": "Moncloa",
+    "recorrido": "Moncloa → Castellana",
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Moncloa - Castellana",
+    "motivo": "Desvíos de EMT (17:30–22:00)",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/20_11_2026-desvio-lineas-emt-manifestacion-moncloa-castellana/?lang=es",
+    "id": "2026-11-20-moncloa"
   },
   {
     "fecha": "2026-11-21",
