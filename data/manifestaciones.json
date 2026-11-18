@@ -1811,6 +1811,21 @@
     "id": "2026-11-18-san-jeronimo"
   },
   {
+    "fecha": "2026-11-19",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación este jueves frente a la Asamblea de Madrid contra la aprobación definitiva de la nueva Ley del suelo de Ayuso",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Gacetín Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVU11d2ZmZ0I5TmpBM1VVZDdwX08xX000cV8wSWM5SVJMckNtOWpDR1dPRHA5R0ZnYi14Ul9BX2liaERSNDhmQUVNb2ctTFh6d3NRR2ZJMkcxMy1vMXQ5azVOZ0pJY3RtWE1XeEd0LWhRbnVLcWIwWjF4UGYxYlBuUjgzZHlwMmVhUG5NclFoSXAwZkdyRHFRR2xYaWpfUl9sQXBTbklHZHE?oc=5",
+    "id": "2026-11-19-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-11-20",
     "hora": "08:00",
     "horaFin": "09:30",
