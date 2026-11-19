@@ -1863,15 +1863,15 @@
   },
   {
     "fecha": "2026-11-21",
-    "hora": null,
-    "horaFin": null,
+    "hora": "10:30",
+    "horaFin": "12:00",
     "lugar": "Madrid (lugar por concretar)",
     "recorrido": null,
     "tipo": "Manifestación",
     "titulo": "El Comité de Huelga médico convoca una manifestación en Madrid el 21 de noviembre para mantener activo el conflicto",
     "motivo": null,
     "convocantes": null,
-    "estado": "por-confirmar",
+    "estado": "confirmada",
     "fuente": "Infosalus",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdGE1eGc1Q0RNeTVzUGZpNk1lZ2RJNWJ1OTN3SUVrUElqUENjMC1sbXc5TUFzekVZY0lwQVdmd181N2RkeGM5WmQxX2Jnbmh2WGtON2pyQlhIRTJsTmtkREtsRWtIX0FCMTFEMURvZmlLd3VuZjQ5TWYtUVB1UGJZelFNYndDME03SEdYVy1ncksyTHRJOUJhdGxibm5MNEVZb1FVaFdxaFRuSWU2dXdOZFNnMDd3bFg0NXpFS2RhX2lUTTZIZmtRSDZZWHpwcjgxblQwajlzai1XeGZwQnpUcFl6aUthb3Zi?oc=5",
     "id": "2026-11-21-madrid-lugar-por-concretar",
@@ -1923,8 +1923,27 @@
       {
         "fuente": "101TV",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQekU3ZVUxUmt2OHhUcTZZTDBlR3hSX2padEFSNURYbkw0RUhpNWRUN2JNMzJ2SS02ZlA1SXg3amZjeDVkcWJSUHZOS2dtRWk3Zjh6QUNHMXFMQVdheWlORGw0QXBRNnFubGNkZXkyNTVVN0Y3dTRkb2N2M2d5VGZvQl9NUnhxM3l5ZWZWNWZDU2h4RjJYbUEwZUNwUmwwMTZEOUpYVVlnRnM5TUVrN01MRHJaZ1lxU1BoNFB1MWhvNkgtanp2b3ljREp1VkQ1aTFyWU83VDVjMHJ1dmNMLWhMUmpn?oc=5"
+      },
+      {
+        "fuente": "Aviso EMT (CRTM)",
+        "url": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/21_11_2026-desvio-lineas-emt-manifestacion-pl-de-alsacia/?lang=es"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-21",
+    "hora": "11:00",
+    "horaFin": "14:30",
+    "lugar": "Alcalá",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Alcalá",
+    "motivo": "Desvíos de EMT (11:00–14:30)",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/21_11_2026-desvio-lineas-emt-manifestacion-alcala/?lang=es",
+    "id": "2026-11-21-alcala"
   },
   {
     "fecha": "2026-11-29",
