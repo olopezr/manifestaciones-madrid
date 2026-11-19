@@ -1844,7 +1844,28 @@
     "estado": "confirmada",
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/19_11_2026-desvio-lineas-emt-manifestacion-diego-de-leon-maldonado/?lang=es",
-    "id": "2026-11-20-diego-de-leon"
+    "id": "2026-11-20-diego-de-leon",
+    "otrasFuentes": [
+      {
+        "fuente": "El Mundo",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BNU9vWHhwVjlfRzRSUFVkNjZXOFpPVDlwUmlnOTZyVmZRRkJfVFdyaGllYm1PcEdRczBidGk1QTFmQ2ljV0ZseFZLaDVubkRtSXI0dV8zazVWdUNJZlhEdS1tZ1phUXYwZDR5TnVuWS1nUER3SVdr0gF3QVVfeXFMT1pWVUtycVJHT3hWU3BDSHp2OUZSU0ZRc25nbHlmYVgtTHVDMWViTDgweWdDLTlkOUc4aTZyOVpfTThSVnkzRDE0XzNSN1VqYlFqaktfY0FRRkk0TGJTQlJ3MWkwek1pa3c5aE1zbFN1ZWc4WVVEZzA?oc=5"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-20",
+    "hora": "16:30",
+    "horaFin": "19:00",
+    "lugar": "Alcalá",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Alcalá",
+    "motivo": "Desvíos de EMT (16:30–19:00)",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/20_11_2026-desvio-lineas-emt-manifestacion-alcala/?lang=es",
+    "id": "2026-11-20-alcala"
   },
   {
     "fecha": "2026-11-20",
