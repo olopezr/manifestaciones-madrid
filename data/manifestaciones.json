@@ -1956,6 +1956,10 @@
       {
         "fuente": "El Mundo",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PQlBoSDdOTVo2c3ZwMG1BeXQxd2Zrem54ZU5QNzMwUkFsbzlnLXNYTEJ5MFV3WmNreVZVbkpsN0tqMndxUDA5cGJEMUNFMV9jT3hiWG9XT3AtOEd4N2JmOENVRVBfV1dFbjFHU29DSmlvRmRjYzdz0gF3QVVfeXFMTWtqYVphdTdTN2hndWprYjVhSnVSTVdDdjNKTHVKQlk4SlU1d0l4RU1aeDNocUxHTWU1WjlsTTJQZmdDRTZxNWVkemZ2M2RBZk5VOVFDbHdLUXBtdTVzOFVfQTZWckIwU3pWOHNHNlRlT0h1S09XbFE?oc=5"
+      },
+      {
+        "fuente": "El Confidencial",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdUR6UFF0QlY5TTJRcjJ6TWVfU2dUSUlTUFViZEhPanRIQ2IxSjQzVno4R1AwWXB6ZHJGcnMtcHJQZGpRLUFiSXBGZVdrZFNtWW82U2pNd2NmQmZfTFQxd1hpWV9mYmRYNEdGSk1kODE0ODJzQU01MEhPM0ZwVDZZa2VfZndWTmFTTHFlSTUxczUxSF9nb1pLV1VrekRXTi1oQ1VYbGJQbHdjUVk3VThHSG15SDJvSFUzNGJzYWVMcy1RYjY1T09KdFpCV0J3RUstNGc?oc=5"
       }
     ]
   },
@@ -1973,6 +1977,22 @@
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/21_11_2026-desvio-lineas-emt-manifestacion-alcala/?lang=es",
     "id": "2026-11-21-alcala"
+  },
+  {
+    "fecha": "2026-11-22",
+    "hora": "11:30",
+    "horaFin": "14:00",
+    "lugar": "Plaza de España-Cánovas del Castillo",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Plaza de España-Cánovas del Castillo",
+    "motivo": "Desvíos de EMT (11:30–14:00)",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/22_11_2026-desvio-lineas-emt-manifestacion-plaza-de-espana-canovas-del-castillo/?lang=es",
+    "id": "2026-11-22-plaza-de-espana-canovas-del-castillo",
+    "otrasFuentes": []
   },
   {
     "fecha": "2026-11-29",
@@ -1994,5 +2014,20 @@
         "url": "https://www.abc.es/espana/madrid/huelga-examina-delegada-gobierno-madrid-pone-prueba-20261107010040-nt.html"
       }
     ]
+  },
+  {
+    "fecha": "2026-11-30",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Concentración",
+    "titulo": "Madrid, 30 de noviembre: Concentración en solidaridad con el pueblo de Palestina",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "https://insurgente.org/",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM0JfYXFlSlAxM0MtdUZKMDBwTjVuZUNQa3hQbXdvZWpTY1doNFlkWExwekZ0TVBmN2F6N3VTQlR0eGNIYUpCamlWU243VnpyaWtjYlRESDJ1SmJFSW44TGNoTDVCaHlNQzczYnF5R3lqTS13b014WE1VMktPMkNCN2FpRENiV2Z3U25mTTVLZ1ZKR1h5UGJSOGlpeG5kaWt0b2pjcA?oc=5",
+    "id": "2026-11-30-madrid-lugar-por-concretar"
   }
 ]
