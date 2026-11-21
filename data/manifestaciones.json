@@ -1992,7 +1992,12 @@
     "fuente": "Aviso EMT (CRTM)",
     "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/22_11_2026-desvio-lineas-emt-manifestacion-plaza-de-espana-canovas-del-castillo/?lang=es",
     "id": "2026-11-22-plaza-de-espana-canovas-del-castillo",
-    "otrasFuentes": []
+    "otrasFuentes": [
+      {
+        "fuente": "Merca2.es",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkMyQkpSdTdTSHhPbWlxbDIzWUJxRzVvUS1Qbk1qVjJoX0VDdi13cFNsNlRadHFDcjJoaERNaFYxM1pHdUl5SXN3d01RU1loeGV1UEYtNzhKMV9vQVJPMldqSTNvNURHWWlBdkRlY0ZIWVZ1ZWdvTVBnSExSQTk0TGhqazN5Znl3M2wtYmR3?oc=5"
+      }
+    ]
   },
   {
     "fecha": "2026-11-29",
