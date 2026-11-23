@@ -2000,6 +2000,51 @@
     ]
   },
   {
+    "fecha": "2026-11-24",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Marcha lenta este martes por A-1, A-2, A-3, A-4, A-42, A-5, A-6, M-607, M-40 y M-30 en apoyo en la huelga docente",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Gacetín Madrid",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFJELXJYZXBOdVV4RnNaOTJWakFpWkZPejFFRnU0Z1JPU3BiUFpJb3NLLXpCSDc4Qm5LQjNvREpFZno1Ujkxa29NWENMTjdXbFV1TTVVSE1rYW5yOExadTZhY2ZHTkZvWWNJc0pIX0dWalFRLUJhWERaT2tvZldSSDIyZ3RNc0VVR3lXRGdjYl9pMUtXcjd3ZEFpS3p3QQ?oc=5",
+    "id": "2026-11-24-madrid-lugar-por-concretar"
+  },
+  {
+    "fecha": "2026-11-25",
+    "hora": "11:00",
+    "horaFin": "12:30",
+    "lugar": "Alcalá-Manuel Becerra",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Alcalá-Manuel Becerra",
+    "motivo": "Desvíos de EMT (11:00–12:30): líneas 12, 21, 38, 43, 53, 56, 106, 110, 143, 146, 156, 210, C1, C2 y E5",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/25_11_2026-desvio-lineas-emt-manifestacion-alcala-manuel-becerra/?lang=es",
+    "id": "2026-11-25-alcala-manuel-becerra"
+  },
+  {
+    "fecha": "2026-11-25",
+    "hora": "18:00",
+    "horaFin": "22:00",
+    "lugar": "Cánovas del Castillo",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Cánovas del Castillo",
+    "motivo": "Desvíos de EMT (18:00–22:00): líneas 001, 002, 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, C03, E1, M1 Exprés Aeropuerto",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/25_11_2026-desvio-lineas-emt-manifestacion-canovas-del-castillo/?lang=es",
+    "id": "2026-11-25-canovas-del-castillo"
+  },
+  {
     "fecha": "2026-11-29",
     "hora": null,
     "horaFin": null,
@@ -2033,6 +2078,12 @@
     "estado": "por-confirmar",
     "fuente": "https://insurgente.org/",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM0JfYXFlSlAxM0MtdUZKMDBwTjVuZUNQa3hQbXdvZWpTY1doNFlkWExwekZ0TVBmN2F6N3VTQlR0eGNIYUpCamlWU243VnpyaWtjYlRESDJ1SmJFSW44TGNoTDVCaHlNQzczYnF5R3lqTS13b014WE1VMktPMkNCN2FpRENiV2Z3U25mTTVLZ1ZKR1h5UGJSOGlpeG5kaWt0b2pjcA?oc=5",
-    "id": "2026-11-30-madrid-lugar-por-concretar"
+    "id": "2026-11-30-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "Bing Noticias",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0435c34b6245f9ab885db1dee4d685&url=https%3a%2f%2finsurgente.org%2fmadrid-30-de-noviembre-concentracion-en-solidaridad-con-el-pueblo-de-palestina%2f&c=8971096742778211571&mkt=es-us"
+      }
+    ]
   }
 ]
