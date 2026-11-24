@@ -2001,6 +2001,42 @@
   },
   {
     "fecha": "2026-11-24",
+    "hora": "07:00",
+    "horaFin": null,
+    "lugar": "Puerta del Sol",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Una marcha lenta de profesores ocupará este martes las carreteras y accesos a Madrid por la huelga: confluirán en la M-30 para ir a Sol",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20 Minutos",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRC0zWDFJMkkyajJWcVBULUxCbHg2NlFObmRKbVBka3QtSTVDUlljR05fcll0al9XYk5aanlnWjFCWnlmUktHRHJkMVhwY2FEMDZDSm9vNHdZbXVFSGlXUVFNR1hBTzB6Y1BOLTRQckV5anMwU0U5TGFUUFgwa0dNTzF2ZnU2OFVmZTc1amptb0luTnpPY0psa0s4dzlOa0o3Sm9JcUNXa2FkNG5faW5UdXg1bDNKSE9KWFcwSXVpQXFQWkFtWmp2d0lwMFYxbk0zcHpCekFYWTBMY2ZZeWV6RVlmSXlUWFE5TGkzbTIyZm5YRHJPbGc?oc=5",
+    "id": "2026-11-24-puerta-del-sol",
+    "otrasFuentes": [
+      {
+        "fuente": "20minutos Madrid",
+        "url": "https://www.20minutos.es/madrid/una-marcha-lenta-profesores-ocupara-este-martes-las-carreteras-accesos-madrid-por-huelga-confluiran-m-30-para-ir-sol_7064597_0.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-24",
+    "hora": "08:00",
+    "horaFin": null,
+    "lugar": "Cibeles",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Una marcha lenta de vehículos teñirá de verde este martes los principales accesos a Madrid por la huelga educativa",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "20minutos Madrid",
+    "fuenteUrl": "https://www.20minutos.es/madrid/una-marcha-lenta-vehiculos-tenira-verde-este-martes-los-principales-accesos-madrid-por-huelga-educativa_7064590_0.html",
+    "id": "2026-11-24-cibeles"
+  },
+  {
+    "fecha": "2026-11-24",
     "hora": null,
     "horaFin": null,
     "lugar": "Madrid (lugar por concretar)",
@@ -2012,7 +2048,36 @@
     "estado": "por-confirmar",
     "fuente": "Gacetín Madrid",
     "fuenteUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFJELXJYZXBOdVV4RnNaOTJWakFpWkZPejFFRnU0Z1JPU3BiUFpJb3NLLXpCSDc4Qm5LQjNvREpFZno1Ujkxa29NWENMTjdXbFV1TTVVSE1rYW5yOExadTZhY2ZHTkZvWWNJc0pIX0dWalFRLUJhWERaT2tvZldSSDIyZ3RNc0VVR3lXRGdjYl9pMUtXcjd3ZEFpS3p3QQ?oc=5",
-    "id": "2026-11-24-madrid-lugar-por-concretar"
+    "id": "2026-11-24-madrid-lugar-por-concretar",
+    "otrasFuentes": [
+      {
+        "fuente": "Telemadrid",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaG9wWjhPN2VfWHFMMnh1YkEtV3YxMDZKSDhfcnhIbDJVcEZLb00xVkJvQjVVSUlqdmk2WkhqUHRKbUhwdWR6WkQtMC1ySm0tT0lxVWVwSnlkUjRlVFpEdDdlb2NCWXY5by1ja05XSzg3blp4U1Z2VFkyeWR5TG9lcEM4WVpNb0N6UHJ5ZktXYmNhYmp0RVpJ0gGcAUFVX3lxTFAxYkVuOUZUaFp6cHM0dzJLMHJZVGlhd1NwdVIyQmp6STlrYWRYNEhpQWFDRjlnRWZIaVFKRjZvQzJyYVJ4a2ZnbUUyR21KZWFNSzVxYzk3UWdGdDFDa1BnbWNwTmt2cjhONnNPbW1TdUFmU3VyWmF5OFhWTThzTmVUNzhIbzlpYkRLOFVwR3lGMjNnZnRkNmdDaFo5Mw?oc=5"
+      },
+      {
+        "fuente": "Cadena SER",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSERxcG0xWWFnSUZ2YkxvVlZaaEp5UE13WE5mMGNta0hRTi1JUklNX0doU3ROVXEycDdiX2hTZ0NmUWFKXzJpNGhqWEROcXUxajRtNzRnSjdpNnNUakh6Z0tHQWdybGJfVUpvRFpMOGJUM3JlTVR3cXlvWlU5dkdDZnZCUEUyVWZYOElsX0QtTU1MclZQenZEb3ZPZ1ZremtvUUl0a2dHNW5BNXFKM09CVmQwYWpqS1NyQlNHWGlXRVZheWJaa3RaLU4wMXE1eEVDQllfQklDQ1R3aGxDRDFGWWNyUndmRlU5TkdQUkpWY0hDV1pWM3dIeloyTnVCbVgtbG9JVtIBmAJBVV95cUxNVDg0bzZNV2NRaWJkYUZna0g5am9IVTUyN2x3a3J0UzdkWkpOTUV3azZjVWs1alBkbDJsTUdTYVdvYmlKWkVQUU9OMWJwMUVkTUZSRGdFT2hPeUo1RWUzUXVpUWpZYkk3dlctUzZqMTVTV3VsMFdIMTJOUFdnTHlnSEd2RUVHSkUyeXBiQ0xyd29tMWpwN2RmYUZGOFJDSmxYSmR3ajZ3TnY3aUNwbXV3b0xnZ1E0X2UyR3JiZS14VF96UVcwcC11OWJiTXV1N0d5NFM5YzZpZjhpeVNLRElPaWcwcmxmcUxrRXZYdTl2RUV2NTRTLUgtS0FEWWg1YUgzR2FaMzdlX0RaS3l1UDFEM3lLWXJidmFK?oc=5"
+      },
+      {
+        "fuente": "MiraCorredor",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbHJZN1RPT05VUkhhZmdJcS12dnJ4VFd1d0ZNQW9VRkFCREp4dVkyS242XzhXOGhvOE9aT0hHSkxZUWtmc3Brd3FmQlZXYmFnVjc2Qk96aExxQ1lHUEc5RDliT0hUdE0xc25RaWtoZWJRRnJuNGlWSVlwMmpvMmR3U3p4T1UwWmtKdXlaR09jNkplb2tUNVpoZUdWODdOSWQ1UmQ2VFlOcG44aVpGclJWelNLaUcyT3lJd2x4WTV1SW03d3dNSmxVOUhwQ3R1XzVGN0huckRDbU41S2tVQlE?oc=5"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-11-24",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Moncloa",
+    "recorrido": null,
+    "tipo": "Huelga / movilización",
+    "titulo": "Marcha lenta en Madrid el 24 de noviembre: cortes de tráfico en A-1, A-2, A-3, A-42, M-30 y M-40 por la huelga docente",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "MONCLOA.COM",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVlZYdTFJMG5zWUJhNmtWU05SSkQ2dm04NExaVTAxYUpmMExBbUJOa05wOVM5ZWItQzM3ajdlaER4RTc1UHpfbWF0aFJwdU5FX1FMVFdmSklFLUI2NTBzVXY4cmk0WEJjRkprbW1lZXpWU2t3aElzb3YyXzN2Smg1dUN3?oc=5",
+    "id": "2026-11-24-moncloa"
   },
   {
     "fecha": "2026-11-25",
