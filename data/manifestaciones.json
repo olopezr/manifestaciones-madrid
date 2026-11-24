@@ -2141,6 +2141,21 @@
     "id": "2026-11-25-canovas-del-castillo"
   },
   {
+    "fecha": "2026-11-25",
+    "hora": "18:30",
+    "horaFin": "22:30",
+    "lugar": "Gran Vía",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Manifestación Gran Vía",
+    "motivo": "Desvíos de EMT (18:30–22:30): líneas 001, 002, 1, 2, 3, 9, 44, 46, 52, 74, 75, 133, 146, 147 y 148",
+    "convocantes": null,
+    "estado": "confirmada",
+    "fuente": "Aviso EMT (CRTM)",
+    "fuenteUrl": "https://www.crtm.es/comunicacion/actualidad-del-servicio/avisos/avisos-emt/25_11_2026-desvio-lineas-emt-manifestacion-gran-via/?lang=es",
+    "id": "2026-11-25-gran-via"
+  },
+  {
     "fecha": "2026-11-29",
     "hora": null,
     "horaFin": null,
