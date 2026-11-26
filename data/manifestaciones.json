@@ -2156,6 +2156,21 @@
     "id": "2026-11-25-gran-via"
   },
   {
+    "fecha": "2026-11-26",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "Las imágenes de la manifestación del 25-N contra la violencia de género en Madrid",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "UGT",
+    "fuenteUrl": "https://www.ugt.es/las-imagenes-de-la-manifestacion-del-25-n-contra-la-violencia-de-genero-en-madrid",
+    "id": "2026-11-26-madrid-lugar-por-concretar"
+  },
+  {
     "fecha": "2026-11-27",
     "hora": "17:00",
     "horaFin": "21:00",
@@ -2211,5 +2226,20 @@
         "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0435c34b6245f9ab885db1dee4d685&url=https%3a%2f%2finsurgente.org%2fmadrid-30-de-noviembre-concentracion-en-solidaridad-con-el-pueblo-de-palestina%2f&c=8971096742778211571&mkt=es-us"
       }
     ]
+  },
+  {
+    "fecha": "2026-12-02",
+    "hora": null,
+    "horaFin": null,
+    "lugar": "Madrid (lugar por concretar)",
+    "recorrido": null,
+    "tipo": "Manifestación",
+    "titulo": "🟣 Begoña Gómez participa en la manifestación del 25N en Madrid al grito de \"machista el que no bote\" 👉 La esposa del presidente del Gobier",
+    "motivo": null,
+    "convocantes": null,
+    "estado": "por-confirmar",
+    "fuente": "Facebook",
+    "fuenteUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWlNmWS1xWDB0aWJSWFhtSmJ4UmlHeXBhTHdfRXk1d0xCSzlhYmNDRHRrV21TaVZ2ZEpqaEdwTjcxemZ6SlNvUVhkc2pZMmdDMkc1SjhLYWQ4NTFsejdKQ1NUVmdsd2hhY0hxcEJsY3lZYjdTTHhmR2FodWdXMmdyZW1oTUkta3hQUlNlV3NFRi1UOG1TZ3Y1MFJFQ0dDSDdhRHQ0WnhuSlc2ak96bDZfN3JWSGJvZHFybzZUeFVUcHdfT0Q3QlBJdHlmSWhzX0ozbWk1S05mNXV5LTU0YWt1MllZYk9KM0RCY0ZlWE9scw?oc=5",
+    "id": "2026-12-02-madrid-lugar-por-concretar"
   }
 ]
